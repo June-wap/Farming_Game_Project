@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: be840869e63e5fb46b9fb602921e0330
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2663073595733103300
+    second: pose_0
+  - first:
+      213: 3624636700375807852
+    second: pose_1
+  - first:
+      213: 3985067253690959610
+    second: pose_2
+  - first:
+      213: -6763496918988440362
+    second: pose_3
+  - first:
+      213: 306657378948877681
+    second: pose_4
+  - first:
+      213: -8678727883746506822
+    second: pose_5
+  - first:
+      213: -7526034153011660158
+    second: pose_6
+  - first:
+      213: 5954333455386102656
+    second: pose_7
+  - first:
+      213: -4136501978346724833
+    second: pose_8
+  - first:
+      213: 2427849958657785378
+    second: pose_9
+  - first:
+      213: 551185620541739982
+    second: pose_10
+  - first:
+      213: -5000487929824618143
+    second: pose_11
+  - first:
+      213: 7528065778200523025
+    second: pose_12
+  - first:
+      213: 5698138014648312194
+    second: pose_13
+  - first:
+      213: -5468442847424031164
+    second: pose_14
+  - first:
+      213: -1063315945226077882
+    second: pose_15
+  - first:
+      213: 2766868597031262553
+    second: pose_16
+  - first:
+      213: 9080610795886481738
+    second: pose_17
+  - first:
+      213: -6831438034109907324
+    second: pose_18
+  - first:
+      213: 2955378850026310629
+    second: pose_19
+  - first:
+      213: 8010354245135364524
+    second: pose_20
+  - first:
+      213: -7888068009356597810
+    second: pose_21
+  - first:
+      213: -8249607955317928399
+    second: pose_22
+  - first:
+      213: 723661555041567645
+    second: pose_23
+  - first:
+      213: -7450757096910366865
+    second: pose_24
+  - first:
+      213: -8475061523595768435
+    second: pose_25
+  - first:
+      213: 8378785765021249854
+    second: pose_26
+  - first:
+      213: -5894774850939766293
+    second: pose_27
+  - first:
+      213: -9154114168659334405
+    second: pose_28
+  - first:
+      213: -2167814413267217431
+    second: pose_29
+  - first:
+      213: -8206218215997135125
+    second: pose_30
+  - first:
+      213: 7251227122576369482
+    second: pose_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pose_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2d464635325f420800000000000000
+      internalID: 2663073595733103300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c677eb5ffdb4d4230800000000000000
+      internalID: 3624636700375807852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af68a4ead8dcd4730800000000000000
+      internalID: 3985067253690959610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcbe30036b3322a0800000000000000
+      internalID: -6763496918988440362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1822
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d000ce247714400800000000000000
+      internalID: 306657378948877681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1822
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7030bb8f6fe8780800000000000000
+      internalID: -8678727883746506822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1822
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a384effc72e8790800000000000000
+      internalID: -7526034153011660158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_7
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1822
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b4382faba02a250800000000000000
+      internalID: 5954333455386102656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_8
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1261f7ed513896c0800000000000000
+      internalID: -4136501978346724833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_9
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e7eb19ca471b120800000000000000
+      internalID: 2427849958657785378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_10
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec391bdc66436a700800000000000000
+      internalID: 551185620541739982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_11
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169dc27b8b2ba9ab0800000000000000
+      internalID: -5000487929824618143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_12
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111ba6b90ff097860800000000000000
+      internalID: 7528065778200523025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_13
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2812344955ad31f40800000000000000
+      internalID: 5698138014648312194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_14
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446d3cc04303c14b0800000000000000
+      internalID: -5468442847424031164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_15
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1822
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6497ac018c75e31f0800000000000000
+      internalID: -1063315945226077882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9595b3a5454e56620800000000000000
+      internalID: 2766868597031262553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a411460686fc40e70800000000000000
+      internalID: 9080610795886481738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e39cf6d4bd131a0800000000000000
+      internalID: -6831438034109907324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb4584e76d930920800000000000000
+      internalID: 2955378850026310629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_20
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1723
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1f55acebe7a2f60800000000000000
+      internalID: 8010354245135364524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_21
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1723
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec56d2230f3f78290800000000000000
+      internalID: -7888068009356597810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_22
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1723
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ec90fd541838d80800000000000000
+      internalID: -8249607955317928399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_23
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1723
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d930cd5a956fa0a00800000000000000
+      internalID: 723661555041567645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_24
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67dfea65e7999890800000000000000
+      internalID: -7450757096910366865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_25
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d4e747278826a80800000000000000
+      internalID: -8475061523595768435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_26
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31f035b24d674470800000000000000
+      internalID: 8378785765021249854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_27
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be934d2418d813ea0800000000000000
+      internalID: -5894774850939766293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_28
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaa0b70aad06f080800000000000000
+      internalID: -9154114168659334405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_29
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e35c36d6406ae1e0800000000000000
+      internalID: -2167814413267217431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_30
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6a62ec208ad1e80800000000000000
+      internalID: -8206218215997135125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_31
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1723
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47a7da36a881a460800000000000000
+      internalID: 7251227122576369482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pose_0: 2663073595733103300
+      pose_1: 3624636700375807852
+      pose_10: 551185620541739982
+      pose_11: -5000487929824618143
+      pose_12: 7528065778200523025
+      pose_13: 5698138014648312194
+      pose_14: -5468442847424031164
+      pose_15: -1063315945226077882
+      pose_16: 2766868597031262553
+      pose_17: 9080610795886481738
+      pose_18: -6831438034109907324
+      pose_19: 2955378850026310629
+      pose_2: 3985067253690959610
+      pose_20: 8010354245135364524
+      pose_21: -7888068009356597810
+      pose_22: -8249607955317928399
+      pose_23: 723661555041567645
+      pose_24: -7450757096910366865
+      pose_25: -8475061523595768435
+      pose_26: 8378785765021249854
+      pose_27: -5894774850939766293
+      pose_28: -9154114168659334405
+      pose_29: -2167814413267217431
+      pose_3: -6763496918988440362
+      pose_30: -8206218215997135125
+      pose_31: 7251227122576369482
+      pose_4: 306657378948877681
+      pose_5: -8678727883746506822
+      pose_6: -7526034153011660158
+      pose_7: 5954333455386102656
+      pose_8: -4136501978346724833
+      pose_9: 2427849958657785378
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

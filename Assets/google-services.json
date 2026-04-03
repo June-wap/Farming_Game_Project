@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "290582134790",
+    "firebase_url": "https://game-nong-trai-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "game-nong-trai",
+    "storage_bucket": "game-nong-trai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290582134790:android:35c7f0859179f3ce85c387",
+        "android_client_info": {
+          "package_name": "com.junewap.farminggame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDazZZtxU6fIDCh6taosRy0mYaosPue0Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

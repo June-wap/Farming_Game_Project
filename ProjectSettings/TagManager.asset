@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 2012693689
+    locked: 0
+  - name: Road
+    uniqueID: 3978019159
+    locked: 0
+  - name: Player
+    uniqueID: 3627966441
+    locked: 0
+  - name: Water
+    uniqueID: 1094132237
+    locked: 0
+  - name: Tree
+    uniqueID: 1397548327
+    locked: 0
+  - name: C
+    uniqueID: 4072810301
+    locked: 0
+  - name: Map_exit
+    uniqueID: 2229800959
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []
