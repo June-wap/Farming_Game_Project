@@ -11,6 +11,10 @@ public class PlayerFarmControler : MonoBehaviour
 
     public TileBase tb_Field;
 
+    public Tilemap tm_Ruong;
+
+    public TileBase tb_Ruong;
+
     public void HandleFarmAction()
     {
         // Implementation for handling farm actions
@@ -37,10 +41,20 @@ public class PlayerFarmControler : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.V))
         {
-            //Trong Hoa
-            Debug.Log("Planting action triggered!");
-             // Example: Change the tile at the player's position to a plant tile
-        }
+            Vector3Int cellPosition = tm_Ground.WorldToCell(transform.position);
+            Debug.Log("Cell Position: " + cellPosition);
+
+            TileBase crrentTile = tm_Ground.GetTile(cellPosition);
+            if (crrentTile == tb_Field)
+            {
+                tm_Ground.SetTile(cellPosition, tb_Ruong);
+                Debug.Log("Tile changed to Ruong at position: " + cellPosition);
+            }
+            else
+            {
+                Debug.Log("Current tile is not Field. No change made.");
+            }
+        }   
     }
 
     void Update()
