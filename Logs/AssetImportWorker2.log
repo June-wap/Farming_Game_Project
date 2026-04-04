@@ -1,0 +1,1437 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16104 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE" at "2026-04-04T05:52:37.2583117Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-04T05:52:37Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Project Game TTDT/Final
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50117
+-licensingIpc
+LicenseClient-GIGABUYTE
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Project Game TTDT/Final
+D:/Project Game TTDT/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8216]  Target information:
+
+Player connection [8216]  * "[IP] 192.168.1.5 [Port] 0 [Flags] 2 [Guid] 3972662547 [EditorId] 3972662547 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-83LP9EF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8216] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 30.04 ms, found 7 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project Game TTDT/Final/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5920 MB
+    App VRAM Budget: 5152 MB
+    Driver:          32.0.15.9159
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002086 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1174ms
+	BeginReloadAssembly (119ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (116ms)
+		AnalyzeDomain (281ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (261ms)
+	FinalizeReload (607ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-GIGABUYTE"
+[Licensing::IpcConnector] LicenseClient-GIGABUYTE channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0" at "2026-04-04T05:52:40.2647196Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              12e01af1c701403eb2b1b44f37fa32e2
+  Correlation Id:          4a834ffeeee53191c09519bf589a44ac
+  External correlation Id: 1642904643913261055
+  Machine Id:              ttg343R107wRBlsyzXGi+bS0jqM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-GIGABUYTE-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.32s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0-notifications" at "2026-04-04T05:52:42.5835505Z"
+[Licensing::Module] Licensing Background thread has ended after 5.33s
+[Licensing::Module] Licensing is initialized (took 2.47s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968408505739-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.18 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 4257ms
+	BeginReloadAssembly (2617ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (369ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (176ms)
+			BuildScriptInfoCaches (63ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (936ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (474ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 7 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7066 unused Assets / (6.3 MB). Loaded Objects now: 7888.
+Memory consumption went from 166.3 MB to 159.9 MB.
+Total: 8.660500 ms (FindLiveObjects: 0.581100 ms CreateObjectMapping: 0.537700 ms MarkObjects: 4.943500 ms  DeleteObjects: 2.595700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4441.118413 seconds.
+  path: Assets/Map/Farming/farming-tileset_285.asset
+  importAddress: Guid(ecba2aa2d2edd254ea5afdc38683f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_285.asset using Guid(ecba2aa2d2edd254ea5afdc38683f805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '17e270cb59e8b55d836ccaeba3dcb046') in 0.0820338 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90772a4e06fc89ec68a8a7df827c9775 DependenciesID=982a9199d883837bd034a4cff1887545 StaticDependenciesID=d8813d7ce0f8a4fa269234776db4b440 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Map/Farming/farming-tileset_347.asset
+  importAddress: Guid(c84e2c26b44a7144cb905625b904e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_347.asset using Guid(c84e2c26b44a7144cb905625b904e485) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b2c043360931a6a3b27a5845c4b56004') in 0.0212815 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba758aa17798405054674ec98818f8ea DependenciesID=183ba6a10e16b5ab6afd4b047ff23119 StaticDependenciesID=6d36b2a413ff15329debc03799f656b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Farming/farming-tileset_288.asset
+  importAddress: Guid(ebd7404a42159534b9e978c3016cbae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_288.asset using Guid(ebd7404a42159534b9e978c3016cbae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e530718be87c00dcd1ba5fdb2c88b614') in 0.0174987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81b4c99ea5c9bb73d925c836e702df96 DependenciesID=6ed026fe819d840a0da8a1f8d5765f90 StaticDependenciesID=59729860df2ab415f7450ae7d66a930f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_362.asset
+  importAddress: Guid(4d70cd81aa2a1d040af9bd13006cc2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_362.asset using Guid(4d70cd81aa2a1d040af9bd13006cc2f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '60940ee28d98485f22ef870ff8ab9966') in 0.0178803 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b7357c463aa66c8a1a724affdcc5490 DependenciesID=539152e24de2af21d822fbb59fd55398 StaticDependenciesID=fd9c5a6418fa80226ae950e840254919 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_318.asset
+  importAddress: Guid(6c82637ead291d04f8d0bd3585e957a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_318.asset using Guid(6c82637ead291d04f8d0bd3585e957a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57021301f3ebd37e42864e0d2a36a62b') in 0.0283507 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2afa6b94213b44cf9b2e96f5111cbad DependenciesID=b61d4f8891a21628deb7abec26a31d6b StaticDependenciesID=eab10405dabdfe9013e3e2326327e4d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_365.asset
+  importAddress: Guid(024843aad6c93e0499822839e93a0c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_365.asset using Guid(024843aad6c93e0499822839e93a0c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1eb551f1447518bc28d0f6091b8ba585') in 0.0187452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bda6b1233b7a93b6ad2bbfaf357b5cb0 DependenciesID=859c1cf8ed7df6cfdda4128e5fdb9376 StaticDependenciesID=e95743c7cb110ce0f0b97f817349f231 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Farming/farming-tileset_371.asset
+  importAddress: Guid(340ff2627dc3b7842b1a291a7c9ba6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_371.asset using Guid(340ff2627dc3b7842b1a291a7c9ba6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2653774afd86d3bc0c47dd969bd30738') in 0.0172474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a86499d19713966d1dd36e0dbc21935 DependenciesID=c9c42a017eb99a088c3c672e58458c00 StaticDependenciesID=1c7c27a236affb0e4b95d3e0bab2e2ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_386.asset
+  importAddress: Guid(e57464f5efc29174480e4375fe4cc864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_386.asset using Guid(e57464f5efc29174480e4375fe4cc864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7bfc17cbbe79fe7a99aea9ff4c7829dd') in 0.0269566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20b1fc1c6f098fee801626b1c0966827 DependenciesID=fd898383e27886a694cb06b2e1b4da48 StaticDependenciesID=d3d38157e752a1c99ed41b6a0aee3294 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_338.asset
+  importAddress: Guid(d94102bbbe1a77247bd9cc838359eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_338.asset using Guid(d94102bbbe1a77247bd9cc838359eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ddd785c32cac9468f8a3946c8969a710') in 0.0296541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b3b38e0b54c6e5321b5c217bf0422a8 DependenciesID=64f52b639c1e78832805450878ecfb3d StaticDependenciesID=00fb57626bc65ef5a185787ee7bcda7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Farming/farming-tileset_366.asset
+  importAddress: Guid(3d2cc73885776df409e8fc2855bd179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_366.asset using Guid(3d2cc73885776df409e8fc2855bd179a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bb497bb6cc21b292c137ab5ca5a5401c') in 0.007311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bd13891093a6f446ec1ace3fe464b39 DependenciesID=0e23a9e9731409fd4f0429a3c6e2aed2 StaticDependenciesID=3079335698674bd296b1353cd98b128d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Map/Farming/farming-tileset_426.asset
+  importAddress: Guid(9eff9748c2259864794c8b64d4c3de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_426.asset using Guid(9eff9748c2259864794c8b64d4c3de03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '441997ba14d71bba06f8e3cd620e5ca4') in 0.0172362 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f63d091841fc97dae84cf720c988205b DependenciesID=fd18ee3f5da0cfdb42b56cffec4cb0e3 StaticDependenciesID=0fa36cb76e09d56d28b958557ba0fdf3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_313.asset
+  importAddress: Guid(e1575d27f0d708b4387ec95e04b13386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_313.asset using Guid(e1575d27f0d708b4387ec95e04b13386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0370603806938d367258ca93ad45e9bc') in 0.0271257 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0417a91996d8518d20171e4cdc21f45d DependenciesID=edb44d2276f11bd06c6814461489da54 StaticDependenciesID=a87ed9af3c6fefe85ad32d6a60f0ebc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Farming/farming-tileset_314.asset
+  importAddress: Guid(b9a42bc17cd2f9d48a1149032cc2c180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_314.asset using Guid(b9a42bc17cd2f9d48a1149032cc2c180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06c1bc429b16d3fb2ee2a1f8d3b72828') in 0.0082881 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11d693d89def8559e54d1e8c78ea3912 DependenciesID=830bbee13e288cdb6707c9637d833516 StaticDependenciesID=bb91153bcda98baecf906c3f818bb3d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_383.asset
+  importAddress: Guid(038026ff998d5064090c63e62ecb51c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_383.asset using Guid(038026ff998d5064090c63e62ecb51c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '216f5f7ea5793ccfdbeae66c51472939') in 0.0167229 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=acd29ae67a102bc691e38e40a51606c8 DependenciesID=b4255e9e78f72f0296f10f2ec5eacbf1 StaticDependenciesID=c76aafbc8d4273461a678917e335ff85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_310.asset
+  importAddress: Guid(174430caa581267408a33a98d5072f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_310.asset using Guid(174430caa581267408a33a98d5072f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '124109423d2e851ba66fb1abad04dd99') in 0.0203954 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd5efaa9d856b0884c0e0c3a650f671e DependenciesID=e434617576e1b7f39465abcc08e67023 StaticDependenciesID=e7790d8e9eb4b3d6279d8f3af5addeb2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Map/Farming/farming-tileset_425.asset
+  importAddress: Guid(f7e45d7e101d71047839267a04d647c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_425.asset using Guid(f7e45d7e101d71047839267a04d647c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '541f3f5312a4eea9f1ca36250044b055') in 0.0234809 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f10ba50698e39faf5695895a2c0c9d84 DependenciesID=c7d99ee65af2b37c0515939f335adcf9 StaticDependenciesID=1366f7f340237299aabcae515e45b63f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_390.asset
+  importAddress: Guid(b0f42f9e81b3b9e4c935816cc9098e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_390.asset using Guid(b0f42f9e81b3b9e4c935816cc9098e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6158081bfa1bbc9c49b4a429b645f638') in 0.0157459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53314fc787de9b4fa0c29b98c3265bd0 DependenciesID=ea1aef9dc76ab8c282aaede12625c43e StaticDependenciesID=c0e4885b6f28aaee9ade5f2fcf1f3d1b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Farming/farming-tileset_321.asset
+  importAddress: Guid(98015ee2aa8bf0d46a2062541ec5e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_321.asset using Guid(98015ee2aa8bf0d46a2062541ec5e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '21849e4f52263c53289ca806969c5099') in 0.016986 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5af98de57154c1f780715743ded7eb2a DependenciesID=8c60f19bce1c0dbb8352bd3faf9d593c StaticDependenciesID=78ff7c5accae482e090a19a0f8cf3b18 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_351.asset
+  importAddress: Guid(ed385b93d5cd7bc4aa5a8d0a42ee8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_351.asset using Guid(ed385b93d5cd7bc4aa5a8d0a42ee8e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6c946be48370a951b8679fb42c43ac99') in 0.0189815 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16af68e7ba1db6c97f7cfe539d3e114e DependenciesID=b83cd12afae9cac978b91d9308b2cce4 StaticDependenciesID=74c64e122a09a5c059ade697d9af3a83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_316.asset
+  importAddress: Guid(7974940e87978e04eb4b4442dc60e512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_316.asset using Guid(7974940e87978e04eb4b4442dc60e512) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'db2570e2083a2ee59034a1fa6a01026c') in 0.0109286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33545ea8cbb76efe4404d8de0265ce48 DependenciesID=475be00a0040a2414915ba98b64cf687 StaticDependenciesID=e6815b385c843d2f14b3e74163a91383 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Farming/farming-tileset_354.asset
+  importAddress: Guid(33085e5295beb064881908a0e8e7a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_354.asset using Guid(33085e5295beb064881908a0e8e7a49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '423d8e93a62fd43788430b8151a03f62') in 0.008333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22b27b82fccad8d33fb11eef0a9d2535 DependenciesID=ceedf0b072ad16bf2b242e79775bb8ec StaticDependenciesID=44b0200808735dde8caf1069dbd87f23 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Farming/farming-tileset_333.asset
+  importAddress: Guid(4933b74fd8e8eed4fb1d9af4496cb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_333.asset using Guid(4933b74fd8e8eed4fb1d9af4496cb4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '82a13db5fb57a22f8adfc7331f6abb7d') in 0.0199097 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bff5426926cae1463f7953ffea0fc160 DependenciesID=032245c9ff5dec91b14ab3cabd83e9c6 StaticDependenciesID=9e0345f09d1f7d6dfd3d80965acd8ff5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_422.asset
+  importAddress: Guid(a09cff686b6e1604e8445c3effc2c92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_422.asset using Guid(a09cff686b6e1604e8445c3effc2c92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '69a0505ee360d05d7f53ef4ab0539d38') in 0.0243087 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0660ec4c262d6f1e4f4846568a658e7 DependenciesID=dd0cc4e32f263b4b0d45a0459710440f StaticDependenciesID=8518caa1c46153c2cfd93e2d1f282fab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_414.asset
+  importAddress: Guid(a30325b01aa9048428de2cd4779b5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_414.asset using Guid(a30325b01aa9048428de2cd4779b5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f204b60360b16864246f842cef112a33') in 0.018112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42f5f1b3ddb1005a0fd2317f5ed1b52a DependenciesID=0415646b9f4e47754b22ad8c9c7b5db0 StaticDependenciesID=87d558fbf9775b90330704b78c1dd460 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_421.asset
+  importAddress: Guid(24ca36af57777e24d9498649e127af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_421.asset using Guid(24ca36af57777e24d9498649e127af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3749a4164a11f42a8ed00dcb33cac88d') in 0.0173454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc30f495c9a6da2f50d9a2529e80542f DependenciesID=9a488165bc1226910305a3f27148f098 StaticDependenciesID=080aaa0d093be2bef5063871e5a427ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_289.asset
+  importAddress: Guid(727855292257c7d45a2791709a307d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_289.asset using Guid(727855292257c7d45a2791709a307d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '08415498ef4a028280257e907e30716b') in 0.0183687 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=194419cf39510b8a070d7d02bfa41dfa DependenciesID=5a39d6b2c2e4ef3dda368b0dba9bfedd StaticDependenciesID=290b648b6d9d66d2eb7c5a353fb65fad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Farming/farming-tileset_308.asset
+  importAddress: Guid(99f8684785197334eb4493f704705b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_308.asset using Guid(99f8684785197334eb4493f704705b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '964f2368e9164093c4a0e99c76636585') in 0.0090026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11a7495ff8e35c2a2e824d0dc23d69ec DependenciesID=9bfd19f173d0f89cd07410988877adfb StaticDependenciesID=b070e0ee9c68236453de4b17a11b7c64 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_350.asset
+  importAddress: Guid(79b31517056d06448bd6f548542d8513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_350.asset using Guid(79b31517056d06448bd6f548542d8513) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0d3d58a35becca133f823f26ab31fcc1') in 0.0194274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8b424e13e5482ad33d3db1970a4f6955 DependenciesID=ef31b937ba9a46fee3389ca0ff5602a5 StaticDependenciesID=2deeafa1958202f8fa71201762db2b14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Farming/farming-tileset_385.asset
+  importAddress: Guid(f4dc76245f5ef6e4f9302fc463c1e6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_385.asset using Guid(f4dc76245f5ef6e4f9302fc463c1e6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1a382816b0305b47a86173fdc57bdb68') in 0.0217197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef844870f8e12346cbb7e28adc68e0fb DependenciesID=90148bf6a092d09f6d89241ca881f3f5 StaticDependenciesID=8b873e60653caf999dd1bbef54f4f5f2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_305.asset
+  importAddress: Guid(5c70dc0f866ca3c4ea48350144e92e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_305.asset using Guid(5c70dc0f866ca3c4ea48350144e92e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a4c79212ce076e934e81ed3436e38ad2') in 0.0107992 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=551dbc2668accf4621c47bb4e0fac9fc DependenciesID=63e51f4303122c7b9275a77716c3e6e2 StaticDependenciesID=dfba47e3af66f678c26b5e955fd2a56a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_427.asset
+  importAddress: Guid(61d1dac4cf9ae92439680568a6bc2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_427.asset using Guid(61d1dac4cf9ae92439680568a6bc2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '503c04107d77ad1658d51ac5e30337c4') in 0.017073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b632954800c40d8266ddcf9da3d8413 DependenciesID=c69d992e0d629860eafff77c631c2361 StaticDependenciesID=94c428ce77209761ed2ce9dae2ccf966 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Farming/farming-tileset_357.asset
+  importAddress: Guid(1f9b678d300820d4e9b89bc8427a0dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_357.asset using Guid(1f9b678d300820d4e9b89bc8427a0dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aaf8a3f821a453772e2693153b9194a3') in 0.009341 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a811b07948ac633676761d79b3f422d0 DependenciesID=d551f6117f50065432c80a3739e73aa2 StaticDependenciesID=6cf1613496f0abba1933aa45ece3cd9d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Farming/farming-tileset_361.asset
+  importAddress: Guid(45d10e7e717921041a15f78ac041d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_361.asset using Guid(45d10e7e717921041a15f78ac041d511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5e0620deed0ab184e2af50002cf0ae33') in 0.0089506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=574558054f0b4d03d64d042366778344 DependenciesID=9c11133901a430592c60949961cb5e56 StaticDependenciesID=3d3b0a1805e69b2b1517c48dd340bdbf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_317.asset
+  importAddress: Guid(fc025b4eb32acdb49b34c12017d235cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_317.asset using Guid(fc025b4eb32acdb49b34c12017d235cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16ba2ed4f12aaac379c26aba4a6a5434') in 0.0091104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54e2c9354adae6fc6e1ff2c57a52fb79 DependenciesID=8578ea4371f8d4ab645951ce28588502 StaticDependenciesID=05da127a73c41fc89075a307f8780d13 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_429.asset
+  importAddress: Guid(5bdb3297126957a41a258c131f9c4c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_429.asset using Guid(5bdb3297126957a41a258c131f9c4c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b88093590d525e7b6de9bb075c8b76ff') in 0.0170305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a63da899168b1aabc42afc0c69c189a3 DependenciesID=ad13f19319657967e09cd097ba04b0f4 StaticDependenciesID=b3472e92d945d458f1e288048cf3dcf2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Farming/farming-tileset_413.asset
+  importAddress: Guid(663c72f0741d3074cab0272622804d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_413.asset using Guid(663c72f0741d3074cab0272622804d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a1bf6d128843899df59aea703fadc5f4') in 0.0207871 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16adefdd8440158839dc24cd75f12b25 DependenciesID=aba36c622fe3c43283be7a26aec33c5f StaticDependenciesID=96f23a94fa96f5024740c4fb68609840 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_319.asset
+  importAddress: Guid(551967217b463054eb6d5274f5d6a560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_319.asset using Guid(551967217b463054eb6d5274f5d6a560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '58b350120a77612ce7cca91243089528') in 0.0195701 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d80e6edb20ddc54fadb7334dd996301b DependenciesID=13c38d5ab923a258db7a6f37b889fd95 StaticDependenciesID=67eddf1f9a98979f4ceba68511ece0a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_328.asset
+  importAddress: Guid(8549aded5e7a60941a90aef42c61774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_328.asset using Guid(8549aded5e7a60941a90aef42c61774d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '254c413ea7177bb23fd6e990eec00b6e') in 0.0172712 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=36853e5056626bcb35739e2f07656685 DependenciesID=afe807eb373b47c81a14ac5d11bb9db6 StaticDependenciesID=1c7a61438672bca45e3efc350ae0483a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Map/Farming/farming-tileset_391.asset
+  importAddress: Guid(ccdbb7c4c1391604584a4293772c91f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_391.asset using Guid(ccdbb7c4c1391604584a4293772c91f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '09856182a979148375697c89253b3721') in 0.0183522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce33e59c9d3a7973f1ffc1ace7151ece DependenciesID=7447ba0c83658ac05d06bd0fc4e8d795 StaticDependenciesID=3c9cdadaf276e32fd927ae2728cf03d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_349.asset
+  importAddress: Guid(c539ff1168f4fe04b8bc47598f43d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_349.asset using Guid(c539ff1168f4fe04b8bc47598f43d5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e33a0e2983fa51d80a8eb9db10370ac6') in 0.009756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa2878902f574046ec5eeea02b78ab15 DependenciesID=974f13d3ca253c320693d556c4a405bc StaticDependenciesID=845bef8d7442cb8b4a98e9b3d2541157 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_358.asset
+  importAddress: Guid(e91e4b4150e92694ba0996615c843e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_358.asset using Guid(e91e4b4150e92694ba0996615c843e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7242e9da65caf98b834e041c4cb35a22') in 0.008142 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b182774305c1b5730070b371d9f3b0da DependenciesID=0bdce9ac8044028429863218702eaff0 StaticDependenciesID=807149b02b844a1c131ac20b7973bf90 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_292.asset
+  importAddress: Guid(efcc9cdf0229ec944b958d7424054be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_292.asset using Guid(efcc9cdf0229ec944b958d7424054be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cc2ab40e0e6579c1603aaf3727993c42') in 0.0082144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27564365ec25d920dea36029fe98fb98 DependenciesID=4afe17bb1b56d77e9d9086be53196a57 StaticDependenciesID=ac040b381804a1a06caf2b079308e7d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Farming/farming-tileset_376.asset
+  importAddress: Guid(9e4bdd1127351a945b80bab12ae9e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_376.asset using Guid(9e4bdd1127351a945b80bab12ae9e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7f35446f644c37b788cc7dbb86eadb53') in 0.0169442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8906e4b088c50c0f0499efd450414115 DependenciesID=cef61be2fc3c10f02ee60e2b4e0d2776 StaticDependenciesID=f17a10da9e56c55aa3c5dd55e862d67a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_378.asset
+  importAddress: Guid(edf7f88f02db7174a9d464108b3772e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_378.asset using Guid(edf7f88f02db7174a9d464108b3772e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '54381f0a387e46cbfae500d2639d1f73') in 0.0180159 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a95a257e7cc8d8f430d7078f9c070d4 DependenciesID=d7004b31ea79f3e45427493d4ebb2f22 StaticDependenciesID=17db378575ce788155e306b66cbadf6c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Map/Farming/farming-tileset_416.asset
+  importAddress: Guid(b345656561a43564c8048e6792d9f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_416.asset using Guid(b345656561a43564c8048e6792d9f86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cf95a9aeb077d78b8dd678312d44fba5') in 0.0174952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2baac1c793467a7072446d9850369f9a DependenciesID=cb13835b5196c13ec0c870db69c02255 StaticDependenciesID=18f60a38800325bfcea29c7d3f796580 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_339.asset
+  importAddress: Guid(041fc7cb0c0966147922781e590f9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_339.asset using Guid(041fc7cb0c0966147922781e590f9f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '22dd3a262280ff7a65f3bf4d808d95c1') in 0.0176857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e292f985bd00fd9af80061c2c876ada8 DependenciesID=60b9d5833287c783275fad521ea37d50 StaticDependenciesID=725efb61a3fecb655d85c9f5e2a98c73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_332.asset
+  importAddress: Guid(0b2d5fc67c403f8428e3fc5711cef906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_332.asset using Guid(0b2d5fc67c403f8428e3fc5711cef906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f18aa2960443793528f2fd822cd0e188') in 0.0188584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cf4c66add653d7ec4d0920e757b0338 DependenciesID=5ff9c8985459943491a131a3d851adfd StaticDependenciesID=bcf503f994febba27164479da139f4a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_323.asset
+  importAddress: Guid(237fae364ad64dd4bb88bf9249557a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_323.asset using Guid(237fae364ad64dd4bb88bf9249557a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '609a4250e1855460f2703e932e617609') in 0.0187759 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b78b903134fc0ba70b17acc1ad49101 DependenciesID=4bc4d16d5ebb4e2df9002a57084e650f StaticDependenciesID=4be0f95b9962a5ff20cf18c1f1ffcd65 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.60 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1868ms
+	BeginReloadAssembly (206ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (529ms)
+		LoadAssemblies (354ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (214ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1015ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.95 ms, found 7 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7065 unused Assets / (6.1 MB). Loaded Objects now: 7899.
+Memory consumption went from 170.2 MB to 164.1 MB.
+Total: 10.463700 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.589700 ms MarkObjects: 6.011300 ms  DeleteObjects: 3.234400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.97 ms, found 7 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (5.7 MB). Loaded Objects now: 7899.
+Memory consumption went from 172.9 MB to 167.2 MB.
+Total: 14.259900 ms (FindLiveObjects: 0.810900 ms CreateObjectMapping: 0.968700 ms MarkObjects: 9.174700 ms  DeleteObjects: 3.303900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.07 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.961 seconds
+Domain Reload Profiling: 1843ms
+	BeginReloadAssembly (209ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (379ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (223ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (962ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (486ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.36 ms, found 7 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7065 unused Assets / (6.1 MB). Loaded Objects now: 7902.
+Memory consumption went from 175.5 MB to 169.4 MB.
+Total: 8.617300 ms (FindLiveObjects: 0.660000 ms CreateObjectMapping: 0.577300 ms MarkObjects: 4.871300 ms  DeleteObjects: 2.506800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 286.744978 seconds.
+  path: Assets/Map/Farming/farming-tileset_269.asset
+  importAddress: Guid(ec94022925cc59c4f9d84ffe8f0189f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_269.asset using Guid(ec94022925cc59c4f9d84ffe8f0189f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b6bc1014fb468413f035ea50d2a075ec') in 0.0789584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=462467f0802294951beed0cfbdcd3c24 DependenciesID=97bac25a7742cbfc7ff73af4e1ffc429 StaticDependenciesID=d08613983eadeb86ac7fd52b05e7f1db 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_281.asset
+  importAddress: Guid(9827c28a23cec684998b1faf414edd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_281.asset using Guid(9827c28a23cec684998b1faf414edd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac8f6f6c571a3b2ef67ac9cd7b32000d') in 0.0264655 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d701f0ae8a8c63cb4d2251ed2267dc5d DependenciesID=39f64af17d8957468f765689062132c1 StaticDependenciesID=01522e849c0cfe9dedb0bcb3ae127fe6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Farming/farming-tileset_261.asset
+  importAddress: Guid(9f25fac3a64318d459f8c772ff04abe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_261.asset using Guid(9f25fac3a64318d459f8c772ff04abe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '94bbe002727fe9df01fc39f631af337c') in 0.0239566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b15492150eebfbd6d252d564ca9d0dc DependenciesID=332feb170039c7770e40dca98cda3796 StaticDependenciesID=d60b147b47c3aff5ccbdaaba76df3f08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Farming/farming-tileset_243.asset
+  importAddress: Guid(c326b65ad5eeeee4c9c4392081225395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_243.asset using Guid(c326b65ad5eeeee4c9c4392081225395) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f60c443978be73bcf7116c9c48bb7cf4') in 0.0166735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df6a3c455786c109dd67a67bfc3ab4a9 DependenciesID=e90482d8d666875240af91c912ac18a8 StaticDependenciesID=517ae3d6be096854ebada603e078390d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_247.asset
+  importAddress: Guid(c9eba2755c02c394fb1679cff5d40863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_247.asset using Guid(c9eba2755c02c394fb1679cff5d40863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a33b9b507218451a0c56f6cbf5359d3d') in 0.0276073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0db08ab76df63db7faf6359a9bd8b10 DependenciesID=35174684ae8b8727e1a0907f42d26b4a StaticDependenciesID=cfeb249e96d71f91cce2968fc2d0400c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_282.asset
+  importAddress: Guid(17b67fd9a8a3ca44ab8a367640174909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_282.asset using Guid(17b67fd9a8a3ca44ab8a367640174909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c1e7e1d07fddda314181e9f80c759c71') in 0.0236002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=981f8198436caddbf8f99c76ecf4684b DependenciesID=d989772cb0249b8112d59ee04d56601b StaticDependenciesID=60feab5a9fcc3377b130d2e6b3c7dbdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_251.asset
+  importAddress: Guid(58804d61ad68c6d47a3ef2a3b7181d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_251.asset using Guid(58804d61ad68c6d47a3ef2a3b7181d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e27df1e357e6cc34cbbd9f63741dc402') in 0.0206321 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86e52413ee953f08fdad9477e256dab2 DependenciesID=a7306d579f94bb12001480401961b343 StaticDependenciesID=c178e5599af43ca3408fce0089c6ccb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_224.asset
+  importAddress: Guid(66a119f3dbe9e484685004cea1a8fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_224.asset using Guid(66a119f3dbe9e484685004cea1a8fb70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7b9fe6604e22e2a2266da9e9f9e34fe4') in 0.0192582 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60cf0c041cef89e41586eb52b7a47f74 DependenciesID=826e841bc50a95477d0e7ba0487ddd99 StaticDependenciesID=c362dd5733e1e3596bc0afdea9cee689 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Map/Farming/farming-tileset_194.asset
+  importAddress: Guid(d7fce8c74938a8d4e96adc6f57b94926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_194.asset using Guid(d7fce8c74938a8d4e96adc6f57b94926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '767840f71a2b08a2ab5a4fc0bc5022b6') in 0.0201918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a81375396a4a5cd1c3dc06d781ddefe4 DependenciesID=a309645636843285dabf82f79dd94aad StaticDependenciesID=2a3df391fe3c6d1b7b9711942a173d4c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Map/Farming/farming-tileset_186.asset
+  importAddress: Guid(0c6f9199f6d38fb4c869ee638cbea713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_186.asset using Guid(0c6f9199f6d38fb4c869ee638cbea713) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '49beeafab80784f0aad696e21debb4f4') in 0.0272546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d776afa253f409a13683f28b8287f5b DependenciesID=68dd4861aab4196f7d53da1b0fffc9b6 StaticDependenciesID=54fa7740e61bd744260e9edca4980828 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Farming/farming-tileset_198.asset
+  importAddress: Guid(19e1392f3697e3447bf7f9e0de2296dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_198.asset using Guid(19e1392f3697e3447bf7f9e0de2296dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1e03cc35b3f66ef1653e3ecb7518df4d') in 0.0195151 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5c3f1bbb1a2d6cc0a30f3bf1a043655 DependenciesID=33699ec7d110105cf1f482f2e77d6105 StaticDependenciesID=c52882b270c1bc353d8c454ce3af8e85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Farming/farming-tileset_231.asset
+  importAddress: Guid(f072f3c6a683dc64d9ad3e7f4d4db81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_231.asset using Guid(f072f3c6a683dc64d9ad3e7f4d4db81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd297992eb5b15cf94e160aa5bbd01612') in 0.0190659 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e039eac067baa13dad360b25b698f2fc DependenciesID=3778ff0767065de4e0a7dbb2fcf38f82 StaticDependenciesID=ab229ff5245e87814858d18076abd9d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_144.asset
+  importAddress: Guid(b68572764514754408a3624b7066f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_144.asset using Guid(b68572764514754408a3624b7066f043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4719fcb7847c11ac71ff07a7cedfd32c') in 0.0254364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59bfde7e6a04c0b03fd2af4e8ec67dcd DependenciesID=23330745995033e9a70d5f1b5dcfb9b7 StaticDependenciesID=0ffb8a42bf0ea8c016cd54434f86d278 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Map/Farming/farming-tileset_147.asset
+  importAddress: Guid(772d9ff9770e70d40b912acf9449f87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_147.asset using Guid(772d9ff9770e70d40b912acf9449f87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e4dcbd593624e0fcdaea3263e0f82965') in 0.0197017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a397be3898ab516f8cda6f9e6e551a98 DependenciesID=7a6856a85308e5aac4d759845efa5041 StaticDependenciesID=0b6331acad009596e481151488d74662 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_154.asset
+  importAddress: Guid(1261ae7a040f7fc43a0c98bc1d5c64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_154.asset using Guid(1261ae7a040f7fc43a0c98bc1d5c64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b38e084c4a060750bf608d09798406ce') in 0.0199819 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9edb692b8c0268e2478f46528f36a7ad DependenciesID=1e877cd996275d2b365ed5b7f1370ea8 StaticDependenciesID=ec352669c0f06bd26b81eae561a54ad6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Farming/farming-tileset_201.asset
+  importAddress: Guid(0c636b707e97fad429c5a9d1015ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_201.asset using Guid(0c636b707e97fad429c5a9d1015ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae07e723a61375c16dc685859ee0c678') in 0.0214907 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93d2884a56f074c4b9d05cc3ba14b2c5 DependenciesID=fe56e822ee1fef7056c67bf40b7f1e26 StaticDependenciesID=2cc0acd228326fdf147e1ff1e7debdd7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Map/Farming/farming-tileset_175.asset
+  importAddress: Guid(6fdadbe88d57b894d9159435081eebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_175.asset using Guid(6fdadbe88d57b894d9159435081eebc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '111c7566bdb8671bfbe9b57a18fffae2') in 0.0205456 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cefc0037e18de913fa31f6c096bb316 DependenciesID=87f116762b35b1f4f730c8f3a792bfb8 StaticDependenciesID=4334f26dd765a05c5f95cc4e367bfa9f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_151.asset
+  importAddress: Guid(896c848b23143a248bd58a554e719ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_151.asset using Guid(896c848b23143a248bd58a554e719ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5858d24d9765f4b12aaadc228881667a') in 0.0176931 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f1b1e0fe89447aed71e83c6f1f03089 DependenciesID=fdfc1594cb8d4ccb45aceacb3dd4f873 StaticDependenciesID=d77880dafec37f51a9d39c431113ff7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Map/Farming/farming-tileset_216.asset
+  importAddress: Guid(55e032b462786914d9497c2bf2e7676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_216.asset using Guid(55e032b462786914d9497c2bf2e7676f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '654758b81b3e3b0c57f44c690b52422f') in 0.0172197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0333cd22f67c44ea3d47119562efc1e7 DependenciesID=77fe673f0856c99ce68063538ded8e13 StaticDependenciesID=1add8ce60bffc313d11279c98223afc1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_181.asset
+  importAddress: Guid(e46aadff020489149bc00f957dcf0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_181.asset using Guid(e46aadff020489149bc00f957dcf0f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5fd36be406c6553d68a677b081e6a2d3') in 0.0191473 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14d9baa9ef1bbc7a06d98c9b6cf42b0b DependenciesID=1378db51730c7628f8f2a62cf6548f93 StaticDependenciesID=b9aa7a6464bd815a34ee28b05c5a0292 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_158.asset
+  importAddress: Guid(8e5a4b111c070684f920cc97bbc72024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_158.asset using Guid(8e5a4b111c070684f920cc97bbc72024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '39b8ff5d1826a76b7b79035cff3e24e7') in 0.0179333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c93ca9bbdeec61fe126f01d361d3953d DependenciesID=a54c0bf718e8b9b7035a0c24646e3549 StaticDependenciesID=262d1a7e8db18042fd74629070a76aeb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_277.asset
+  importAddress: Guid(b3a30a194689fc643bbe88f3e6f44519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_277.asset using Guid(b3a30a194689fc643bbe88f3e6f44519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8f9d5b77f901e1fdec10469dad0632ad') in 0.0205849 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15649fd24a53614ed5e094169b24cc29 DependenciesID=ad6f006cfad43996b8fbe3b1e43f57f5 StaticDependenciesID=9b7a416f2c2df720bd694d9fc2305832 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Farming/farming-tileset_209.asset
+  importAddress: Guid(e6915665120372d4386fb279ea98a3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_209.asset using Guid(e6915665120372d4386fb279ea98a3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '872a73326546aed183b26af4e2726d28') in 0.0187565 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a952ff482e7f14073ad011369ec8c060 DependenciesID=8418e53a76daf6d8c11f459a5c996551 StaticDependenciesID=8fd9f5f8b24e6f14d7a9431bfa8578be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Farming/farming-tileset_264.asset
+  importAddress: Guid(beabe6dc2a768b646a250bb13c411e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_264.asset using Guid(beabe6dc2a768b646a250bb13c411e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ef90099d5d8ccfb812c86a1a11b6f60a') in 0.0183726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7d8091fa176c9034ce1bd9d6231ff3e DependenciesID=4e11fb85abbfbbe3a68c04f78aa17768 StaticDependenciesID=110d15c6b129eeecbe103f6bb68a0888 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_226.asset
+  importAddress: Guid(34a67e8d43b67e449a1422f9086ab891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_226.asset using Guid(34a67e8d43b67e449a1422f9086ab891) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d2c34de2bd83046ba37c763458040b0') in 0.016548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc139c70e474429d2bae861caea9894f DependenciesID=0ac63d9a6054a8f4d919bddf9cbebc9e StaticDependenciesID=7d856acd74f9d8286717f846cdd1675a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_157.asset
+  importAddress: Guid(4f87489a6beb2d64d80d8b8a09dde243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_157.asset using Guid(4f87489a6beb2d64d80d8b8a09dde243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0c614fd4325ccf7ddc730b4d6293d5f9') in 0.0179525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=350f9be789c86485caecf6c672d3f87a DependenciesID=75f3414f5410d6107fec887e972419ff StaticDependenciesID=0ba51764216d1129d213c082df74665d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_280.asset
+  importAddress: Guid(53f409c35c65a1a4f8483db54e1c6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_280.asset using Guid(53f409c35c65a1a4f8483db54e1c6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c0e68293a3eb48ccb6512823cc29b15c') in 0.0196826 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f6a71c8785cdc071432439e2e63711e DependenciesID=fa0e71da534b833aaeadbf087b4fcf95 StaticDependenciesID=f75a073e215dfd62a6e83c0dd830ac1b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Map/Farming/farming-tileset_160.asset
+  importAddress: Guid(c13cdd70559bf9241a4fce891980b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_160.asset using Guid(c13cdd70559bf9241a4fce891980b126) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0c102d531ed210f7fca8b35eeac65e02') in 0.0211715 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cacaf428fbe1960678248e63c15e16d DependenciesID=24b5faae5c7787be0b6950047ebc7a56 StaticDependenciesID=34dedfe20728d3ee382fac94df956301 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Map/Farming/farming-tileset_176.asset
+  importAddress: Guid(6a1e76fde25ae3b41840ab8e5a875254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_176.asset using Guid(6a1e76fde25ae3b41840ab8e5a875254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e1ab680c538ced6aa2fe845ed78978b2') in 0.0196112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70f3113bbb45ae1afda3a600a0921549 DependenciesID=cabc33dfbf097ab5c9f5c7351b587f72 StaticDependenciesID=ab1c0bbdb316162255512f06f4fa3fc4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Farming/farming-tileset_228.asset
+  importAddress: Guid(fb425a1750bd716428cec059248012c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_228.asset using Guid(fb425a1750bd716428cec059248012c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7532648a71bc485d4d01f1fec0e1bc65') in 0.0194966 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea864c8edb56a0debcfc280435752214 DependenciesID=c82a4ae55d71503a5faf352f4cb2b8fa StaticDependenciesID=3d5f6a23130cb2732dede3e7d55babf6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Farming/farming-tileset_253.asset
+  importAddress: Guid(bff4cd76aeee04c4c9fe5240f158a5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_253.asset using Guid(bff4cd76aeee04c4c9fe5240f158a5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae87cd60d729ae1efec7f6ea647492e0') in 0.0199503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=567454de339fe37a0bf71e3e2f9c4351 DependenciesID=efe17ed8af9f16d77d0ce47b6c4d1e60 StaticDependenciesID=d997391749dbf14ecf8aa8d3ac843f61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_178.asset
+  importAddress: Guid(42e6e30cda939fa49bb409bcd8ba04c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_178.asset using Guid(42e6e30cda939fa49bb409bcd8ba04c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fb162c2b7c184398a675fad9cf2db9a9') in 0.0185506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5854461df19e57ea5ed8196bcef2bde2 DependenciesID=60176fcc2935d1e775893ae1e1e10a35 StaticDependenciesID=cf29168e73913e812810ae750e93df87 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Map/Farming/farming-tileset_249.asset
+  importAddress: Guid(6650e62d1b8fadb47b5c5b594251ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_249.asset using Guid(6650e62d1b8fadb47b5c5b594251ad4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'feb00e9c0a7f9936f3672e0435bcec0f') in 0.0196011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f557cc46c3fb912f9fa2540b8733bd71 DependenciesID=f45ed5f9ae7234f4009b52afdd842eec StaticDependenciesID=fa0ccc02e2821edd544e55b7dd19babd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Map/Farming/farming-tileset_259.asset
+  importAddress: Guid(4b617d424007f8e46b2d7d6dfdc92189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_259.asset using Guid(4b617d424007f8e46b2d7d6dfdc92189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'da1739cda92c1f8499f1cdcb3ad1447e') in 0.0189948 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6dd902a6d0b275e2bc67ce33232b35b DependenciesID=0e6d49e1501a79c18d39b6e5f596e3af StaticDependenciesID=ec458785b709634edeb79cb8ce16da6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Farming/farming-tileset_266.asset
+  importAddress: Guid(3bd6d51e89c62ba4fbd2a5ee0c2f7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_266.asset using Guid(3bd6d51e89c62ba4fbd2a5ee0c2f7e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1a1cab884c458c095b5686b4946e45f5') in 0.0183584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=338d12a437c3af4250ce6ee24635e55c DependenciesID=ed6b3d87368cb47d0c097de36dd11524 StaticDependenciesID=de2b00d196ce4b9728778985bbfe72c5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Map/Farming/farming-tileset_227.asset
+  importAddress: Guid(9fef4cbc7eed23a44af69e456bfacdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_227.asset using Guid(9fef4cbc7eed23a44af69e456bfacdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '608c05098fa59ae3ea2911600be72a0b') in 0.0186854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0762090cd4639b0aefd976ef84dd704 DependenciesID=7dcad1bcb27a22d436e0f659784d55cb StaticDependenciesID=1b94500755c4556c2b4a566de2d03941 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_219.asset
+  importAddress: Guid(ca09245b363d7454c9ee9df87ab86a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_219.asset using Guid(ca09245b363d7454c9ee9df87ab86a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3bc70dc2e74cb7eff26f39246f95f334') in 0.0184367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b4a4b7ef6bccefbd002b628ba21fcdd DependenciesID=76b582a2257e5462b4820426aeac811d StaticDependenciesID=7c692330e9e95e5e20d4fece5c2263c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Farming/farming-tileset_218.asset
+  importAddress: Guid(f4e3bbc3572eb8744a9e772e9973c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_218.asset using Guid(f4e3bbc3572eb8744a9e772e9973c012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '08ee05c90ddf2ad353261323c84ccc6f') in 0.0210286 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=acd596773770b93d0ae1120c44865469 DependenciesID=9b6a82f0e8f5776125e7a9d818ba16dd StaticDependenciesID=80f00e31d0ec173e6d336332c7299763 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Farming/farming-tileset_246.asset
+  importAddress: Guid(cd0409f26ad5c51488068b49666bdc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_246.asset using Guid(cd0409f26ad5c51488068b49666bdc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fa5fd26721dfec983c909b92032b3711') in 0.0188372 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a34878198686b513006b290da994b729 DependenciesID=6d28f5702d0e231eefe806db9885d126 StaticDependenciesID=a1f28455238a8928a1f6b955a8058cb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Farming/farming-tileset_210.asset
+  importAddress: Guid(73cdad0411ceee7429f97e8c4cc58eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_210.asset using Guid(73cdad0411ceee7429f97e8c4cc58eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6f067e8285dcfb4e4548b618dec7cd49') in 0.0199583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c3e4313add2e14e1a84cd35411b1582 DependenciesID=f4c0f044bba22e8ffe1ffb4d87275126 StaticDependenciesID=1c06d5f33be9cbcd8fbf6f63df72208e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_222.asset
+  importAddress: Guid(2709e978a579a2640943dfa2841d9099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_222.asset using Guid(2709e978a579a2640943dfa2841d9099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b115cfd4f6507b1aabd81285825d7c3a') in 0.0188763 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04a3533f67d8da80f5508cc27b533fb3 DependenciesID=c16fdc859d2c80573d48d72cd423de25 StaticDependenciesID=596f2a201f21a41574e4bb4d26525696 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Farming/farming-tileset_156.asset
+  importAddress: Guid(4f727d80dd0ed594b8ac17e42a5c575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_156.asset using Guid(4f727d80dd0ed594b8ac17e42a5c575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '34a57cfefcbc9a7ea501e45561fb53f6') in 0.0181461 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad1e17642091456c88b65dbcc4e827ed DependenciesID=293a0292897c36bdd7ccfce3ad28f86f StaticDependenciesID=fa50fdd38d6b113042c52da537b41765 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_275.asset
+  importAddress: Guid(768f3565e3085a74cbd28fc60d7a8dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_275.asset using Guid(768f3565e3085a74cbd28fc60d7a8dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '949de0133b473d02f758c029eeaa2115') in 0.019165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef9d89d594ad9ec20133260dfc5c835e DependenciesID=790e6dcc55890288864dbd6740e3184f StaticDependenciesID=d66873dd7d84fad85672ef9664563cb2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Map/Farming/farming-tileset_279.asset
+  importAddress: Guid(3406e69b43d626a4f96e8b37c58b632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_279.asset using Guid(3406e69b43d626a4f96e8b37c58b632d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '22dd13dda136ef54dc02ada75b88585e') in 0.0181401 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b88c2da860bd721fcd66eabe4200e6e DependenciesID=9c529419e642acb70d31b0eaf4b3a764 StaticDependenciesID=c569164cc843d9b8491f99cffcc1d123 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Farming/farming-tileset_284.asset
+  importAddress: Guid(a047790ebecb33141b447ed43a92e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_284.asset using Guid(a047790ebecb33141b447ed43a92e8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '984875ab0b2cce86f687f0ca2678e313') in 0.0183952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=922b3338e2d2887786d074b67262b576 DependenciesID=8a113ac60eaf5b0e1640748614182c47 StaticDependenciesID=624e331cb928bfdd419038a092abcb22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_221.asset
+  importAddress: Guid(555598379beeba54f8e353d28f3230d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_221.asset using Guid(555598379beeba54f8e353d28f3230d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e92ae126346a6d750923a5fdc2bb0b4c') in 0.0191207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d7fbe43c76a34c5e9790ee73d0443e1 DependenciesID=ac0711a7bfbea7061a1f90b9a3fb7258 StaticDependenciesID=7ea0aea09f78d594e57e76835d10d442 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_238.asset
+  importAddress: Guid(9ddc504c3fb115e46acc3c40073509b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_238.asset using Guid(9ddc504c3fb115e46acc3c40073509b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '901ce938465ea64b988819057f836c6d') in 0.0209259 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ccd69e25c02adc90264a8c45d79545f DependenciesID=37090d836295136adaf6922e61c4bb5f StaticDependenciesID=7063fe45acfcae01b9a2ca8b91f68683 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_165.asset
+  importAddress: Guid(d47c1033ab622444b84b2cc94b108b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_165.asset using Guid(d47c1033ab622444b84b2cc94b108b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '963270a0e010baebb833445f9bd1fda4') in 0.0180916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb3123a4b4ee07374af080512448777e DependenciesID=4de8e1622d63083e5d9424e895368aea StaticDependenciesID=978377a2bdf623303402ec38a9578614 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Farming/farming-tileset_255.asset
+  importAddress: Guid(0f14e68d17af3b841886b4e37f348150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_255.asset using Guid(0f14e68d17af3b841886b4e37f348150) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ed8738c050c439ff7bb101714fd0bab9') in 0.0196436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb72cb02d3720efd8b3200252921ee22 DependenciesID=81f442aa5fc694358d4676bcb7c3397f StaticDependenciesID=e388d345c6bf33efda3dc9faa5acd93e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_208.asset
+  importAddress: Guid(da7cdd21c76761647a0e2acb09a4cdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_208.asset using Guid(da7cdd21c76761647a0e2acb09a4cdbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ff2fac77ac26d3eb17d55d88c294a7e1') in 0.0197335 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37b28a0b74247aff71b874bb61295fc6 DependenciesID=920149ebc2fa965675fad0ba915ccd8d StaticDependenciesID=0900929da10a5f7623a7ffdcbeb37005 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_168.asset
+  importAddress: Guid(683c727c94d2e174ebcf7f20a98063ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_168.asset using Guid(683c727c94d2e174ebcf7f20a98063ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'aad5a160387d1203f0ccb90f52de4e2d') in 0.0166438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01b0769888c0520d2307830dbb2bda1d DependenciesID=cfeb06e0cafea999bbef1b0dd6d4a703 StaticDependenciesID=86a31028d2dc95fc5fc0eed04070771b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_265.asset
+  importAddress: Guid(5703d4c1fe2dd594e872287cae1f4754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_265.asset using Guid(5703d4c1fe2dd594e872287cae1f4754) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16c2fca9e49334b4ef8e2f385aed98ac') in 0.0183215 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79838f49c823f45cf1774ebc6a425e8e DependenciesID=a81b920c0d6e92a03616c0ded4b9afe5 StaticDependenciesID=1eabd4cd8815b59e5599e2f2b1a49bcb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_217.asset
+  importAddress: Guid(49e599a0245975742b08bcbe54e7b207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_217.asset using Guid(49e599a0245975742b08bcbe54e7b207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '23e54dace38c254af54e540fc74cd229') in 0.0176969 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3cd19391eb5248461b697220bdb8c3d DependenciesID=eb9c836bd2f8bd7b514e13182929af40 StaticDependenciesID=6460af5ce20327c683c31bd6f78af851 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Map/Farming/farming-tileset_148.asset
+  importAddress: Guid(768f9188ca1fde84fa578636e893bda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_148.asset using Guid(768f9188ca1fde84fa578636e893bda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2b18b0e6833cac97d9a3f3de7f303f93') in 0.0175391 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b603a8ca5fa7bd043cc6b411197807d5 DependenciesID=3a2bf52459f979e6833210ca6cd45a42 StaticDependenciesID=78001da66f7e9e0e578672c8d36ff419 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_257.asset
+  importAddress: Guid(34263dd51d4d2e2468f700fd6130c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_257.asset using Guid(34263dd51d4d2e2468f700fd6130c02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e3e10e9152f38223d7faf0f77ddb2b6f') in 0.0166573 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d2600428a45f493d316c3592f3a74de DependenciesID=5ed12919348273fe2c30b6944328e103 StaticDependenciesID=fecb0f231a0d2bbfc478437be2199df5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_193.asset
+  importAddress: Guid(2f9d6e50227e3f84fa1fd72a0e01bef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_193.asset using Guid(2f9d6e50227e3f84fa1fd72a0e01bef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ca092b870549b305a3e4cd13c322ddb4') in 0.0181165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91723511714a6ce6355466b973f7234b DependenciesID=166e76a5f0f668ee79b75f1a05ec9e65 StaticDependenciesID=45b70d448e305837e25d42badf867a05 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Farming/farming-tileset_200.asset
+  importAddress: Guid(5e39eb7679e79b14aa0ed50b326ae865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_200.asset using Guid(5e39eb7679e79b14aa0ed50b326ae865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '14dc8cbbf9837f6b5ab8632ef402f5ce') in 0.0157154 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ab01ed1d292be6e26147ec102e79103 DependenciesID=b973d741fd60009c5c26d6d9d336042b StaticDependenciesID=89795534b70c3638aaf24f9ebceb6c28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Farming/farming-tileset_149.asset
+  importAddress: Guid(5652a51bb788c6e4bb37c77bff41a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_149.asset using Guid(5652a51bb788c6e4bb37c77bff41a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5caa83f36a6daf3a7a6efbbf16495fc9') in 0.0182415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9300e9eda3fac25e77a6a5dd3b5b824f DependenciesID=5e09650e317c96dcbec42cf3e20fe2ec StaticDependenciesID=5fee0d075dd13d6ab152d628b0d18f24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Farming/farming-tileset_196.asset
+  importAddress: Guid(f463b15b418cba04792c10f95f4f163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_196.asset using Guid(f463b15b418cba04792c10f95f4f163e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4983546474fdeb58112897a9b9ed5b2c') in 0.0184751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9fca42eb3d9ab6f3b9ccf94ae6a7dbd DependenciesID=ee4547523e67675076c25722758c758c StaticDependenciesID=79982526089c29a4f8808b063fcfea83 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Farming/farming-tileset_143.asset
+  importAddress: Guid(a609e400d21d4e84ca990af731b587f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_143.asset using Guid(a609e400d21d4e84ca990af731b587f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6b9adc73c5229d9ad84328a384cc8652') in 0.0188653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9386a200a304c61e9b00f43a168f19c DependenciesID=c6881d20a1b9c7aef44995e62d64d29e StaticDependenciesID=381651e4ea7ac15869da8f01753b9c11 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Farming/farming-tileset_252.asset
+  importAddress: Guid(f1dfb3fdd16ebb447975370f8ee3e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_252.asset using Guid(f1dfb3fdd16ebb447975370f8ee3e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '11b7d1e30c60c9b22f77f3394f8ab4fb') in 0.0174442 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9120f7b6bb5e35e07fbcaddd76421aa6 DependenciesID=319c93f0e87d8f1d3aae0fd5b6dbe1cf StaticDependenciesID=19d3cb8d3d7372c2ad18c19c88e8f907 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Farming/farming-tileset_197.asset
+  importAddress: Guid(7b3b7e9fb6825a9479b1ef4dc779d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_197.asset using Guid(7b3b7e9fb6825a9479b1ef4dc779d9db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'deb77f2b4ded93cdb46d2a8324cb3fb8') in 0.0156254 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fc20ab27286d0ab9a8290dc6f933d20 DependenciesID=5e48a598eb5edbe7a26af9e082e4aee2 StaticDependenciesID=f946beacfb22f792eaf59a8ac8f8b9ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_272.asset
+  importAddress: Guid(e28db7e9c5340ed45bbece8fd5f4764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_272.asset using Guid(e28db7e9c5340ed45bbece8fd5f4764f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '60be30321c922439445a3428ff50ef40') in 0.0191803 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9521a6de414bf75456fcda3b73a27202 DependenciesID=5ed8a4f0aa5cdfca0dcf9307d1d95f43 StaticDependenciesID=c3c8a8ce3770fd0cba5ee54be4c3d564 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Farming/farming-tileset_179.asset
+  importAddress: Guid(3bd332b3ef69c3a418295409b04b0b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_179.asset using Guid(3bd332b3ef69c3a418295409b04b0b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f36f85e63c4947fd5079f63b59c2d94c') in 0.0164728 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a169ac78058f0c05a128311f13d0d4b DependenciesID=3cf599e75ccd405560590dfc0b3e76e3 StaticDependenciesID=a400d64e176b95b3a605188ea3f038a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Farming/farming-tileset_248.asset
+  importAddress: Guid(07d80849552c1ea419d774d7c9f67113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_248.asset using Guid(07d80849552c1ea419d774d7c9f67113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '89aaa0cc68b3f3a056ec0d520539d2e3') in 0.0183255 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93d6fac7b5ba1cee8c2eec62c32f7a24 DependenciesID=75453493f98e70b2369cdd3a053deb87 StaticDependenciesID=83f3a17eef5b1ea483c9b0e49ad81d84 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Farming/farming-tileset_283.asset
+  importAddress: Guid(53d63b2decea3c543abf2ff7dde1c065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_283.asset using Guid(53d63b2decea3c543abf2ff7dde1c065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e5c923728e8227b5ad74e3f5129038ab') in 0.0183675 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=628b589fd4a6b02186beb75ab45a9280 DependenciesID=d91782fcc8e783011addda9a1ab7fb33 StaticDependenciesID=39b7f595cc82da6b9ba885718e072f32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Farming/farming-tileset_171.asset
+  importAddress: Guid(eb663cf5cb507994dbf2e79bc1466958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_171.asset using Guid(eb663cf5cb507994dbf2e79bc1466958) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0f7b3406fe2e02073bd277370afb709c') in 0.0200066 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9789de6d98a5e3b1db11a122f5402b6 DependenciesID=447dc2a8c82a352e8fc95e00994805c0 StaticDependenciesID=1a38c735955ae83c0b396c1e91091309 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_211.asset
+  importAddress: Guid(9bbffb2675b852441bcbcb4c8ed1c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_211.asset using Guid(9bbffb2675b852441bcbcb4c8ed1c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4c09cf6d2472552a836d977b3a065d36') in 0.0197995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aaa69601bc917a770e38682256ab8571 DependenciesID=04abaf883fb95c1c915250e86a260124 StaticDependenciesID=78e85f18ace05c6e411ebed62ae0d52e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Farming/farming-tileset_203.asset
+  importAddress: Guid(c801d67b72016b64d998f55e4c53a419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_203.asset using Guid(c801d67b72016b64d998f55e4c53a419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e9c52d4353abaabf8edb59eb5c7634a1') in 0.0200395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45872233d405f1fe020d653cebd8d4bb DependenciesID=2874150e7b4a21166e42b2e4da94988a StaticDependenciesID=c0c41561a6e54f9e0c387e632701f123 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Map/Farming/farming-tileset_220.asset
+  importAddress: Guid(a88c6a3927a08574dba18f90e282d624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_220.asset using Guid(a88c6a3927a08574dba18f90e282d624) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a0932a6f4c952d342872ef60830a8193') in 0.0190746 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b765db7180fd3e0218548435980eba7 DependenciesID=ec420dd1adf050644fc8402ffc99a404 StaticDependenciesID=db9da5ad5555d454e3e182761d30c873 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Farming/farming-tileset_237.asset
+  importAddress: Guid(4dafc603d7910f345a4c95b1eab138a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Farming/farming-tileset_237.asset using Guid(4dafc603d7910f345a4c95b1eab138a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4e1922e2a04262c519eb26d8c51fadc8') in 0.0192262 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c87501cc643f97c2d21166dd27b3737 DependenciesID=e015a24f2dabe69dbb14742bfe50867b StaticDependenciesID=db76ce72f16b05becf58d2ae65887f32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.23 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.135 seconds
+Domain Reload Profiling: 2116ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (594ms)
+		LoadAssemblies (427ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1136ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (578ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 7 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7065 unused Assets / (6.0 MB). Loaded Objects now: 7906.
+Memory consumption went from 170.5 MB to 164.5 MB.
+Total: 11.900600 ms (FindLiveObjects: 1.131800 ms CreateObjectMapping: 0.952300 ms MarkObjects: 6.224900 ms  DeleteObjects: 3.589000 ms)
+
+Prepare: number of updated asset objects reloaded= 0

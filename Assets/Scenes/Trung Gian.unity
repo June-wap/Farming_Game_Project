@@ -392,7 +392,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4005083010132815739, guid: 73b54430d4e446143be362c6edddc254, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1951080763}
   m_SourcePrefab: {fileID: 100100000, guid: 73b54430d4e446143be362c6edddc254, type: 3}
 --- !u!1 &32596108
 GameObject:
@@ -19168,8 +19171,8 @@ Transform:
   m_GameObject: {fileID: 719584879}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.16, y: 0.49, z: 0}
+  m_LocalScale: {x: 0.9897, y: 0.7949, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 597088224}
@@ -23280,8 +23283,8 @@ Transform:
   m_GameObject: {fileID: 1150601734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.839, y: 0, z: 0}
+  m_LocalScale: {x: 0.9821, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 597088224}
@@ -27068,6 +27071,32 @@ Sprite:
   m_Bones: []
   m_ScriptableObjects: []
   m_SpriteID: 
+--- !u!1 &1951080755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4005083010132815739, guid: 73b54430d4e446143be362c6edddc254, type: 3}
+  m_PrefabInstance: {fileID: 8838940}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1951080763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951080755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 290dfe89ff1a2b549895de338d2697e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFarmControler
+  tm: {fileID: 0}
+  tm_Ground: {fileID: 2049012684}
+  tm_Water: {fileID: 334474633}
+  tm_Plants: {fileID: 1126890785}
+  tm_Field: {fileID: 0}
+  tb_Ground: {fileID: 0}
+  tb_Water: {fileID: 0}
+  tb_Plants: {fileID: 0}
+  tb_Field: {fileID: 0}
 --- !u!114 &1976425497
 MonoBehaviour:
   m_ObjectHideFlags: 0

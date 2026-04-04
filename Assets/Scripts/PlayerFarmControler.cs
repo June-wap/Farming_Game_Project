@@ -5,24 +5,10 @@ using Unity.VisualScripting;
 
 public class PlayerFarmControler : MonoBehaviour
 {
-   public Tilemap tm;
-   public Tilemap tm_Road;
-
-   public Tilemap tm_Ground;
-
-    public Tilemap tm_Fences;
-
-    public Tilemap tm_Water;
-
-    public Tilemap tm_Plants;
-
+    public Tilemap tm_Ground;
+    public TileBase tb_Ground;
     public Tilemap tm_Field;
 
-    public TileBase tb_Road;
-    public TileBase tb_Ground;
-    public TileBase tb_Fences;
-    public TileBase tb_Water;
-    public TileBase tb_Plants;
     public TileBase tb_Field;
 
     public void HandleFarmAction()
@@ -42,8 +28,8 @@ public class PlayerFarmControler : MonoBehaviour
             {
                 tm_Ground.SetTile(cellPosition, tb_Field);
                 Debug.Log("Tile changed to Field at position: " + cellPosition);
-            }
-             else
+            }else
+
             {
                 Debug.Log("Current tile is not Ground. No change made.");
             }
