@@ -4,6 +4,7 @@ using UnityEngine;
 using Firebase;
 using Firebase.Database;
 using Firebase.Extensions;
+using UnityEditor.VersionControl;
 
 public class FiseBaseDatabaseManager : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class FiseBaseDatabaseManager : MonoBehaviour
 
     public void Start()
     {
-        WriteDatabase("User1", "Hello Firebase Database!");
+        TilemapDetail tilemapDetail = new TilemapDetail(0, 0, TilemapState.Ground);
+        WriteDatabase("User1", tilemapDetail.ToString());
+        ReadDatabase("User1");
     }
 
     public void WriteDatabase(string id, string message)
@@ -38,7 +41,18 @@ public class FiseBaseDatabaseManager : MonoBehaviour
 
     public void ReadDatabase(string id)
     {
-        
+        reference.Child("Users").Child(id).GetValueAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCompleted)
+            {
+                DataSnapshot snapshot = task.Result;
+                Debug.Log("Du Lieu Da Duoc Doc Tu Database: " + snapshot.Value.ToString());
+            }
+            else
+            {
+                Debug.LogError("Du Lieu Khong Duoc Doc Tu Database " + task.Exception);
+            }
+        });
     }
 }
 

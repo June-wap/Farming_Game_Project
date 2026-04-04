@@ -59,6 +59,7 @@
     <Compile Include="Assets\Firebase\FirebaseApp\Internal\HttpHelpers.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\RecyclingSystem.cs" />
     <Compile Include="Assets\Scripts\FiseBaseDatabaseManager.cs" />
+    <Compile Include="Assets\Scripts\Entites\TilemapDetail.cs" />
     <Compile Include="Assets\Scripts\AnimalWander.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\IvenItems.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Interfaces\IRecyclableScrollRectDataSource.cs" />
@@ -663,6 +664,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@eb6004dcc707\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
