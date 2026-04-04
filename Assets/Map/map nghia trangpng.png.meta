@@ -1,0 +1,2483 @@
+fileFormatVersion: 2
+guid: 378bcd4ad15e76341bd24c8f0fa5ee21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7183100848579782223
+    second: map nghia trangpng_0
+  - first:
+      213: 8769102128926315043
+    second: map nghia trangpng_1
+  - first:
+      213: 3481667624725379547
+    second: map nghia trangpng_2
+  - first:
+      213: 4224140016045828270
+    second: map nghia trangpng_3
+  - first:
+      213: -4123241984789582161
+    second: map nghia trangpng_4
+  - first:
+      213: 7733311231013457730
+    second: map nghia trangpng_5
+  - first:
+      213: 8135816378337518341
+    second: map nghia trangpng_6
+  - first:
+      213: -5241565998051420775
+    second: map nghia trangpng_7
+  - first:
+      213: 227920237014325468
+    second: map nghia trangpng_8
+  - first:
+      213: -236318409798899714
+    second: map nghia trangpng_9
+  - first:
+      213: -6814745535611388356
+    second: map nghia trangpng_10
+  - first:
+      213: -6406637850027356775
+    second: map nghia trangpng_11
+  - first:
+      213: 6996751555353845431
+    second: map nghia trangpng_12
+  - first:
+      213: -1127733257042923681
+    second: map nghia trangpng_13
+  - first:
+      213: 211239715338886364
+    second: map nghia trangpng_14
+  - first:
+      213: 6017834056563429661
+    second: map nghia trangpng_15
+  - first:
+      213: 5435715922652543396
+    second: map nghia trangpng_16
+  - first:
+      213: -4101724534169521199
+    second: map nghia trangpng_17
+  - first:
+      213: -5737003920609261303
+    second: map nghia trangpng_18
+  - first:
+      213: 8849512272122173181
+    second: map nghia trangpng_19
+  - first:
+      213: 7114825150371266324
+    second: map nghia trangpng_20
+  - first:
+      213: 7620298528114386530
+    second: map nghia trangpng_21
+  - first:
+      213: 8283665003238358182
+    second: map nghia trangpng_22
+  - first:
+      213: -4582506797762575515
+    second: map nghia trangpng_23
+  - first:
+      213: 8162156065617775072
+    second: map nghia trangpng_24
+  - first:
+      213: 8319488990128958262
+    second: map nghia trangpng_25
+  - first:
+      213: 7298035928342254983
+    second: map nghia trangpng_26
+  - first:
+      213: 4196112715511095608
+    second: map nghia trangpng_27
+  - first:
+      213: 1817857683618657566
+    second: map nghia trangpng_28
+  - first:
+      213: -911267628252237496
+    second: map nghia trangpng_29
+  - first:
+      213: 276710233100108565
+    second: map nghia trangpng_30
+  - first:
+      213: 6113421119104422956
+    second: map nghia trangpng_31
+  - first:
+      213: 1690571748400270518
+    second: map nghia trangpng_32
+  - first:
+      213: 5721016868177761754
+    second: map nghia trangpng_33
+  - first:
+      213: 5793430448228743266
+    second: map nghia trangpng_34
+  - first:
+      213: -4120784202900098742
+    second: map nghia trangpng_35
+  - first:
+      213: -3943297017573604429
+    second: map nghia trangpng_36
+  - first:
+      213: 4453884480255053373
+    second: map nghia trangpng_37
+  - first:
+      213: -8364048880986116682
+    second: map nghia trangpng_38
+  - first:
+      213: 6503524304117453932
+    second: map nghia trangpng_39
+  - first:
+      213: -6801576968691773944
+    second: map nghia trangpng_40
+  - first:
+      213: 6032732061845927819
+    second: map nghia trangpng_41
+  - first:
+      213: -2513510827408649142
+    second: map nghia trangpng_42
+  - first:
+      213: 2949567556716923503
+    second: map nghia trangpng_43
+  - first:
+      213: -7517102698700777641
+    second: map nghia trangpng_44
+  - first:
+      213: 4726569513363081045
+    second: map nghia trangpng_45
+  - first:
+      213: -4752034109634444125
+    second: map nghia trangpng_46
+  - first:
+      213: -5724366048795970603
+    second: map nghia trangpng_47
+  - first:
+      213: -5781977667199334353
+    second: map nghia trangpng_48
+  - first:
+      213: -1441301580413712952
+    second: map nghia trangpng_49
+  - first:
+      213: -4894280002804398672
+    second: map nghia trangpng_50
+  - first:
+      213: 8909733999801179273
+    second: map nghia trangpng_51
+  - first:
+      213: 2403149466698162126
+    second: map nghia trangpng_52
+  - first:
+      213: 6025440891948469315
+    second: map nghia trangpng_53
+  - first:
+      213: 6502555647684391318
+    second: map nghia trangpng_54
+  - first:
+      213: 4577126851506376914
+    second: map nghia trangpng_55
+  - first:
+      213: -1261839859185338187
+    second: map nghia trangpng_56
+  - first:
+      213: 7555776694185939668
+    second: map nghia trangpng_57
+  - first:
+      213: 6486192786689964756
+    second: map nghia trangpng_58
+  - first:
+      213: 7281767511443161142
+    second: map nghia trangpng_59
+  - first:
+      213: -2453658014065908003
+    second: map nghia trangpng_60
+  - first:
+      213: -280134964629584912
+    second: map nghia trangpng_61
+  - first:
+      213: 1612287298919001698
+    second: map nghia trangpng_62
+  - first:
+      213: 2821319442368098579
+    second: map nghia trangpng_63
+  - first:
+      213: -8400657375266261899
+    second: map nghia trangpng_64
+  - first:
+      213: -4179439717566391524
+    second: map nghia trangpng_65
+  - first:
+      213: 6654688297678092190
+    second: map nghia trangpng_66
+  - first:
+      213: 5067730772371413951
+    second: map nghia trangpng_67
+  - first:
+      213: -992520140708723034
+    second: map nghia trangpng_68
+  - first:
+      213: 7383932760866516231
+    second: map nghia trangpng_69
+  - first:
+      213: 8020231263354167515
+    second: map nghia trangpng_70
+  - first:
+      213: 4101918925622233255
+    second: map nghia trangpng_71
+  - first:
+      213: -7582885263203343097
+    second: map nghia trangpng_72
+  - first:
+      213: 1782095213809116332
+    second: map nghia trangpng_73
+  - first:
+      213: 8830864128439162781
+    second: map nghia trangpng_74
+  - first:
+      213: -5863952091123632582
+    second: map nghia trangpng_75
+  - first:
+      213: 4319607534008912181
+    second: map nghia trangpng_76
+  - first:
+      213: 9123044860216878908
+    second: map nghia trangpng_77
+  - first:
+      213: 1723419790441389141
+    second: map nghia trangpng_78
+  - first:
+      213: 47071476081633689
+    second: map nghia trangpng_79
+  - first:
+      213: 8181881286481359899
+    second: map nghia trangpng_80
+  - first:
+      213: -2397318338256355352
+    second: map nghia trangpng_81
+  - first:
+      213: -3768909677558181357
+    second: map nghia trangpng_82
+  - first:
+      213: -5668083840743026858
+    second: map nghia trangpng_83
+  - first:
+      213: -517838698612577702
+    second: map nghia trangpng_84
+  - first:
+      213: 7991873705730580783
+    second: map nghia trangpng_85
+  - first:
+      213: 853333374717070576
+    second: map nghia trangpng_86
+  - first:
+      213: -4007204139913036467
+    second: map nghia trangpng_87
+  - first:
+      213: -3215379616965112840
+    second: map nghia trangpng_88
+  - first:
+      213: 3177029299570747953
+    second: map nghia trangpng_89
+  - first:
+      213: -3969223973889540482
+    second: map nghia trangpng_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: map nghia trangpng_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 152
+        width: 219
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46a7610a208fa360800000000000000
+      internalID: 7183100848579782223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_1
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 517
+        width: 75
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32256c1fceb12b970800000000000000
+      internalID: 8769102128926315043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 500
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd9fbbd024e515030800000000000000
+      internalID: 3481667624725379547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_3
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 514
+        width: 95
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8ace1d6f82f9a30800000000000000
+      internalID: 4224140016045828270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_4
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 443
+        width: 287
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faee3adb24d47c6c0800000000000000
+      internalID: -4123241984789582161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_5
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 421
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f881e779d325b60800000000000000
+      internalID: 7733311231013457730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 418
+        width: 97
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ec9404e938e070800000000000000
+      internalID: 8135816378337518341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 459
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995116bee773247b0800000000000000
+      internalID: -5241565998051420775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 278
+        width: 218
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd89c5c7f3cb92300800000000000000
+      internalID: 227920237014325468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_9
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 399
+        width: 115
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef72d0a88ad68bcf0800000000000000
+      internalID: -236318409798899714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_10
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 396
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e343b9a092d61a0800000000000000
+      internalID: -6814745535611388356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_11
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 369
+        width: 199
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d0c88b1dc0717a0800000000000000
+      internalID: -6406637850027356775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 322
+        width: 149
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be178e1874791160800000000000000
+      internalID: 6996751555353845431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 265
+        width: 230
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fef84e39c7950f0800000000000000
+      internalID: -1127733257042923681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_14
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 266
+        width: 143
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc9a33e6697ee200800000000000000
+      internalID: 211239715338886364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_15
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 281
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1116bac034a38350800000000000000
+      internalID: 6017834056563429661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_16
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 223
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9b3adf4da8f6b40800000000000000
+      internalID: 5435715922652543396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 192
+        width: 175
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3325e944fb317c0800000000000000
+      internalID: -4101724534169521199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 228
+        width: 137
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909cf0584511260b0800000000000000
+      internalID: -5737003920609261303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_19
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 222
+        width: 121
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df65d475688cfca70800000000000000
+      internalID: 8849512272122173181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 149
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ff4ee37cfecb260800000000000000
+      internalID: 7114825150371266324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_21
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 181
+        width: 103
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a0b2232db0c960800000000000000
+      internalID: 7620298528114386530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_22
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 130
+        width: 143
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac7b548e6d75f270800000000000000
+      internalID: 8283665003238358182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_23
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 184
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5638c8ab85aa760c0800000000000000
+      internalID: -4582506797762575515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_24
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 182
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9827c52bdc54170800000000000000
+      internalID: 8162156065617775072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_25
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 184
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63be8617823c47370800000000000000
+      internalID: 8319488990128958262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_26
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 130
+        width: 128
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785d0ea9205d74560800000000000000
+      internalID: 7298035928342254983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_27
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 132
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831e98568469b3a30800000000000000
+      internalID: 4196112715511095608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_28
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 134
+        width: 55
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15fd4c8ee35a3910800000000000000
+      internalID: 1817857683618657566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84176b29be68a53f0800000000000000
+      internalID: -911267628252237496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_30
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 76
+        width: 127
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513c5adad7217d300800000000000000
+      internalID: 276710233100108565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_31
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 89
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2417961e1c37d450800000000000000
+      internalID: 6113421119104422956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 81
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc85b25c0e167710800000000000000
+      internalID: 1690571748400270518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 105
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d0c5c782256f40800000000000000
+      internalID: 5721016868177761754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 111
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2683b993c46666050800000000000000
+      internalID: 5793430448228743266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_35
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 83
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41391ea99800d6c0800000000000000
+      internalID: -4120784202900098742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_36
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 110
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b30ba741489649c0800000000000000
+      internalID: -3943297017573604429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_37
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 60
+        width: 145
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e4a3c46506fcd30800000000000000
+      internalID: 4453884480255053373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_38
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 94
+        width: 38
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bda1dc7bddeceb80800000000000000
+      internalID: -8364048880986116682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_39
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 107
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c645a0fb5e8214a50800000000000000
+      internalID: 6503524304117453932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_40
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 92
+        width: 68
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e06a488c1fb91a0800000000000000
+      internalID: -6801576968691773944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_41
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 94
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87bf63f8d198b350800000000000000
+      internalID: 6032732061845927819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_42
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 98
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44953938373e1dd0800000000000000
+      internalID: -2513510827408649142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_43
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 97
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a012bb018fee820800000000000000
+      internalID: 2949567556716923503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 98
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7575fcf3ce2eda790800000000000000
+      internalID: -7517102698700777641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_45
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 105
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55782321ee5289140800000000000000
+      internalID: 4726569513363081045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_46
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 94
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a403b697226d0eb0800000000000000
+      internalID: -4752034109634444125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_47
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 97
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3b5395867fe80b0800000000000000
+      internalID: -5724366048795970603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_48
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 98
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28875722f942cfa0800000000000000
+      internalID: -5781977667199334353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_49
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 97
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c54b3559d77ffbe0800000000000000
+      internalID: -1441301580413712952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 100
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5cb89b446041cb0800000000000000
+      internalID: -4894280002804398672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_51
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 100
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c9e55fddbb5ab70800000000000000
+      internalID: 8909733999801179273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 92
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf96b025b3b95120800000000000000
+      internalID: 2403149466698162126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_53
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 24
+        width: 162
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c83bb219aae9350800000000000000
+      internalID: 6025440891948469315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_54
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 31
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6913078d8e7bd3a50800000000000000
+      internalID: 6502555647684391318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_55
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d090fbee98358f30800000000000000
+      internalID: 4577126851506376914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_56
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 56
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b834d5655b0d7ee0800000000000000
+      internalID: -1261839859185338187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_57
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 65
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2d0230fd28bd860800000000000000
+      internalID: 7555776694185939668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_58
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 54
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da3b5369f5930a50800000000000000
+      internalID: 6486192786689964756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 54
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630cc80a8f80e0560800000000000000
+      internalID: 7281767511443161142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_60
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 57
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6af47490bd2fdd0800000000000000
+      internalID: -2453658014065908003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_61
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 66
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f34610ebb2cc1cf0800000000000000
+      internalID: -280134964629584912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_62
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 54
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ee0ff81ceff5610800000000000000
+      internalID: 1612287298919001698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_63
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 66
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311f048b517572720800000000000000
+      internalID: 2821319442368098579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_64
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 60
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5743d7330aeda6b80800000000000000
+      internalID: -8400657375266261899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_65
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 54
+        width: 147
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bdb4278b5aff5c0800000000000000
+      internalID: -4179439717566391524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_66
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 60
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e973d0aafb33a5c50800000000000000
+      internalID: 6654688297678092190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_67
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb93889942345640800000000000000
+      internalID: 5067730772371413951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_68
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 53
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6c2acc03cd932f0800000000000000
+      internalID: -992520140708723034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_69
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d61d869bff87660800000000000000
+      internalID: 7383932760866516231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_70
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 24
+        width: 71
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd025bc47d59d4f60800000000000000
+      internalID: 8020231263354167515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_71
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 43
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a84a2ba781fce830800000000000000
+      internalID: 4101918925622233255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_72
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 27
+        width: 43
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705683a670e24c690800000000000000
+      internalID: -7582885263203343097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_73
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 28
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4240fa7264bb810800000000000000
+      internalID: 1782095213809116332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_74
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 37
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d971b5b03288d8a70800000000000000
+      internalID: 8830864128439162781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_75
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 35
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36baa444ae0f9ea0800000000000000
+      internalID: -5863952091123632582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_76
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 27
+        width: 61
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539c3b97a2452fb30800000000000000
+      internalID: 4319607534008912181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_77
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 28
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c372e23e6f09b9e70800000000000000
+      internalID: 9123044860216878908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_78
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 27
+        width: 59
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c13281b21dae710800000000000000
+      internalID: 1723419790441389141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_79
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 27
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99926e2124b37a000800000000000000
+      internalID: 47071476081633689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_80
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 28
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14332b3ea1eb8170800000000000000
+      internalID: 8181881286481359899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_81
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 28
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef33b24ca30bbed0800000000000000
+      internalID: -2397318338256355352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_82
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 27
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312dc96ed9422bbc0800000000000000
+      internalID: -3768909677558181357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_83
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 27
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f416317cbe651b0800000000000000
+      internalID: -5668083840743026858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_84
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 28
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a2f3e727440d8f0800000000000000
+      internalID: -517838698612577702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_85
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 28
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f212bd7eac6d8ee60800000000000000
+      internalID: 7991873705730580783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_86
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 27
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc0ff2ee26a7db00800000000000000
+      internalID: 853333374717070576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_87
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 25
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d320ad01d8368c0800000000000000
+      internalID: -4007204139913036467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_88
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 28
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb43c0364da063d0800000000000000
+      internalID: -3215379616965112840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_89
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 28
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2ce9b053171c20800000000000000
+      internalID: 3177029299570747953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: map nghia trangpng_90
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e795a53db7ae8c0800000000000000
+      internalID: -3969223973889540482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8026dc7d838537240b4571bdf630675d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      map nghia trangpng_0: 7183100848579782223
+      map nghia trangpng_1: 8769102128926315043
+      map nghia trangpng_10: -6814745535611388356
+      map nghia trangpng_11: -6406637850027356775
+      map nghia trangpng_12: 6996751555353845431
+      map nghia trangpng_13: -1127733257042923681
+      map nghia trangpng_14: 211239715338886364
+      map nghia trangpng_15: 6017834056563429661
+      map nghia trangpng_16: 5435715922652543396
+      map nghia trangpng_17: -4101724534169521199
+      map nghia trangpng_18: -5737003920609261303
+      map nghia trangpng_19: 8849512272122173181
+      map nghia trangpng_2: 3481667624725379547
+      map nghia trangpng_20: 7114825150371266324
+      map nghia trangpng_21: 7620298528114386530
+      map nghia trangpng_22: 8283665003238358182
+      map nghia trangpng_23: -4582506797762575515
+      map nghia trangpng_24: 8162156065617775072
+      map nghia trangpng_25: 8319488990128958262
+      map nghia trangpng_26: 7298035928342254983
+      map nghia trangpng_27: 4196112715511095608
+      map nghia trangpng_28: 1817857683618657566
+      map nghia trangpng_29: -911267628252237496
+      map nghia trangpng_3: 4224140016045828270
+      map nghia trangpng_30: 276710233100108565
+      map nghia trangpng_31: 6113421119104422956
+      map nghia trangpng_32: 1690571748400270518
+      map nghia trangpng_33: 5721016868177761754
+      map nghia trangpng_34: 5793430448228743266
+      map nghia trangpng_35: -4120784202900098742
+      map nghia trangpng_36: -3943297017573604429
+      map nghia trangpng_37: 4453884480255053373
+      map nghia trangpng_38: -8364048880986116682
+      map nghia trangpng_39: 6503524304117453932
+      map nghia trangpng_4: -4123241984789582161
+      map nghia trangpng_40: -6801576968691773944
+      map nghia trangpng_41: 6032732061845927819
+      map nghia trangpng_42: -2513510827408649142
+      map nghia trangpng_43: 2949567556716923503
+      map nghia trangpng_44: -7517102698700777641
+      map nghia trangpng_45: 4726569513363081045
+      map nghia trangpng_46: -4752034109634444125
+      map nghia trangpng_47: -5724366048795970603
+      map nghia trangpng_48: -5781977667199334353
+      map nghia trangpng_49: -1441301580413712952
+      map nghia trangpng_5: 7733311231013457730
+      map nghia trangpng_50: -4894280002804398672
+      map nghia trangpng_51: 8909733999801179273
+      map nghia trangpng_52: 2403149466698162126
+      map nghia trangpng_53: 6025440891948469315
+      map nghia trangpng_54: 6502555647684391318
+      map nghia trangpng_55: 4577126851506376914
+      map nghia trangpng_56: -1261839859185338187
+      map nghia trangpng_57: 7555776694185939668
+      map nghia trangpng_58: 6486192786689964756
+      map nghia trangpng_59: 7281767511443161142
+      map nghia trangpng_6: 8135816378337518341
+      map nghia trangpng_60: -2453658014065908003
+      map nghia trangpng_61: -280134964629584912
+      map nghia trangpng_62: 1612287298919001698
+      map nghia trangpng_63: 2821319442368098579
+      map nghia trangpng_64: -8400657375266261899
+      map nghia trangpng_65: -4179439717566391524
+      map nghia trangpng_66: 6654688297678092190
+      map nghia trangpng_67: 5067730772371413951
+      map nghia trangpng_68: -992520140708723034
+      map nghia trangpng_69: 7383932760866516231
+      map nghia trangpng_7: -5241565998051420775
+      map nghia trangpng_70: 8020231263354167515
+      map nghia trangpng_71: 4101918925622233255
+      map nghia trangpng_72: -7582885263203343097
+      map nghia trangpng_73: 1782095213809116332
+      map nghia trangpng_74: 8830864128439162781
+      map nghia trangpng_75: -5863952091123632582
+      map nghia trangpng_76: 4319607534008912181
+      map nghia trangpng_77: 9123044860216878908
+      map nghia trangpng_78: 1723419790441389141
+      map nghia trangpng_79: 47071476081633689
+      map nghia trangpng_8: 227920237014325468
+      map nghia trangpng_80: 8181881286481359899
+      map nghia trangpng_81: -2397318338256355352
+      map nghia trangpng_82: -3768909677558181357
+      map nghia trangpng_83: -5668083840743026858
+      map nghia trangpng_84: -517838698612577702
+      map nghia trangpng_85: 7991873705730580783
+      map nghia trangpng_86: 853333374717070576
+      map nghia trangpng_87: -4007204139913036467
+      map nghia trangpng_88: -3215379616965112840
+      map nghia trangpng_89: 3177029299570747953
+      map nghia trangpng_9: -236318409798899714
+      map nghia trangpng_90: -3969223973889540482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -44,23 +44,29 @@ TagManager:
   - name: Ground
     uniqueID: 2012693689
     locked: 0
+  - name: Grass
+    uniqueID: 1962853287
+    locked: 0
   - name: Road
     uniqueID: 3978019159
-    locked: 0
-  - name: Player
-    uniqueID: 3627966441
     locked: 0
   - name: Water
     uniqueID: 1094132237
     locked: 0
+  - name: Map_exit
+    uniqueID: 2229800959
+    locked: 0
+  - name: Fences
+    uniqueID: 1344367079
+    locked: 0
   - name: Tree
     uniqueID: 1397548327
     locked: 0
-  - name: C
+  - name: Cau
     uniqueID: 4072810301
     locked: 0
-  - name: Map_exit
-    uniqueID: 2229800959
+  - name: Player
+    uniqueID: 3627966441
     locked: 0
   m_RenderingLayers:
   - Default
