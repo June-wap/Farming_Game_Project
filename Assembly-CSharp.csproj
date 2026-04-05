@@ -52,11 +52,14 @@
     <Compile Include="Assets\Scripts\ItemInfo.cs" />
     <Compile Include="Assets\Scripts\Player_Movment_Mouse.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\CellItemData.cs" />
+    <Compile Include="Assets\Scripts\Entites\GameSaveData.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\RecyclableScrollerDemo.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\HorizontalRecyclingSystem.cs" />
+    <Compile Include="Assets\Scripts\Managers\DataPersistenceManager.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\VerticalRecyclingSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerFarmControler.cs" />
     <Compile Include="Assets\Scripts\playercontroler.cs" />
+    <Compile Include="Assets\Scripts\Managers\ToolManager.cs" />
     <Compile Include="Assets\Firebase\FirebaseApp\Internal\HttpHelpers.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\RecyclingSystem.cs" />
     <Compile Include="Assets\Scripts\FiseBaseDatabaseManager.cs" />
@@ -71,7 +74,10 @@
     <Compile Include="Assets\Firebase\FirebaseApp\Internal\FirebaseInterops.cs" />
     <Compile Include="Assets\Scripts\mapexit.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\RecyclableScrollerIventory.cs" />
+    <Compile Include="Assets\Scripts\Managers\CropManager.cs" />
+    <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
+    <Compile Include="Assets\Scripts\Entites\CropData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppDatabase.dll" />

@@ -114,4 +114,18 @@ public class RecyclableScrollerIventory : MonoBehaviour , IRecyclableScrollRectD
         _contactList.Add(item);
         _recyclableScrollRect.ReloadData();
     }
+
+    public List<IvenItems> GetInventoryList()
+    {
+        return _contactList;
+    }
+
+    public void RestoreFromSave(List<IvenItems> savedData)
+    {
+        if (savedData != null)
+        {
+            _contactList = savedData;
+            _recyclableScrollRect.ReloadData();
+        }
+    }
 }

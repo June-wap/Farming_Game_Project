@@ -21,6 +21,14 @@ public class SceneController : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        string currentScene = SceneManager.GetActiveScene().name;
+        
+        // Push Firebase data
+        if (DataPersistenceManager.Instance != null)
+        {
+            DataPersistenceManager.Instance.SaveGame(currentScene);
+        }
+        
         SceneManager.LoadScene(sceneName);
         Debug.Log("Đang chuyển đến Map: " + sceneName);
     }
