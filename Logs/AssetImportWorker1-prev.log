@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE" at "2026-04-05T05:33:05.0678853Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16104 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE" at "2026-04-04T16:37:28.82536Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-04T16:37:28Z
+Date: 2026-04-05T05:33:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/Project Game TTDT/Final
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60710
+57883
 -licensingIpc
 LicenseClient-GIGABUYTE
 -force-d3d12
@@ -68,12 +68,12 @@ D:/Project Game TTDT/Final
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8448]  Target information:
+Player connection [9124]  Target information:
 
-Player connection [8448]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 1903472362 [EditorId] 1903472362 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-83LP9EF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9124]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 84798318 [EditorId] 84798318 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-83LP9EF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8448] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9124] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9124] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +85,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 18.06 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 21.68 ms, found 7 plugins.
 Initialize engine version: 6000.4.0f1 (8cf496087c8f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Project Game TTDT/Final/Assets
@@ -103,12 +103,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001590 seconds.
+Registered in 0.001325 seconds.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -116,23 +116,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1247ms
-	BeginReloadAssembly (137ms)
-	RebuildCommonClasses (61ms)
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 950ms
+	BeginReloadAssembly (98ms)
+	RebuildCommonClasses (46ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (326ms)
-		LoadAssemblies (135ms)
-		AnalyzeDomain (312ms)
-			TypeCache.Refresh (310ms)
-				TypeCache.ScanAssembly (292ms)
-	FinalizeReload (607ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (96ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (211ms)
+				TypeCache.ScanAssembly (196ms)
+	FinalizeReload (479ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (68ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (165ms)
-			ProcessInitializeOnLoadMethodAttributes (135ms)
+			InitializePlatformSupportModulesInManaged (58ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -143,17 +143,17 @@ Begin MonoManager ReloadAssembly
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-GIGABUYTE"
 [Licensing::IpcConnector] LicenseClient-GIGABUYTE channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0" at "2026-04-04T16:37:31.735487Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0" at "2026-04-05T05:33:07.7769998Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              438ce0b62a1c47ee9ff9a02fccf423ee
-  Correlation Id:          443698b93d6844ba43392d2927f7f3d3
-  External correlation Id: 6678895888626048627
+  Session Id:              6dd42b8c9dd4485c8bdd673c8afb9460
+  Correlation Id:          374c5d05d11a6acdf1b1b777dfa99671
+  External correlation Id: 1617200758702663897
   Machine Id:              ttg343R107wRBlsyzXGi+bS0jqM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-GIGABUYTE-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 3.63s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0-notifications" at "2026-04-04T16:37:35.3631502Z"
-[Licensing::Module] Licensing Background thread has ended after 6.54s
-[Licensing::Module] Licensing is initialized (took 3.86s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-GIGABUYTE-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 2.87s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0-notifications" at "2026-04-05T05:33:10.6451853Z"
+[Licensing::Module] Licensing Background thread has ended after 5.58s
+[Licensing::Module] Licensing is initialized (took 3.13s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968408505739-UnityPersXXXX
@@ -197,7 +197,7 @@ Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor
 Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 4.52 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 2.92 ms, found 7 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -207,613 +207,31 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.728 seconds
-Domain Reload Profiling: 7164ms
-	BeginReloadAssembly (4183ms)
-		DisableScriptedObjects (14ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (121ms)
-	LoadAllAssembliesAndSetupDomain (1039ms)
-		LoadAssemblies (684ms)
-		AnalyzeDomain (518ms)
-			TypeCache.Refresh (356ms)
-				TypeCache.ScanAssembly (325ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1728ms)
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 5139ms
+	BeginReloadAssembly (3304ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (668ms)
+		LoadAssemblies (437ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1035ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			BeforeProcessingInitializeOnLoad (268ms)
-			ProcessInitializeOnLoadAttributes (899ms)
-			ProcessInitializeOnLoadMethodAttributes (241ms)
-			AfterProcessingInitializeOnLoad (8ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 4.17 ms, found 7 plugins.
 Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7066 unused Assets / (6.8 MB). Loaded Objects now: 7888.
-Memory consumption went from 164.3 MB to 157.5 MB.
-Total: 10.613800 ms (FindLiveObjects: 1.256400 ms CreateObjectMapping: 0.565500 ms MarkObjects: 5.482500 ms  DeleteObjects: 3.306400 ms)
+Unloading 7066 unused Assets / (6.1 MB). Loaded Objects now: 7888.
+Memory consumption went from 166.0 MB to 160.0 MB.
+Total: 8.154100 ms (FindLiveObjects: 0.738000 ms CreateObjectMapping: 0.555000 ms MarkObjects: 4.632800 ms  DeleteObjects: 2.225300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 6761.137333 seconds.
-  path: Assets/Map/Test
-  importAddress: Guid(03339a912a73d704e9a9505c37d61750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test using Guid(03339a912a73d704e9a9505c37d61750) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bf800668433961b8a9425faa222fc75') in 0.0769177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a73554bd022f4982891cc85b0925b45 DependenciesID=b4427deb553a4106fc57e389bf58ced4 StaticDependenciesID=22bfdf2156b8a48a6f9dc6987cab559d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.375565 seconds.
-  path: Assets/Map/Test/map nghia trangpng_0.asset
-  importAddress: Guid(fb419dcf72b3c0e4da3c4ee7e7490a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_0.asset using Guid(fb419dcf72b3c0e4da3c4ee7e7490a73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '395e95e004887cd8cf1eb67121d92774') in 0.082365 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc0f51569c424283890858697efadabf DependenciesID=36fed9ba49e06c97b5b1b2ef092ee1b7 StaticDependenciesID=ee020d9cd4745acdc118ffce7c733fb2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Map/Test/map nghia trangpng_7.asset
-  importAddress: Guid(66f495f4d3927624ea407a4537332a27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_7.asset using Guid(66f495f4d3927624ea407a4537332a27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a3e3150fe4b9bb5d86a2b0394669b5d') in 0.0190355 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d83e93441de07c9c1162a22ec1078e9e DependenciesID=f9e7d7f2bbce20618f9b9a8436fdcf1b StaticDependenciesID=909620a94c337a5dacfc76da72671ebc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Map/Test/map nghia trangpng_21.asset
-  importAddress: Guid(341159a19a01ebf4495865e448a6309f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_21.asset using Guid(341159a19a01ebf4495865e448a6309f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7e5c1078196efc1c82306c8080771e72') in 0.0164065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7efe609b91e8c3e03c4a58d7ab5f7d9a DependenciesID=82293ae7b19500c675ce5fbfb6f3f322 StaticDependenciesID=11faa9160e208eb124fe9a8848972aed 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Map/Test/map nghia trangpng_71.asset
-  importAddress: Guid(370445839098fcc4f811b65264a041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_71.asset using Guid(370445839098fcc4f811b65264a041b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1da6a109170103100aaf30cf5de20b81') in 0.01649 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84f68ff83226315964339b85caf28837 DependenciesID=5f8651ec22fe8c8e17366f524aa5c7b1 StaticDependenciesID=79045343761a2115725ba7c934df6d2f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Map/Test/map nghia trangpng_27.asset
-  importAddress: Guid(2ed8a0dd5621a0043acca17b3a1a89ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_27.asset using Guid(2ed8a0dd5621a0043acca17b3a1a89ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a935029309935a9526e8e2546f0b53d') in 0.0212352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78df3ea17f8e1c692a9b8e1a6dd7332a DependenciesID=435b9db9261cf9265a6c19bf4f0e0256 StaticDependenciesID=64346e112d3f99751e413ddc62f1700a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Map/Test/map nghia trangpng_3.asset
-  importAddress: Guid(67463e8343b864749a2487bb121645ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_3.asset using Guid(67463e8343b864749a2487bb121645ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7aa895414afba21188bdf7a0ca2a3be7') in 0.0193952 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b161f0936ae671ce8fd176c0626bd732 DependenciesID=d268b0fd95053ad6e8289215dac7e33a StaticDependenciesID=0bd30e3293479e02b608ff191cbe8fc8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_88.asset
-  importAddress: Guid(f48564ff91ebcd14b8c89d92ffcf9780) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_88.asset using Guid(f48564ff91ebcd14b8c89d92ffcf9780) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6f22981fc816cd36f9f882b03324b0d') in 0.016094 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22ad2272aba5434d42657751aeb63fd5 DependenciesID=68bd3868c756318f315056b003bcf480 StaticDependenciesID=d356ae402d927f216076c2eda81202f8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map/Test/map nghia trangpng_39.asset
-  importAddress: Guid(af7a44a28c4ce664692df628de7e9486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_39.asset using Guid(af7a44a28c4ce664692df628de7e9486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cce6a08ce772f6a3f891f4c41013959a') in 0.0164813 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e8abafb7b23ba264cbcaea43e114295 DependenciesID=eebab1aaaa51276165b5443ad65757c2 StaticDependenciesID=eff2e31dc22d1050d489b5df802001c9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Map/Test/map nghia trangpng_26.asset
-  importAddress: Guid(24adfba1761409942b964faf2878d8b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_26.asset using Guid(24adfba1761409942b964faf2878d8b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80fb3575f5f32cc067d21ba2beab3a46') in 0.0178143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e520c8f9d5f3523b7397857abdfdba0 DependenciesID=ecd911c4889e4e311a330df2a4e390c3 StaticDependenciesID=fc04c90c5fd063be43976aacf6eaf378 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Map/Test/map nghia trangpng_28.asset
-  importAddress: Guid(b1a004057928a464ab455de4f8125729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_28.asset using Guid(b1a004057928a464ab455de4f8125729) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '288ec8bc76979132a48f9662f16a3497') in 0.0179619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=227ef47238b2226cf96c8dd710f52766 DependenciesID=2a0634f241808e23f2e6c2f342b7c4a0 StaticDependenciesID=6ee418c2b1bed08b687fa53d72887e8d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Map/Test/map nghia trangpng_57.asset
-  importAddress: Guid(edb613b7160fd9549a9fb6c6d0de9444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_57.asset using Guid(edb613b7160fd9549a9fb6c6d0de9444) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91ea66863ddbf556028e0981faf0a853') in 0.0228507 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82cd6c1a97d9f6be8b0d7177b2732ffb DependenciesID=d85431abbab3f1ba52ff2a264224fed0 StaticDependenciesID=6cc104d1c0de80ba33fda6a71de18cf3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map/Test/map nghia trangpng_70.asset
-  importAddress: Guid(ff44961a6c9ca7540b6cd2ec811ac96e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_70.asset using Guid(ff44961a6c9ca7540b6cd2ec811ac96e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '118898654fd71c7eac4806a07f2e17f7') in 0.0182506 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=168a5b82d14e51ae95aca1f1a619e026 DependenciesID=6f962eb18f956fdba16cb0476d3503b1 StaticDependenciesID=e4435be45ea0bc2f0dc775798ff004c3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Map/Test/map nghia trangpng_51.asset
-  importAddress: Guid(fabb232c2f7877445a6a0d6270af1c6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_51.asset using Guid(fabb232c2f7877445a6a0d6270af1c6c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c7415c3421619663024d5914b3a48bc') in 0.0173332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc9ab4cb0d44e6b87cf80bbc9acaad74 DependenciesID=3babef0d992effcdb88623ec5eaf693d StaticDependenciesID=719323846d8e09cbfa796a7ed62ecb6b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/map nghia trangpng_42.asset
-  importAddress: Guid(81906ae57b7ccd84fb054bc0d86f071d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_42.asset using Guid(81906ae57b7ccd84fb054bc0d86f071d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '394465b8cafb7d15439bf1a7f4e92172') in 0.0161266 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=001941e93c7762b59c8bf4de4c57d530 DependenciesID=0c0fc57ff83b79328290ede14bf92052 StaticDependenciesID=290b6b7b4e204b12f578f05e8496f59f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Map/Test/map nghia trangpng_66.asset
-  importAddress: Guid(b33e93f8aa4d10d46a2cb77d6a0000c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_66.asset using Guid(b33e93f8aa4d10d46a2cb77d6a0000c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '92f0ba62b2b7e915892accb723e18a03') in 0.0189217 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78c98e595750da7169262eddc4010c7e DependenciesID=37c698d2487dd99c35d67959c95a4e11 StaticDependenciesID=9a56d166d3564a7f29afdd1dbf155f24 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Map/Test/map nghia trangpng_87.asset
-  importAddress: Guid(29121a289ce17594cabfcaff1ea88417) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_87.asset using Guid(29121a289ce17594cabfcaff1ea88417) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f83c4e03f6682660a157c105cbebeb64') in 0.0217777 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=807f33dc1402a2083ac5c5de2166f273 DependenciesID=b4b5aa242383bf5a1403e6babcc4aafc StaticDependenciesID=6318b56279bb33082cda602835ab0922 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Map/Test/map nghia trangpng_81.asset
-  importAddress: Guid(dd5146cab6b035e4f91b5ebf632aee74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_81.asset using Guid(dd5146cab6b035e4f91b5ebf632aee74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '05c47e84b4db72535ae4ab06f5aec26c') in 0.0243233 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2998870e61ac6b40aacaae7525c87d2 DependenciesID=23b011ed9a9a722b73e10f7486122ae9 StaticDependenciesID=2665cd4b2374610861a947d9ad4d051c 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Test/map nghia trangpng_6.asset
-  importAddress: Guid(1b3b6d07184375f42962eee26ad55d53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_6.asset using Guid(1b3b6d07184375f42962eee26ad55d53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12faf6d9b22c90b9ba8425a8783e526f') in 0.0170044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15153fd067b56b4117dc2e52490b22f7 DependenciesID=8b3c929f7ae82902e827e7aca8e86b1a StaticDependenciesID=93f375429fea91820bbfc0bfc05a29c2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Map/Test/map nghia trangpng_40.asset
-  importAddress: Guid(7b31de29727aa384b941e04e26283fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_40.asset using Guid(7b31de29727aa384b941e04e26283fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8340faf8fa94951d751c82dc4757bf62') in 0.0155548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78237c27214fbfcebb8e651a33347320 DependenciesID=41cb85e15e1c203b4f095e1625b659f5 StaticDependenciesID=d9cd0a45176c3e2e9d138c7a13e8d608 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_24.asset
-  importAddress: Guid(1040fb67ae052be4097c4aa855497665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_24.asset using Guid(1040fb67ae052be4097c4aa855497665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '79866507c86340b0d9b0322ecad5b694') in 0.0176559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a1bb6a3f7724a3de7aa2175539ab11d DependenciesID=2f43c67bfcfe1612936995bd485ca1d0 StaticDependenciesID=c0fd20c337340d466c4ea2d7b3f6a3ad 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_85.asset
-  importAddress: Guid(4c42ee650655197409aab0d1a8537494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_85.asset using Guid(4c42ee650655197409aab0d1a8537494) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e74948365dd32ea82d3743b4a25e99dd') in 0.0189671 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32c78728c70cbbf83d7936f709b9f5a7 DependenciesID=c5630ffef8f05551749ac76d1d69be91 StaticDependenciesID=c57d52923f070f3356495e55873484b2 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/map nghia trangpng_53.asset
-  importAddress: Guid(2b99c1ed65e1b4c45bba1d182247228e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_53.asset using Guid(2b99c1ed65e1b4c45bba1d182247228e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd71f7a544a01f99e5e2c5dd45aa35712') in 0.0157835 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d65ca94e5874c7b189f9741e5a65591e DependenciesID=25c7ebdf609dec1274c469769bbb253f StaticDependenciesID=e5cbf55fefb5fc38589bf5ab03225fcc 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_74.asset
-  importAddress: Guid(0faa1d3e6076f224ca600f256cdd93d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_74.asset using Guid(0faa1d3e6076f224ca600f256cdd93d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca7984e7ea047edf3672ee112b506491') in 0.0159067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=abc43f7f62c9d6783507afb2eb382a82 DependenciesID=e3912afce935ec062445b3f8ae7706a9 StaticDependenciesID=0886c9585cf917cb174be185c47f78f9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map/Test/map nghia trangpng_59.asset
-  importAddress: Guid(db997fff0604e2d4f86014be57f1c3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_59.asset using Guid(db997fff0604e2d4f86014be57f1c3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ec8e1a5f9b508605721c65c0d156942') in 0.0163352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1493420a7d24b4132e718ac81c5877b DependenciesID=97a22764328dea4dd9e7896b6d088295 StaticDependenciesID=3354932a0ef799f52fe836fbae1d18e3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Map/Test/map nghia trangpng_49.asset
-  importAddress: Guid(8f7f345e225733e4db506aacc7f7b86c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_49.asset using Guid(8f7f345e225733e4db506aacc7f7b86c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2f9fd4e9d41aa5bbb4fa8d0b3853d22c') in 0.0176751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0daf8e6f584c3540be18c157b8438b3 DependenciesID=9f8a69af3e10c876bd9a5e3056a507b2 StaticDependenciesID=e845402347b91d5c93c39736d7b0b795 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Map/Test/map nghia trangpng_73.asset
-  importAddress: Guid(f0bd71095b456d64186a1cd901866086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_73.asset using Guid(f0bd71095b456d64186a1cd901866086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb2ef133a43e31069fed259c44a47add') in 0.0169554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e324f81ca99b6624f559d393029a32f DependenciesID=eae7b9861c4d8e47d7de9146700632d4 StaticDependenciesID=c55ab848a65ed13cbcf96155796ef974 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/map nghia trangpng_52.asset
-  importAddress: Guid(b2b7aa788f3d4e54bb446e54a7738666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_52.asset using Guid(b2b7aa788f3d4e54bb446e54a7738666) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7a84686f2fbcaa65b8edcc180cdb870e') in 0.0173854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c232c70c7dda1105fb7352c2c07bda72 DependenciesID=40f2e1dd45c7cfa998d4437a905d62f9 StaticDependenciesID=d528276f679d1bb174382b55b3ae643e 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_82.asset
-  importAddress: Guid(2b57cafbbf3b14944bbc31ebd51f15a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_82.asset using Guid(2b57cafbbf3b14944bbc31ebd51f15a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a8d5fe94a5be7e63aba7915b0371a04') in 0.0161465 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af4bd01dd2cd06d0bd24166ccf7775dd DependenciesID=56fd01fad50caa9f2bd7a85fd8790c2e StaticDependenciesID=29fc619dd23609a5605683121bd37bc3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Map/Test/map nghia trangpng_20.asset
-  importAddress: Guid(14c53279223ac9f40846ddc4cf448806) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_20.asset using Guid(14c53279223ac9f40846ddc4cf448806) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5bfbce9d1a6179b02005e833d6c8e939') in 0.016234 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bc7deb30731c1427a62007814a815ea DependenciesID=66e5a92a468193970c29418a4d6e29bc StaticDependenciesID=9ca6cd5fae8a00313d749bc9fe6af4f0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Map/Test/map nghia trangpng_29.asset
-  importAddress: Guid(0d1b0b14459145b4f922234a6850089b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_29.asset using Guid(0d1b0b14459145b4f922234a6850089b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ea62945aa5cdea7d83b709a798dcab5') in 0.0187162 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52dbe5b5cd0cf00db6cb82f7faa8840b DependenciesID=a6f3707f1edd7343c574bd781bd69124 StaticDependenciesID=788139af53e43abeb427484cae9ecded 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/map nghia trangpng_45.asset
-  importAddress: Guid(29c6650904801994aa9b7c2b766e1a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_45.asset using Guid(29c6650904801994aa9b7c2b766e1a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4fc09926d0703d9c9f2b8dd356988ab0') in 0.0153623 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7dce354684f390919726acb3b471451 DependenciesID=fd7ee6dd82a75f7cfba7c0f3f8dc6524 StaticDependenciesID=81925af71c6d025b89f711f52b97ec95 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_84.asset
-  importAddress: Guid(4d56e4a732909984db9ffc87f2fa6653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_84.asset using Guid(4d56e4a732909984db9ffc87f2fa6653) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5fcc1f6fad43184e813d9ed2d0a33366') in 0.01628 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4724fcb5f82501078ddb5df080aa423 DependenciesID=e0175f04d897cc16225d9d836112973b StaticDependenciesID=8914d086db225eaca884c4a5cf946553 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Test/map nghia trangpng_34.asset
-  importAddress: Guid(416565965d996be4485b952e901f23b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_34.asset using Guid(416565965d996be4485b952e901f23b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '343c9100b06c13cd5640c6a79859558e') in 0.0174185 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7851c1f13875ae1038c3842e6deaab6 DependenciesID=5ee57f89e27604aa18c5567c490cb06d StaticDependenciesID=0909d69e42e905eb13ba1d41b5b7f747 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_2.asset
-  importAddress: Guid(dbeb5c2736f26054386f552cb52f681b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_2.asset using Guid(dbeb5c2736f26054386f552cb52f681b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd11f6bb775c22afc045475b65c4fa637') in 0.0162915 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8367e99a6de34fa9e3c5a6e248342609 DependenciesID=0a496b1a69852699790cbd6b7313a367 StaticDependenciesID=38b5241d8bc9b0b2d10790bcd564ca5d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map/Test/map nghia trangpng_55.asset
-  importAddress: Guid(c0f7979f692ea714cb61cd6a50f91d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_55.asset using Guid(c0f7979f692ea714cb61cd6a50f91d8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f938922686030304230aaa4ded73e40') in 0.016482 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0101c682cf56f9ebf3af1047723a8c28 DependenciesID=7389a5df8324233547fea2d6da6dec04 StaticDependenciesID=75cc652f331b098a0dccd5b2f492dfc5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Map/Test/map nghia trangpng_48.asset
-  importAddress: Guid(069fcbf42f218a24fbf9725aa3bb9706) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_48.asset using Guid(069fcbf42f218a24fbf9725aa3bb9706) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0e2ebd9d25991f657cf65eec8a8d868c') in 0.0199642 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5301aac29c6b4c4cc748f59867ee466 DependenciesID=f5f0e23765e6372740b4fb7e16efcae8 StaticDependenciesID=31012e748e554700a2d9e10e870a61ea 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/map nghia trangpng_60.asset
-  importAddress: Guid(8263847cffb860740b82c1f24f878753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_60.asset using Guid(8263847cffb860740b82c1f24f878753) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '013fa46bdf1f452d3002154fdacca333') in 0.016889 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee1eae370441c96a038cf2845c0f986f DependenciesID=4c96a53bf1d1b2662f98ba1b49c82f64 StaticDependenciesID=a166ce7acb57a254536c43df3ac72c0d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Map/Test/map nghia trangpng_65.asset
-  importAddress: Guid(df99f3ee8ebadb14bb0c216d7c660426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_65.asset using Guid(df99f3ee8ebadb14bb0c216d7c660426) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a0c003973abaeaa59fbe6041816bfe7') in 0.0183867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d195c614d22c0bf24a2e6115b1128217 DependenciesID=6bb2460503567bbe63bc8a54f0a18de4 StaticDependenciesID=ab4265c4e54245c7e943149c5953af70 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Test/map nghia trangpng_18.asset
-  importAddress: Guid(e6cfe1f231a4a84458af3a6ce984138f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_18.asset using Guid(e6cfe1f231a4a84458af3a6ce984138f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab0bf4eb5ed071d0fae21c669e3bf799') in 0.017351 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f6d5d34b47a39a4583cbda0039472cd DependenciesID=364450124eefc3a8f4ac39d1b7147334 StaticDependenciesID=0a672a4602806a9872fd7649f08b22ea 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map/Test/map nghia trangpng_68.asset
-  importAddress: Guid(d6a279e78f2895449a108ec8ffa40ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_68.asset using Guid(d6a279e78f2895449a108ec8ffa40ee0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58c8fa00dd360f5944a741f8b5a9dd94') in 0.0182957 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a8b88ecd6045e04bad0fad3c712abe6 DependenciesID=768df6ca1ed850bc0c31a27dbee6dd4d StaticDependenciesID=09a23da0afc61e8bbd6ea427bd31d9b5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Map/Test/map nghia trangpng_69.asset
-  importAddress: Guid(564b591ba4ef23b40929ea30f4dd862f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_69.asset using Guid(564b591ba4ef23b40929ea30f4dd862f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e7828d0e259d32846f23d33e95e9993') in 0.0184759 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8c37f97cd1e7cf129f4699a32161660 DependenciesID=7f0b0dfda2786b8b31f72389b8238ba1 StaticDependenciesID=a4a084a2cc537a58d087ec5c8e403516 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Test/map nghia trangpng_90.asset
-  importAddress: Guid(6b8708f92a4cc9f429974a5b97e3be4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_90.asset using Guid(6b8708f92a4cc9f429974a5b97e3be4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b8fbfaaaebafcd6226b872c18ff0320') in 0.0181164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f80beae118b24c67246727155021df7c DependenciesID=d47ce0564efd01957be03d6ac1c681f0 StaticDependenciesID=d0b55c0e4f17e1b250c27df9c2cf079f 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/map nghia trangpng_35.asset
-  importAddress: Guid(919e77e1f5ae81b4fbd104da17941f6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_35.asset using Guid(919e77e1f5ae81b4fbd104da17941f6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd79e940b85717a36d20170b92c975bbc') in 0.0172318 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ed931bcb131440ba1525886d3f9a265 DependenciesID=0e6f971979b637d50a62ef6e86e1cd75 StaticDependenciesID=9f01b93f9d798bf222268c5c0ee75fd3 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Map/Test/map nghia trangpng_37.asset
-  importAddress: Guid(d11a73bdc83ebb1449c44f2979271436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_37.asset using Guid(d11a73bdc83ebb1449c44f2979271436) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '89b99accc8785479da43d8f1607e4197') in 0.017586 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=238f93d684d120459da8fe3b58fd03b3 DependenciesID=dd22aa537190bbb69cb57a8cc55ebe37 StaticDependenciesID=c08b68033c81cf4c3e5acff6aca9579d 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Map/Test/map nghia trangpng_50.asset
-  importAddress: Guid(74a407d01a808ea4c9f830f1a6fdc688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_50.asset using Guid(74a407d01a808ea4c9f830f1a6fdc688) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7b9d66edb04ea91914b8c3d957229cd') in 0.0183502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f6bfe1f7eb9ad60a996f0cba8eed94c DependenciesID=bfa5563445801d0368af245da9dcb96b StaticDependenciesID=034e6f04618c627a2f2c7077ded8bf58 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Map/Test/map nghia trangpng_72.asset
-  importAddress: Guid(1391845dbabc25e4eaafbafe980fff0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/map nghia trangpng_72.asset using Guid(1391845dbabc25e4eaafbafe980fff0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '042f9d06c1657c9a07f9506839a8e34a') in 0.0153987 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b5246dd4f5175efe3b568d1d18cf1f2 DependenciesID=4cd2a8219fb58d294cc6c9ec2244ab26 StaticDependenciesID=be68e8fe893e55a5d91e3b356aaa93bb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 1192.735914 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_37.asset
-  importAddress: Guid(7aefb0a00ec1417468c77bd5053abcce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_37.asset using Guid(7aefb0a00ec1417468c77bd5053abcce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e33e62917e0ddb4a9a0bb9f7033428d2') in 0.0252412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b397616028b4acf4ea113fa8a5172ff DependenciesID=7e132108571e2ac24ea3d62ac846e432 StaticDependenciesID=caa7d073676940fcdf9792294f072a3a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_22.asset
-  importAddress: Guid(e69e5c74bcfc42c4c97210ed674c25e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_22.asset using Guid(e69e5c74bcfc42c4c97210ed674c25e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5834ea9af932bf956d6d2184e2a308f7') in 0.020395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67bc0f63ad43ca35d617f7ad422aeb83 DependenciesID=ca1189c313ca14bbadd32da3a7b3b2ff StaticDependenciesID=972018a7baeed4f7473088c9649b365b 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_16.asset
-  importAddress: Guid(86c2e4855c3b7964ebd707e401e4495c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_16.asset using Guid(86c2e4855c3b7964ebd707e401e4495c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5521223490261ed9a90d7ccb66a6bced') in 0.0203735 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d66c23e75582489dc6ab155f31a1c9b DependenciesID=5b0e3da18a96c28cdc487dc74d4b8421 StaticDependenciesID=3d5e1d3dfe591008f4c6ab55669bfa2a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_39.asset
-  importAddress: Guid(e58f99938a16b864083f6e9bdfb3918b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_39.asset using Guid(e58f99938a16b864083f6e9bdfb3918b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '66b97c10d814433b05e232ba13c99800') in 0.0198772 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a41196ae83c58e578b74de462b04f66 DependenciesID=173ca476e23233765c956a20995bf889 StaticDependenciesID=46b1b5698d5595c44261d4ac8f90d241 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_10.asset
-  importAddress: Guid(a6423e621121b3d4f8e35046a1876231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_10.asset using Guid(a6423e621121b3d4f8e35046a1876231) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '917c6d7dd3f120dae89fe3b36cc8088c') in 0.0187212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3749260fe263456e28f6af35a7c1028b DependenciesID=cd9b2bdf2b33025abb34651f4933b557 StaticDependenciesID=662e495b2850414f77407911d06a8378 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_27.asset
-  importAddress: Guid(2dbd3be06ed3fde4eb382100efb35092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_27.asset using Guid(2dbd3be06ed3fde4eb382100efb35092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2439cab1df571fc3eba37eb1c2ef5b33') in 0.0213031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ae2e2c158bd64e3d8285a04eea3d8ec DependenciesID=649fed8d2271da77ce2859b6e8e84c33 StaticDependenciesID=34e3ec75d7a5ad1db360ba4a652afbdb 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_14.asset
-  importAddress: Guid(58f0975284df4a447b30a2a10b03a080) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_14.asset using Guid(58f0975284df4a447b30a2a10b03a080) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '162e3731caaaa65bc8d369dbe8a8adb2') in 0.0242567 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=639211debb44219d1655a1dc49bc06e9 DependenciesID=4fdbdf621d98f4f07a087367cf706732 StaticDependenciesID=5d574704cf95310923c0af8c529685f9 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_6.asset
-  importAddress: Guid(5aeb459bb2f5ad84ca58f8b57f3c1234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_6.asset using Guid(5aeb459bb2f5ad84ca58f8b57f3c1234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1ba47ffe06f8788996ae58c32d72714c') in 0.0192457 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2180da1aea06238de381c9ebb830adfd DependenciesID=d2e2d9e6b720a6bde1d3ab60208fd870 StaticDependenciesID=f9d4ffc85b33c101666ac584c661c3c0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_43.asset
-  importAddress: Guid(50396254c3a8408428081a2c4e0c1156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_43.asset using Guid(50396254c3a8408428081a2c4e0c1156) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ace85144556b9d682febae627714073e') in 0.0176059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48712b218b05564310a89cb489020a69 DependenciesID=7d223fdb9bb978e6341118febf2bc0ec StaticDependenciesID=a7bcf544d110b111e320ca767e31a4d0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_30.asset
-  importAddress: Guid(5260f1183b830be43b27bb5e3a9d69e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_30.asset using Guid(5260f1183b830be43b27bb5e3a9d69e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08724afc75f24741352ba1000c3c1f1e') in 0.0207046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59081ee25496f16b14754ca5747846d4 DependenciesID=e156ecc27924d165507eba041b3d325b StaticDependenciesID=1efe7860a592aec1d35f2ec3af22e326 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_2.asset
-  importAddress: Guid(fdab3a6060d27204aa045c0be9bc394a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_2.asset using Guid(fdab3a6060d27204aa045c0be9bc394a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ff8409184a2d492c2cac38de0b0f15c4') in 0.0177214 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0e3c06c99f300ce949a88988d229a81 DependenciesID=8328592e80569ec5bf63b79fe91f56bf StaticDependenciesID=42206465a3044f4ee3d93dd2ab70799a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_24.asset
-  importAddress: Guid(20f1a6e3051331847a5d7905090a322c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_24.asset using Guid(20f1a6e3051331847a5d7905090a322c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2744d1eeb46961b397ad9eed9f0e00d9') in 0.0185782 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7de2c2fecee2e5212eb528865cad4cba DependenciesID=60d2b43cc89cd19e3e3da7e2efcdad76 StaticDependenciesID=bc440e81263c97ec1623b633bb2e31d8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_20.asset
-  importAddress: Guid(7d3361886e23f704587dd45ac9e0210a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_20.asset using Guid(7d3361886e23f704587dd45ac9e0210a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f416021afa4a0a46cde1a04e8980f42c') in 0.0193668 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d15df415ad31f288c2f7add12b72661e DependenciesID=33fee426afda614cfc03b55057e0fad1 StaticDependenciesID=5349d40f24b32c3bcdf39da708d78424 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_25.asset
-  importAddress: Guid(749a1e164d05cee40be481ae7c3352c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_25.asset using Guid(749a1e164d05cee40be481ae7c3352c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72fd0b3bc7432d8169a2c4d385b90443') in 0.0188008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a02b708e36eec44507b89fb7f298440 DependenciesID=4d472b512cf2f51fd56d07291c808d57 StaticDependenciesID=692ddf698ab5b8ccc7a8215548520856 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_5.asset
-  importAddress: Guid(278c702de72da7640bf2f4fee6fa8bfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_5.asset using Guid(278c702de72da7640bf2f4fee6fa8bfe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f61c05346b7dedc209c35ebcfb6f0c0f') in 0.0186017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c56b5d89a1d1a1b0160a5c4301670b2 DependenciesID=5d6eb9cc571c95673fa6d90d34ad0d01 StaticDependenciesID=4a5ce3d3cca59aa10951cfe927286ad4 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_47.asset
-  importAddress: Guid(121d5404f3c78f54babf869a987b610c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_47.asset using Guid(121d5404f3c78f54babf869a987b610c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '813add5b72ff90082906ae70dab8d505') in 0.0243838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0480219e094ed5db7ba130709b4743f5 DependenciesID=d3beb6fe5bec67421638cb1ee15b95d4 StaticDependenciesID=7504360b7ba9a012e4bd2b80ecbfcf04 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_29.asset
-  importAddress: Guid(83135d7981544954aa41f12bcad0b042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_29.asset using Guid(83135d7981544954aa41f12bcad0b042) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '40aa736fcde0f171ffea9517dc682997') in 0.0276827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a08275e21e76dcaa77871cb462ea07d DependenciesID=d28004ca70a7b03d74c0b692d3af2ac6 StaticDependenciesID=37d7e20bca870a235050492ea28c6eaa 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_28.asset
-  importAddress: Guid(c358c849a47fa974ca3c94252f8b4b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_28.asset using Guid(c358c849a47fa974ca3c94252f8b4b35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c688b08507052cea36fef54c949b3cb9') in 0.0202904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fa64945be701626299238825c728fef DependenciesID=83a24b3e43a09a225071ac21b0eb24e8 StaticDependenciesID=cd493a72f45d77b636ce0b773652e921 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_13.asset
-  importAddress: Guid(f56bb191cb614b74e8d9e2ede69b80f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_13.asset using Guid(f56bb191cb614b74e8d9e2ede69b80f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3154b1bf21a5892d88184cb8c65fc24c') in 0.0188218 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=054cd5ced326acc191a7f492fc24adcb DependenciesID=288ab5e282c0b45fe88991d9235455fd StaticDependenciesID=ef4a905cb3ff5c9fb485168c8f8b7113 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_40.asset
-  importAddress: Guid(84844ef288dc5e54dafb723233a77f11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_40.asset using Guid(84844ef288dc5e54dafb723233a77f11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b00e4a1f12c2fbf27098061d3e738e2') in 0.0190067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27fac5005537745700a4a36fddb72d56 DependenciesID=1d2c0c00cd1da37d9ac2324e6a5ce5e5 StaticDependenciesID=702b193c1cb760b3ac1d53f6d529881a 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_49.asset
-  importAddress: Guid(c0378bc5a448331458e6fc247fcb228a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_49.asset using Guid(c0378bc5a448331458e6fc247fcb228a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3ada06e99f0c2c89afd9bad1f680bb59') in 0.0197723 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a35e0e3f039471718d16a88521981fc DependenciesID=aa709b9f04e1c301582043fb45dbd99c StaticDependenciesID=86a1dade4df88d78be9b818553206638 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_45.asset
-  importAddress: Guid(e2615d1b893d3804cb9ae784a62e120d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_45.asset using Guid(e2615d1b893d3804cb9ae784a62e120d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1a99651345dfb10d305e9a13f0bfa63d') in 0.0200653 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbe17c1fc1812114531e0ba4ea1a2d1d DependenciesID=abe447b34346ea0691da16b8fe115be2 StaticDependenciesID=de57cbed7003b065dfba512ebf17c9a0 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_8.asset
-  importAddress: Guid(85a064d336272dd41b89a6a57d62ab4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_8.asset using Guid(85a064d336272dd41b89a6a57d62ab4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c38d1d9a6055e285dac06fb53c5f55e9') in 0.0223694 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d640601da89063c96f5171ff67b2a29 DependenciesID=eaee9c505045b4d465d1ed77b6dcb0d0 StaticDependenciesID=5836945b615b0b29a92e56add01785d8 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_9.asset
-  importAddress: Guid(1f6c6213575ee9342a9d29b2b103f690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_9.asset using Guid(1f6c6213575ee9342a9d29b2b103f690) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd59fa6495f24ffa8364c762dd7b17b41') in 0.0194669 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8bf4147d63fbf9d613301482bb1a115 DependenciesID=e864e181e2fe0873bd3d964c37e0d461 StaticDependenciesID=c78dd4310a29156651887a2ec2653fa5 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Map/Test/Nghia_Trang-removebg-preview_46.asset
-  importAddress: Guid(24bcb56a684987144a42b8b0633f5bb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Map/Test/Nghia_Trang-removebg-preview_46.asset using Guid(24bcb56a684987144a42b8b0633f5bb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dbcb661f7968908f73b5d2e34b8999c5') in 0.0189514 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d903c2c4325d905cf331d14ea4e9dd4d DependenciesID=8b7be3882cd608660a5d5032bb4a5bff StaticDependenciesID=b181579da61a0266672d8ec3606fe277 
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
