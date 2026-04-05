@@ -49,6 +49,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ItemInfo.cs" />
     <Compile Include="Assets\Scripts\Player_Movment_Mouse.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\CellItemData.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\RecyclableScrollerDemo.cs" />

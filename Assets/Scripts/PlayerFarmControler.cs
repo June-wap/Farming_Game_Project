@@ -80,6 +80,7 @@ public class PlayerFarmController : MonoBehaviour
             Debug.Log("Cell Position: " + cellPosition);
 
             TileBase currentTile = tm_Ground.GetTile(cellPosition);
+
             if (currentTile == tb_Ruong)
             {
 
@@ -87,12 +88,29 @@ public class PlayerFarmController : MonoBehaviour
                 tm_Ground.SetTile(cellPosition, tb_Field);
                 Debug.Log("Harvested: Tile changed back to Field at position: " + cellPosition);
 
-                // Thêm logic để tăng điểm số hoặc tài nguyên sau khi thu hoạch nếu cần
-                IvenItems itemFlower = new IvenItems(); // Tạo một item mới sau khi thu hoạch (comment out vì class không tồn tại)
-                // itemFlower.itemName = "Flower"; // Đặt tên cho item
-                // itemFlower.Description = "A beautiful flower harvested from the field."; // Mô tả cho item
+                //lay item va them vao inventory
 
+                IvenItems harvestedItem = new IvenItems();
+
+                harvestedItem.itemName = "Flower";
+                harvestedItem.itemDescription = "A beautiful flower harvested from the field.";
+                
                 Debug.Log("You have harvested a Flower: A beautiful flower harvested from the field.");
+                // Gọi phương thức để thêm item vào inventory
+                RecyclableScrollerIventory  inventory = FindObjectOfType<RecyclableScrollerIventory>();
+                if (inventory != null)
+                {
+                    inventory.AddIventoryItem(harvestedItem);
+                    Debug.Log("Harvested item added to inventory.");
+                }
+                else
+                {
+                    Debug.Log("Inventory not found. Cannot add harvested item.");
+                }
+
+
+                //Nếu tìm thấy inventory, thêm item vào đó
+                
 
             }
             else

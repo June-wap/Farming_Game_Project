@@ -92,9 +92,15 @@ public class RecyclableScrollerIventory : MonoBehaviour , IRecyclableScrollRectD
             SetList(items);
             _recyclableScrollRect.ReloadData();
         }
-        if (Input.GetKeyDown(KeyCode.B)) //bag
+        if (Input.GetKeyDown(KeyCode.B)) //bat tat inventory
         {
             inventoryGameObject.SetActive(!inventoryGameObject.activeSelf);
+            //sua loi inactive
+            Vector3 crrPosIven = inventoryGameObject.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+            
+            crrPosIven = crrPosIven.y == 1000? Vector3.zero : new Vector3(0, 1000, 0);
+            
+            
         }
     } 
 
