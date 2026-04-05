@@ -71,6 +71,7 @@
     <Compile Include="Assets\Firebase\FirebaseApp\Internal\FirebaseInterops.cs" />
     <Compile Include="Assets\Scripts\mapexit.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\RecyclableScrollerIventory.cs" />
+    <Compile Include="Assets\Scripts\SceneController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppDatabase.dll" />
