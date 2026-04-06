@@ -4,7 +4,6 @@ using UnityEngine;
 using Firebase;
 using Firebase.Database;
 using Firebase.Extensions;
-using UnityEditor.VersionControl;
 
 public class FiseBaseDatabaseManager : MonoBehaviour
 {
@@ -55,5 +54,3 @@ public class FiseBaseDatabaseManager : MonoBehaviour
         });
     }
 }
-
-

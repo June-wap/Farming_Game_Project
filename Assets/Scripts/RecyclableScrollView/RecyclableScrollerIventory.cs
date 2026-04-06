@@ -71,61 +71,47 @@ public class RecyclableScrollerIventory : MonoBehaviour , IRecyclableScrollRectD
     }
 
     private void Update()
-{
-    // 1. Phím Space: Tạo dữ liệu giả để test
-    if (Input.GetKeyDown(KeyCode.Space))
     {
-        List<IvenItems> items = new List<IvenItems>();
-        for (int i = 0; i < 50; i++)
+        // 1. Phím Space: Tạo dữ liệu giả để test
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            IvenItems ivenItems = new IvenItems(name: "ca", description: "ca");
-            ivenItems.itemName = "New Name " + i.ToString();
-            ivenItems.itemDescription = "New Description for " + ivenItems.itemName;
-            items.Add(ivenItems);
-        }
-        SetList(items);
-        
-        // Luôn Reload được vì túi đồ lúc nào cũng Active (chỉ là đang ở xa màn hình)
-        _recyclableScrollRect.ReloadData();
-    }
-
-    // 2. Phím B: Ẩn/Hiện bằng cách đẩy túi đồ ra khỏi màn hình
-    if (Input.GetKeyDown(KeyCode.B))
-    {
-        RectTransform rect = inventoryGameObject.GetComponent<RectTransform>();
-        
-        // Nếu đang ở tọa độ 1000 (đang ẩn) -> Đưa về 0 (hiện lên)
-        if (rect.anchoredPosition.y >= 1000)
-        {
-            rect.anchoredPosition = Vector2.zero;
-            // Cập nhật lại dữ liệu mới nhất (ví dụ hoa vừa thu hoạch được)
+            List<IvenItems> items = new List<IvenItems>();
+            for (int i = 0; i < 50; i++)
+            {
+                IvenItems ivenItems = new IvenItems(name: "ca", description: "ca");
+                ivenItems.itemName = "New Name " + i.ToString();
+                ivenItems.itemDescription = "New Description for " + ivenItems.itemName;
+                items.Add(ivenItems);
+            }
+            SetList(items);
+            
+            // Luôn Reload được vì túi đồ lúc nào cũng Active (chỉ là đang ở xa màn hình)
             _recyclableScrollRect.ReloadData();
         }
-        else
+
+        // 2. Phím B: Ẩn/Hiện bằng cách đẩy túi đồ ra khỏi màn hình
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            // Đẩy lên cao 1000 unit để người chơi không nhìn thấy
-            rect.anchoredPosition = new Vector2(0, 1000);
+            RectTransform rect = inventoryGameObject.GetComponent<RectTransform>();
+            
+            // Nếu đang ở tọa độ 1000 (đang ẩn) -> Đưa về 0 (hiện lên)
+            if (rect.anchoredPosition.y >= 1000)
+            {
+                rect.anchoredPosition = Vector2.zero;
+                // Cập nhật lại dữ liệu mới nhất (ví dụ hoa vừa thu hoạch được)
+                _recyclableScrollRect.ReloadData();
+            }
+            else
+            {
+                // Đẩy lên cao 1000 unit để người chơi không nhìn thấy
+                rect.anchoredPosition = new Vector2(0, 1000);
+            }
         }
     }
-}
 
     public void AddIventoryItem(IvenItems item)
     {
         _contactList.Add(item);
         _recyclableScrollRect.ReloadData();
-    }
-
-    public List<IvenItems> GetInventoryList()
-    {
-        return _contactList;
-    }
-
-    public void RestoreFromSave(List<IvenItems> savedData)
-    {
-        if (savedData != null)
-        {
-            _contactList = savedData;
-            _recyclableScrollRect.ReloadData();
-        }
     }
 }

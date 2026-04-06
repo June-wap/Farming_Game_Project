@@ -34,11 +34,20 @@
 - **Tự động lưu (`SceneController.cs`)**: Khi đặt chân chui vô cánh cổng dịch chuyển, Map hiện tại lập tức Back-up lên mây.
 - **Tự động tải (`PlayerFarmControler.cs`)**: Vừa đẻ ra ở map mới, Player lập tức gửi mã gọi cửa, load dữ liệu Firebase đổ đè đồ họa vào Tilemap hiện hữu.
 
+### 4. Hệ Thống Sự Kiện & Vòng Quay Mùa Màng (Module E)
+- **`GameEventManager.cs`**: Lõi kết nối mạng nhện (Event Bus) của toàn cõi. Lắng nghe và Bắn các tín hiệu vô tuyến ngầm (`OnItemCollected`, `OnNewDayStarted`).
+- **`TimeSystem.cs`**: Cỗ máy đếm lịch Độc lập. Đếm qua **24 phút đời thực** là chuyển sang 1 Ngày Game Mới. Nó lập tức kích hoạt loa `OnNewDayStarted`, đồng thời tải và ghi (Sync) chỉ số `currentDay` lên cục mây Firebase.
+- **`HarvestWheelManager.cs`**: Minigame Gacha Vòng Quay đánh bạc đốt tài nguyên. Yêu cầu Item mồi (Ví dụ: Hoa Nghĩa Trang) để làm thẻ Ticket. Hàm xoay Wheel xài lệnh Toán `Mathf.Lerp` và công thức Ease-out (Phanh từ từ) tạo rung cảm thị giác. Xoay trúng lỏi nhét đồ thụ động bằng Sóng Radio `TriggerItemCollected` (Balo tự nghe và tự cất đồ luôn khỏi cần dây dưa kết nối code 2 màn hình).
+- **Phẫu thuật Thảm Hoạ Cây Khô (`CropManager.cs`)**: Phế bỏ thuật toán Héo Củ Chuối trước đây (chạy vòng `Update()` đo đạc `Time.deltaTime` kéo FPS giảm). Đổi qua Event-driven: Cây cối đều tắt não bộ đi ngủ, tới khi Mốc Ngày Mới đập cửa thì Cây mới bật dậy xét coi bị Khát bao ngày. Hạn hán đủ 2 ngày (`daysWithoutWater == 2`) -> Nạn chết héo bùng nổ `Wilted`.
+
 ---
 
 ## 🛠 TECHNICAL SOLUTIONS (Các lỗi đã khắc phục rốt ráo)
 - **Bug / Lỗi nguy cơ**: Hệ thống Đám mây có lúc load dữ liệu về nhưng Graphic báo mảng Map trả về đối tượng `Null`. Nguyên do là hệ thống Singleton màng ngầm (`CropManager`) không thể biết chính xác bạn đang ở khu nào để mà đi tìm đúng cái Tilemap đất nền (`tm_Ground`). 
 - **Giải pháp xử trí**: Loại bỏ việc "Tự đi dò tìm TileMap". Mình yêu cầu `PlayerFarmControler` ở Map đang đứng làm nhân viên vận chuyển, gọi tên DataPersistenceManager bắt nạt nó "Tải Data Firebase xuống đi, ta đứng ở Scene hiện tại tao sẽ đưa cái Tilemap của ta vào tham số (Callback) cho ngươi dán gạch Graphic".
+
+- **Trở ngại: Tester bị lock chức năng khi chưa có Inventory Tool**: Khi dev tính năng gieo hạt, nếu bắt buộc phải thiết kế xong Prefabs Tool để test thì cực kỳ làm chậm tiến độ dò bug vòng đời cây `120s`.
+- **Giải pháp xử trí**: Mã hóa tính năng "Cửa sau" cực mạnh (Cheat Code) - Bổ sung biến cờ `bypassToolRequirement = true` công khai bên ngoài cửa sổ Inspector của `PlayerFarmControler`. Nếu tick sáng, hệ thống ngầm cho phép gọi chéo Data (Bấm C cuốc đất bằng không khí, bấm V đẻ ra mầm) mà không rớt game. Khi Release Game chỉ việc tắt Tick False đi.
 
 ---
 

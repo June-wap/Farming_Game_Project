@@ -351,6 +351,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8466170603571253765, guid: 73b54430d4e446143be362c6edddc254, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -36758,8 +36762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 290dfe89ff1a2b549895de338d2697e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerFarmControler
-  tm_Ground: {fileID: 0}
-  tb_Ground: {fileID: 0}
+  tm_Ground: {fileID: 1684664192}
+  tb_Ground: {fileID: 11400000, guid: 89d8e4c97c5f469408a7952ab528ef60, type: 2}
   tm_Field: {fileID: 727769175}
   tb_Field: {fileID: 11400000, guid: f87f514e93a1a724bacd417f074f178c, type: 2}
   tm_Ruong: {fileID: 1739246695}
@@ -36778,6 +36782,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972802227}
+  - component: {fileID: 1972802228}
+  - component: {fileID: 1972802231}
+  - component: {fileID: 1972802230}
+  - component: {fileID: 1972802229}
   m_Layer: 0
   m_Name: ESSENTIALS
   m_TagString: Untagged
@@ -36803,6 +36811,54 @@ Transform:
   - {fileID: 353757562}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1972802228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972802226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe8559e13b031d42b8969a715381846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeSystem
+--- !u!114 &1972802229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972802226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c836aabfa6bebc74b817a90b17d836fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerEconomy
+--- !u!114 &1972802230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972802226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae79a12301f283c4d9f8bb8ec3e2e9c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DataPersistenceManager
+--- !u!114 &1972802231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972802226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 771fbbbbd20951a4fb14dbdeacf17876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropManager
 --- !u!1001 &297864500617073490
 PrefabInstance:
   m_ObjectHideFlags: 0
