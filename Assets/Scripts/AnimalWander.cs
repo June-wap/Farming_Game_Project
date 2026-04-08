@@ -1,143 +1,59 @@
-using System.Collections;
 using UnityEngine;
 
-public class AnimalWander : MonoBehaviour
+public class AnimalAI : MonoBehaviour
 {
-    [Header("Movement")]
-    public float moveSpeed = 1.5f;
-    public float moveRadius = 2f;
-    public float minIdleTime = 1f;
-    public float maxIdleTime = 3f;
+    [Header("Cấu hình di chuyển")]
+    public float maxSpeed = 2f;         // Vận tốc tối đa
+    public float steerForce = 0.5f;     // Độ nhạy khi đổi hướng
+    public float wallAvoidDistance = 1.5f; // Khoảng cách phát hiện vật cản
+    public LayerMask obstacleLayer;     // Layer của tường, cây, đá
 
-    [Header("Sleep")]
-    [Range(0f, 1f)]
-    public float sleepChance = 0.25f; 
-    public float minSleepTime = 2f;
-    public float maxSleepTime = 5f;
+    private Vector2 currentVelocity;
+    private Rigidbody2D rb;
 
-    private Vector3 startPosition;
-    private Vector3 targetPosition;
-
-    private bool isWalking = false;
-    private bool isSleeping = false;
-
-    private Animator animator;
-    private SpriteRenderer spriteRenderer;
-
-    private void Start()
+    void Awake()
     {
-        startPosition = transform.position;
-
-        
-        animator = GetComponentInChildren<Animator>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-
-        if (animator == null)
-        {
-            Debug.LogWarning($"[{gameObject.name}] Không tìm thấy Animator.");
-        }
-
-        if (spriteRenderer == null)
-        {
-            Debug.LogWarning($"[{gameObject.name}] Không tìm thấy SpriteRenderer.");
-        }
-
-        StartCoroutine(WanderRoutine());
+        rb = GetComponent<Rigidbody2D>();
+        // Khởi tạo vận tốc ban đầu ngẫu nhiên
+        currentVelocity = Random.insideUnitCircle.normalized * maxSpeed;
     }
 
-    private void Update()
+    void FixedUpdate()
     {
-        if (isWalking && !isSleeping)
-        {
-            MoveToTarget();
-        }
+        // B1 & B2: Chọn vectorA ngẫu nhiên và cộng vào vận tốc
+        Vector2 steerDirection = Random.insideUnitCircle * steerForce;
+        Vector2 targetVelocity = currentVelocity + steerDirection;
+
+        // Cơ chế Raycasting phát hiện vật cản
+        targetVelocity = AvoidObstacles(targetVelocity);
+
+        // B3: Đảm bảo độ lớn không vượt quá vận tốc tối đa
+        targetVelocity = Vector2.ClampMagnitude(targetVelocity, maxSpeed);
+
+        // B4 & B5: Di chuyển và cập nhật vận tốc mới
+        rb.MovePosition(rb.position + targetVelocity * Time.fixedDeltaTime);
+        currentVelocity = targetVelocity;
+
+        // Xoay hướng Sprite theo hướng di chuyển (nếu cần)
+        if (currentVelocity.x != 0)
+            transform.localScale = new Vector3(Mathf.Sign(currentVelocity.x), 1, 1);
     }
 
-    private IEnumerator WanderRoutine()
+    private Vector2 AvoidObstacles(Vector2 direction)
     {
-        while (true)
+        // Bắn Raycast về phía trước hướng đang đi
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction.normalized, wallAvoidDistance, obstacleLayer);
+
+        if (hit.collider != null)
         {
-            // 1. Idle
-            isWalking = false;
-            isSleeping = false;
-            UpdateAnimation();
-
-            float idleTime = Random.Range(minIdleTime, maxIdleTime);
-            yield return new WaitForSeconds(idleTime);
-
-            // 2. Random ngủ
-            if (Random.value < sleepChance)
-            {
-                isWalking = false;
-                isSleeping = true;
-                UpdateAnimation();
-
-                float sleepTime = Random.Range(minSleepTime, maxSleepTime);
-                yield return new WaitForSeconds(sleepTime);
-
-                isSleeping = false;
-                UpdateAnimation();
-
-        
-                yield return new WaitForSeconds(0.3f);
-            }
-
-          
-            Vector2 randomOffset = Random.insideUnitCircle * moveRadius;
-            targetPosition = startPosition + new Vector3(randomOffset.x, randomOffset.y, 0f);
-
-            isSleeping = false;
-            isWalking = true;
-            UpdateAnimation();
-
-            // 4. Đợi tới khi đi xong
-            while (isWalking)
-            {
-                yield return null;
-            }
-        }
-    }
-
-    private void MoveToTarget()
-    {
-        Vector3 direction = targetPosition - transform.position;
-
-        transform.position = Vector3.MoveTowards(
-            transform.position,
-            targetPosition,
-            moveSpeed * Time.deltaTime
-        );
-
-       
-        if (spriteRenderer != null)
-        {
-            if (direction.x > 0.05f)
-                spriteRenderer.flipX = false;
-            else if (direction.x < -0.05f)
-                spriteRenderer.flipX = true;
+            Debug.DrawRay(transform.position, direction.normalized * wallAvoidDistance, Color.red);
+            
+            // Tính toán hướng né: Lấy vector phản xạ hoặc hướng vuông góc với tia va chạm
+            Vector2 avoidanceForce = Vector2.Reflect(direction, hit.normal);
+            return (direction + avoidanceForce).normalized * maxSpeed;
         }
 
-        // Nếu tới gần mục tiêu thì dừng
-        if (Vector3.Distance(transform.position, targetPosition) < 0.05f)
-        {
-            isWalking = false;
-            UpdateAnimation();
-        }
-    }
-
-    private void UpdateAnimation()
-    {
-        if (animator != null)
-        {
-            animator.SetBool("isWalking", isWalking);
-            animator.SetBool("isSleeping", isSleeping);
-        }
-    }
-
-    
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(Application.isPlaying ? startPosition : transform.position, moveRadius);
+        Debug.DrawRay(transform.position, direction.normalized * wallAvoidDistance, Color.green);
+        return direction;
     }
 }
