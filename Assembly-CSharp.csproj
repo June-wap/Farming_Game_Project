@@ -62,6 +62,7 @@
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\Recycling System\RecyclingSystem.cs" />
     <Compile Include="Assets\Scripts\FireBaseLoginManager.cs" />
     <Compile Include="Assets\Scripts\FiseBaseDatabaseManager.cs" />
+    <Compile Include="Assets\Scripts\Entites\map.cs" />
     <Compile Include="Assets\Scripts\Entites\TilemapDetail.cs" />
     <Compile Include="Assets\Scripts\AnimalWander.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\IvenItems.cs" />
@@ -72,9 +73,9 @@
     <Compile Include="Assets\Recyclable Scroll Rect\Main\Scripts\RecyclableScrollRect.cs" />
     <Compile Include="Assets\Recyclable Scroll Rect\Demo\Scripts\DemoCell.cs" />
     <Compile Include="Assets\Firebase\FirebaseApp\Internal\FirebaseInterops.cs" />
+    <Compile Include="Assets\Scripts\TileMapManager.cs" />
     <Compile Include="Assets\Scripts\mapexit.cs" />
     <Compile Include="Assets\Scripts\RecyclableScrollView\RecyclableScrollerIventory.cs" />
-    <Compile Include="Assets\Scripts\TimeManager.cs" />
     <Compile Include="Assets\Scripts\SceneController.cs" />
     <Compile Include="Assets\Scripts\Entites\CropData.cs" />
   </ItemGroup>

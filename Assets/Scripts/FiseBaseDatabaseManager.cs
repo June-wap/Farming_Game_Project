@@ -25,13 +25,22 @@ public class FiseBaseDatabaseManager : MonoBehaviour
     // ID người dùng độc nhất — lấy từ thiết bị (không cần đăng nhập)
     // SystemInfo.deviceUniqueIdentifier tự động khác nhau trên mỗi máy
     // Tránh tình trạng mọi người cùng ghi đè vào 1 node "User1"
-    private string _userId = SystemInfo.deviceUniqueIdentifier;
+    private string _userId;
 
     private void Awake()
     {
-        // Lấy reference đến gốc của database Firebase
-        // FirebaseApp.DefaultInstance được khởi tạo tự động khi có google-services.json
+        if (PlayerPrefs.HasKey("USER_ID"))
+        {
+            _userId = PlayerPrefs.GetString("USER_ID");
+        }
+        else
+        {
+            _userId = SystemInfo.deviceUniqueIdentifier;
+            PlayerPrefs.SetString("USER_ID", _userId);
+        }
+
         _reference = FirebaseDatabase.DefaultInstance.RootReference;
+
         Debug.Log("[Firebase] Đã kết nối. UserID: " + _userId);
     }
 
@@ -61,6 +70,18 @@ public class FiseBaseDatabaseManager : MonoBehaviour
                     Debug.LogError("[Firebase] Lỗi ghi dữ liệu: " + task.Exception);
             });
     }
+
+    public void WriteDatabaseToPath(string path, string message)
+{
+    FirebaseDatabase.DefaultInstance.GetReference(path).SetValueAsync(message)
+        .ContinueWithOnMainThread(task =>
+        {
+            if (task.IsCompleted)
+                Debug.Log("[Firebase] Ghi dữ liệu thành công vào path: " + path);
+            else
+                Debug.LogError("[Firebase] Lỗi ghi dữ liệu: " + task.Exception);
+        });
+}
 
     // ReadDatabase: Đọc dữ liệu từ node Users/{id} trên Firebase
     // id = ID người dùng cần đọc dữ liệu
