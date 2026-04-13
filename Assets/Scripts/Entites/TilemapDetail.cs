@@ -2,8 +2,10 @@ using UnityEngine;
 
 [System.Serializable]
 public enum TilemapState
-{
+{   
     Ground,
+    Field,    // Đất đã cuốc (Tilled)
+    Ruong,    // Ruộng đã gieo hạt (Planted)
     Water,
     Tree,
     Rock,
@@ -16,8 +18,6 @@ public enum TilemapState
 [System.Serializable]
 public class TilemapDetail
 {
-    // ✅ FIX Bug #4: Đổi từ Property { get; set; } sang Field thường.
-    // Trước đây JsonUtility.ToJson() trả về "{}" — json rỗng hoàn toàn.
     public int x;
     public int y;
     public TilemapState tilemapState;

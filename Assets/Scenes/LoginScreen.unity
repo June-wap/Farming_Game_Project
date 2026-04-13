@@ -119,6 +119,110 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &39555265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39555270}
+  - component: {fileID: 39555269}
+  - component: {fileID: 39555268}
+  - component: {fileID: 39555267}
+  - component: {fileID: 39555266}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &39555266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39555265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df3edd406c3310d46b092def58aac5fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropManager
+  tilledTile: {fileID: 0}
+  wiltedTile: {fileID: 0}
+  growthStageTiles:
+  - {fileID: 0}
+  defaultCropName: Flower
+  defaultCropDescription: "Hoa thu ho\u1EA1ch t\u1EEB ru\u1ED9ng."
+  minutesToHarvest: 120
+--- !u!114 &39555267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39555265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5164fbe59ad2c54bbe1632afb9b0c9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TimeManager
+  _currentMinute: 0
+  _currentDay: 1
+--- !u!114 &39555268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39555265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2003cc09333e74089046e2176393ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UserDataManager
+--- !u!114 &39555269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39555265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16703aead9ea6d4d9d0d799fa470b20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireBaseLoginManager
+  ipRegisterEmail: {fileID: 1976714805}
+  ipRegisterPassword: {fileID: 1284444619}
+  ipRegisterName: {fileID: 0}
+  buttonRegister: {fileID: 95151310}
+  ipLoginEmail: {fileID: 1280103223}
+  ipLoginPassword: {fileID: 1311242199}
+  buttonLogin: {fileID: 1557749089}
+  buttonMoveToLogin: {fileID: 930473631}
+  buttonMoveToRegister: {fileID: 728122713}
+  LoginForm: {fileID: 547615097}
+  RegisterForm: {fileID: 1180236438}
+  txtStatus: {fileID: 0}
+--- !u!4 &39555270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39555265}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.28512, y: 2.69049, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &95151310 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4331899760207167725, guid: 959cf3f46cfa71f41a64a75d02becd35, type: 3}
@@ -279,6 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FireBaseLoginManager
   ipRegisterEmail: {fileID: 1976714805}
   ipRegisterPassword: {fileID: 1284444619}
+  ipRegisterName: {fileID: 0}
   buttonRegister: {fileID: 95151310}
   ipLoginEmail: {fileID: 1280103223}
   ipLoginPassword: {fileID: 1311242199}
@@ -287,6 +392,7 @@ MonoBehaviour:
   buttonMoveToRegister: {fileID: 930473631}
   LoginForm: {fileID: 547615097}
   RegisterForm: {fileID: 1180236438}
+  txtStatus: {fileID: 0}
 --- !u!4 &588248133
 Transform:
   m_ObjectHideFlags: 0
@@ -563,3 +669,4 @@ SceneRoots:
   - {fileID: 140422562}
   - {fileID: 588248133}
   - {fileID: 921837296}
+  - {fileID: 39555270}

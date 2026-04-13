@@ -65,6 +65,9 @@ TagManager:
   - name: Cau
     uniqueID: 4072810301
     locked: 0
+  - name: home
+    uniqueID: 3499141679
+    locked: 0
   - name: Player
     uniqueID: 3627966441
     locked: 0

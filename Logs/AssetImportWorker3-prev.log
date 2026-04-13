@@ -1,0 +1,1628 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE" at "2026-04-13T04:14:59.9636137Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16104 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-13T04:14:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Project Game TTDT/Final
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51712
+-licensingIpc
+LicenseClient-GIGABUYTE
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Project Game TTDT/Final
+D:/Project Game TTDT/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [6656]  Target information:
+
+Player connection [6656]  * "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 4013936986 [EditorId] 4013936986 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-83LP9EF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 22.60 ms, found 7 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project Game TTDT/Final/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:          NVIDIA
+    VRAM:            5920 MB
+    App VRAM Budget: 5152 MB
+    Driver:          32.0.15.9159
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002356 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1645ms
+	BeginReloadAssembly (179ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (126ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (175ms)
+		AnalyzeDomain (404ms)
+			TypeCache.Refresh (401ms)
+				TypeCache.ScanAssembly (375ms)
+	FinalizeReload (817ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (105ms)
+			BeforeProcessingInitializeOnLoad (179ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-GIGABUYTE"
+[Licensing::IpcConnector] LicenseClient-GIGABUYTE channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0" at "2026-04-13T04:15:03.9567285Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              1a19d36662eb42608398a7a4155c2d50
+  Correlation Id:          5add1e534339b3c7e97d9fbf6e10c50d
+  External correlation Id: 3816114956884832599
+  Machine Id:              ttg343R107wRBlsyzXGi+bS0jqM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-GIGABUYTE-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 3.71s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-GIGABUYTE-6000.4.0-notifications" at "2026-04-13T04:15:07.6702036Z"
+[Licensing::Module] Licensing Background thread has ended after 7.71s
+[Licensing::Module] Licensing is initialized (took 4.07s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968408505739-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.47 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.821 seconds
+Domain Reload Profiling: 7564ms
+	BeginReloadAssembly (4343ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (1175ms)
+		LoadAssemblies (666ms)
+		AnalyzeDomain (626ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (411ms)
+			BuildScriptInfoCaches (154ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1821ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (955ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (16ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 7 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7481 unused Assets / (6.2 MB). Loaded Objects now: 8303.
+Memory consumption went from 168.4 MB to 162.2 MB.
+Total: 14.932200 ms (FindLiveObjects: 1.357600 ms CreateObjectMapping: 1.072700 ms MarkObjects: 8.664400 ms  DeleteObjects: 3.828500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2855.496856 seconds.
+  path: Assets/Map/Spitess/ground_701.asset
+  importAddress: Guid(b1537875e1cac5a4d9b1839471cd6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_701.asset using Guid(b1537875e1cac5a4d9b1839471cd6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9e1783480596946445353b3bee5d36a7') in 0.1270063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab06f61a50ae0c13006b3711d4d9c4ee DependenciesID=b48b06f1dedd9418fa548af01901221d StaticDependenciesID=9cd37fa84e82184727422e540b8274eb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Map/Spitess/ground_968.asset
+  importAddress: Guid(1fb894c4ad0384242a2ad876293638ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_968.asset using Guid(1fb894c4ad0384242a2ad876293638ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0cd9eb0053892760d486510db85e46f0') in 0.0214587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5f855ba9415670f907c3054838307ab DependenciesID=0345369e49e417a12d46723c5ee56f81 StaticDependenciesID=555098af1be9be5802dee2104dcc914e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_915.asset
+  importAddress: Guid(31f312fc6127eca43bd232340f966180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_915.asset using Guid(31f312fc6127eca43bd232340f966180) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '68087d7f6bf405cfdf7e1aeccdd2cbb3') in 0.0118218 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=897f1b9c71b73f712521dd2d801478b6 DependenciesID=1427a7ae7042cf32de1f852de56d1cce StaticDependenciesID=8406d1ff37afbddb32e433e6f567dc1a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_897.asset
+  importAddress: Guid(a6066143ee302a840821e739e36fa6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_897.asset using Guid(a6066143ee302a840821e739e36fa6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '33e2260059fce48cf67885af7d07bb19') in 0.0176954 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77391b1b5b23c0c4bc71ffbd7cd6f2cc DependenciesID=3ea03642c7594a17a2c6529b56ad8045 StaticDependenciesID=c9f9463e77e7db76b8686eec4ae2900f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_1003.asset
+  importAddress: Guid(37c44cfb1294d9648854f14b34e79c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1003.asset using Guid(37c44cfb1294d9648854f14b34e79c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cb954909cfecc887a49af16d25053021') in 0.0111519 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3231cee3776d1c72abba2d46ef681a64 DependenciesID=a864478b1bc743200e24e48eac0db160 StaticDependenciesID=b81bb727a08730e16253bb77059b4f55 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Map/Spitess/ground_1060.asset
+  importAddress: Guid(2b4ee12ad6586e14eb422aec65217518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1060.asset using Guid(2b4ee12ad6586e14eb422aec65217518) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6848af302477b44e51688dae94ef61e9') in 0.018761 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c478de623403852779564e6f9e1b9012 DependenciesID=2b55c14e4cc8435ad31f958861858a9b StaticDependenciesID=6da14fc54619f201b7325e3b24773cf6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_1004.asset
+  importAddress: Guid(2c83363fe96e91d49bac95c60cfefd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1004.asset using Guid(2c83363fe96e91d49bac95c60cfefd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8b302402ee2600bf823a8239cbcb9e7b') in 0.0115697 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca16d846403a5fc7880755ecf675eee1 DependenciesID=a0f3982236aed3068465e1c010c26aca StaticDependenciesID=a704a1f02af783d788b49c7b436ca44e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_1077.asset
+  importAddress: Guid(b1786d74de449b440bc818b67de12275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1077.asset using Guid(b1786d74de449b440bc818b67de12275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3e21680144568c7b55b562a34fa1e36e') in 0.0162784 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=989f5165ef417a27eb5be57d4d54a424 DependenciesID=cde3831fe581c12632bb8b831b62e0ab StaticDependenciesID=ef62166c4ec547bd7683c86f722894d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_1093.asset
+  importAddress: Guid(b4ccb7de33a01034f95de3564ec83b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1093.asset using Guid(b4ccb7de33a01034f95de3564ec83b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c0533b17658ba006bf042f2cf2bbbb99') in 0.017614 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17b33b392caf77e3adb2f5f845ce3fff DependenciesID=f2d4bbe0a059897b3545dba7c6e6e7cc StaticDependenciesID=aedc20e40aa56245caafe4042c69041c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Spitess/ground_1020.asset
+  importAddress: Guid(3224d62ba1f4b174f8b969a6b7e7b4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1020.asset using Guid(3224d62ba1f4b174f8b969a6b7e7b4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '225dd54fce7c1bc692788d1e1fea2e06') in 0.0147009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbac028c3c0f743ec020fd33dee22bfa DependenciesID=0b452b2fbe21058c88905e85d7d21117 StaticDependenciesID=f8e02fd87d0872479b17e30cd4ef6d03 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_992.asset
+  importAddress: Guid(00ef8352115562343ab7a72e681e8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_992.asset using Guid(00ef8352115562343ab7a72e681e8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5c3672b071093741f2092c7a215ebbfc') in 0.014238 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81ea9b6e4233730a443abf01f9cc2492 DependenciesID=3b69d7509858f45b8b861a0e01dd9f35 StaticDependenciesID=a76f43603eceb4934bcd727ac21f79b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_712.asset
+  importAddress: Guid(2dd009909057ed74799b0b408691fcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_712.asset using Guid(2dd009909057ed74799b0b408691fcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6e4d8489ee5b373a972b76d386f4ad48') in 0.0133516 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c336a530a02aa25f435d757b37007843 DependenciesID=63842e71fc424af947cefb7ec6f009c1 StaticDependenciesID=53f0548698e594db8c1ce1bc0be80824 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Spitess/ground_876.asset
+  importAddress: Guid(9ea97973dbbea0b408c3cf78d79c71bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_876.asset using Guid(9ea97973dbbea0b408c3cf78d79c71bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '45acc83cf8fd5eb1ebfc46fdc64ed62a') in 0.0170776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfc9be61a03c04c27f2db55f66136c08 DependenciesID=863e59e91f5f4a141c139107516b931a StaticDependenciesID=982f614ae8142c975a38feadd54dc4b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Map/Spitess/ground_985.asset
+  importAddress: Guid(ef2158910d2d78d4ebcf7a4dcd9e9f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_985.asset using Guid(ef2158910d2d78d4ebcf7a4dcd9e9f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '33b93a16b2d788dd62331484a97a1926') in 0.013566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6aaedfae82e55d8c3db6232d83acbbbe DependenciesID=1620a75139841feb510592f1dabefccf StaticDependenciesID=049124a062e4cf54ad0d51ffe15a8f1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Spitess/ground_832.asset
+  importAddress: Guid(2b2981f37ab9701439ac998e07cd6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_832.asset using Guid(2b2981f37ab9701439ac998e07cd6016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4b385239159c6fe490accb1356439c46') in 0.016481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce8c426ef32bb34bd8ecdb76fda06b7b DependenciesID=32959d3f07286e4ef7a93c9c253a0c5a StaticDependenciesID=20511c2d5377b7da5709636d69ea9d1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_1036.asset
+  importAddress: Guid(b2c8e79071e46de409b8a3f3eb6cd7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1036.asset using Guid(b2c8e79071e46de409b8a3f3eb6cd7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cdb14aa08e9dcb7b4217d26c9d7cd26f') in 0.0153148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85d37af6770f6c42dff212551a4d9870 DependenciesID=3c471d3cc0867571673f08c854c0a11c StaticDependenciesID=b435eb5f06c9c481c894629f6d02d5e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Spitess/ground_1094.asset
+  importAddress: Guid(2d1a58064fd44e34fb9fcd5ca3fe1833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1094.asset using Guid(2d1a58064fd44e34fb9fcd5ca3fe1833) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f0dba871ef84f33643b90cb59cc17f2b') in 0.0144838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af87f933afcec387e1a24d8b71954fd5 DependenciesID=d2acd59b4c180b0d287647fbb1cfa72a StaticDependenciesID=36a91090dc2f2e09d092a81330def604 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Spitess/ground_735.asset
+  importAddress: Guid(380cbdd7313487b459d698d4e7dcc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_735.asset using Guid(380cbdd7313487b459d698d4e7dcc33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0ef503ca8195c44ced1078a100052581') in 0.0123814 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a02166b6e2f75a22e54ea49fa4eaaa3 DependenciesID=63a6c05a4f269e172666bf181645a8e0 StaticDependenciesID=2e488795c57823fa62afbda72a050f6f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Map/Spitess/ground_1248.asset
+  importAddress: Guid(e2adb770a47fcbc4cb8fd8c1bca22ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1248.asset using Guid(e2adb770a47fcbc4cb8fd8c1bca22ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0c40c4d68131b50f8bc0aa008d837e5b') in 0.0116147 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f330c9cbb36073c920222e3dcb52d61 DependenciesID=258f1bfc2cc4212ff3d6d312a383e010 StaticDependenciesID=f186d53ac6eb1aa5fcce7a2a2a53d014 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_1543.asset
+  importAddress: Guid(9f8f5d3b9c046214c9a3763c32ac5a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1543.asset using Guid(9f8f5d3b9c046214c9a3763c32ac5a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0686b9639bc219cecfcadd41940e74e7') in 0.0163339 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c7e1f4e0c88718cdb862953ea3485be DependenciesID=290516ddeb416d00aedf1d62d12452ad StaticDependenciesID=6edb15492314f7709010f2cd74e697f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_882.asset
+  importAddress: Guid(34fec1a39d59a7b4eb3f69ddbd5750ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_882.asset using Guid(34fec1a39d59a7b4eb3f69ddbd5750ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4521eb7aee2c9926d57bc6e70b6dbc20') in 0.0130502 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00f0f868fd236a7e6ccde4ac49723568 DependenciesID=4fc83a624f05b01a4d397a4dfe30da2f StaticDependenciesID=a7c136aea4d50be44cbc767968e512f6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Spitess/ground_1442.asset
+  importAddress: Guid(1028ab17080449a4194032a5a3aace68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1442.asset using Guid(1028ab17080449a4194032a5a3aace68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '66badc24462b7d057a72fd331a333ca8') in 0.0140198 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20c34d4512fd672eca93cb92c826791d DependenciesID=d2b70dfae90d6e117e0541259b919ec5 StaticDependenciesID=b5831ada8eea45491fa8da57d409347b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Spitess/ground_822.asset
+  importAddress: Guid(5cd3c6ab18a6e09419baa3a7a39027b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_822.asset using Guid(5cd3c6ab18a6e09419baa3a7a39027b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a98489c816f95687fb62df362169cd5') in 0.0182076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2f148d23f8c80d8da1887f4159f7829 DependenciesID=43ea95571c92be9ed429b7c1d7529db3 StaticDependenciesID=2369f64014fd03ed027aefd83d351096 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_1009.asset
+  importAddress: Guid(60b33b87493d167439b5b8f5ec43a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1009.asset using Guid(60b33b87493d167439b5b8f5ec43a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd2616ed40e7b53283889bb47db191ff3') in 0.0150329 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28a6a244ffafa38b5b81ade3113a6693 DependenciesID=a8587b528d1114689c82fafc6a4ce6a0 StaticDependenciesID=fbdc2926d2ebf4c6b3cbc1f63b9b4754 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_1067.asset
+  importAddress: Guid(cfc32cced9c0f9e498c543fc8d402ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1067.asset using Guid(cfc32cced9c0f9e498c543fc8d402ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5321f5200201cb537921dec3f50da119') in 0.0147568 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddf560b343752425d7712cfc624ca4ab DependenciesID=64933933e9732d80537f8e80f8ad29c1 StaticDependenciesID=9d4136a59786380020e41c4cb0aabe5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Spitess/ground_894.asset
+  importAddress: Guid(669ad27b18c83e748aafc72c2dd40ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_894.asset using Guid(669ad27b18c83e748aafc72c2dd40ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b5d1feeaaff3ebba0a0992f1046f3a75') in 0.0157725 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac032592fd5817138728d41d0b6b852b DependenciesID=fa24374f124a8352f0cd353c832631eb StaticDependenciesID=4d6e9a98a4521fc468e3737580b7d443 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_745.asset
+  importAddress: Guid(dfd7882e856c8e04db5435570501ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_745.asset using Guid(dfd7882e856c8e04db5435570501ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3079489b7d2197e7e4943f4623d3d69f') in 0.0119447 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a22cf9f2cdfd2f4678b8809e3aed727a DependenciesID=849536b5c8b9cbdfc6704cf7a593128d StaticDependenciesID=8f8f46264020053c170829457086c54d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Map/Spitess/ground_1292.asset
+  importAddress: Guid(9904a215712e34242b1de08808de4565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1292.asset using Guid(9904a215712e34242b1de08808de4565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6f9bf0b98e23f9996de5deb37b10792c') in 0.0135406 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=330ba31d957ed58f7a814af9e06fe4c0 DependenciesID=0e4985a3b05390ffff1eedf5726fe51e StaticDependenciesID=66f488a6eddecb19e60ff1499cfed292 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Spitess/ground_937.asset
+  importAddress: Guid(1f25437bf40d34f4d8b9700c3b3cc5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_937.asset using Guid(1f25437bf40d34f4d8b9700c3b3cc5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '821387589e96b26870995860895d974a') in 0.0118794 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fb1f56cdc183d1fdc91670eba91a40e DependenciesID=d7136779bcd3ebbb397ccca1c62ca70c StaticDependenciesID=6c5e7b7ae3479cffc95d223549a8a522 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_1566.asset
+  importAddress: Guid(78ffcd48a2890ba43a64f4bd5f5d8428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1566.asset using Guid(78ffcd48a2890ba43a64f4bd5f5d8428) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '652cf3ce98489f6cfa5707b3334e8250') in 0.0127267 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a03e47884b10171fc7a0aeba5fb26ea DependenciesID=6e91b8716b8d8068bb45904ee918cbd0 StaticDependenciesID=e15e5727a2d02e694b94aa09d7fb021f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Map/Spitess/ground_1283.asset
+  importAddress: Guid(dbdd24f56daff574f8a8e72c24f9e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1283.asset using Guid(dbdd24f56daff574f8a8e72c24f9e431) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '96ff8fa02634b12681776cb643d5ae1f') in 0.0132963 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a28099fc3d9866412f234d1d468c7f19 DependenciesID=b87e804ad360062d3308120a6b3bdd16 StaticDependenciesID=0f51e34a1715730392823604f6476dd0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_958.asset
+  importAddress: Guid(596b04d7b9f8a684ea958c94a40482e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_958.asset using Guid(596b04d7b9f8a684ea958c94a40482e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '21cad4477aa22588ba19896d42b53221') in 0.0126415 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79f7c2a78c79ac3d1ed399a2e83c9add DependenciesID=80ef6a998f39f00740459cc802bcedb0 StaticDependenciesID=2dcd397e74cb2f906a6c45563e9e367d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_1064.asset
+  importAddress: Guid(6c64cb59e6aeb61479199cab32d77de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1064.asset using Guid(6c64cb59e6aeb61479199cab32d77de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '68527d297dccda909e0d0579acfc3a1a') in 0.0106212 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e5bbfc9f6cd28354e49bc66bc55a5d73 DependenciesID=bba01f8a87a36fc5491f1839fb89c536 StaticDependenciesID=b29be22f094152290bdf2bd9dace3e69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Map/Spitess/ground_855.asset
+  importAddress: Guid(aebe2f38e0ae5424ca11858461cf3732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_855.asset using Guid(aebe2f38e0ae5424ca11858461cf3732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a5a9f6a4b07d14e037aecaa585e1d4a7') in 0.0112546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ef643ba6b1b28fec64b0fb2e1340453 DependenciesID=bee8c015f0a81d1d3530f69a84d0385a StaticDependenciesID=b715f408379dbff3d3ddc33d78b1079e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_1279.asset
+  importAddress: Guid(308204025c43edd408fffec687af450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1279.asset using Guid(308204025c43edd408fffec687af450c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '076918bf50f1ba79e23abee0caea84b0') in 0.0111834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6e56c0f0a2b6762027ac7d626e7a7f7 DependenciesID=deb8a0330bad017ef635fec04570c298 StaticDependenciesID=ce746d6fede695c8805f0aaf5bbc8126 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_1029.asset
+  importAddress: Guid(1ee35aa3c613977489b9e0ef0de5f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1029.asset using Guid(1ee35aa3c613977489b9e0ef0de5f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2099d80f8b2fd65781c511303917f5f8') in 0.0129993 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6e0fb0e322151d3487681c071ccd9fb DependenciesID=7a591f5887455c4dea6c08ee6d1725ab StaticDependenciesID=6001748cfeda5beaeda6dea222d7e655 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Spitess/ground_1127.asset
+  importAddress: Guid(f1e5537c076cf92428d7c6c9eb736860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1127.asset using Guid(f1e5537c076cf92428d7c6c9eb736860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac1493a471f02c7cf55afdb0147ad20a') in 0.0131322 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=41dea5c67be10799fd1d1c6ff67d68aa DependenciesID=b5db1ea0f272a03bd54f8d5cb9598250 StaticDependenciesID=98bfdf498e7d02487e4e62788258bf19 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_802.asset
+  importAddress: Guid(646657e75b83f4e45a4ef1d5bb608f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_802.asset using Guid(646657e75b83f4e45a4ef1d5bb608f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '233d8c1927e913c6329750849dee8b4f') in 0.0155276 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f1f9331ba8b2378b12302376b4ec66c DependenciesID=f82bfbafad33106fd7699e24ec4816a8 StaticDependenciesID=a31b8d4e5d477d70caaebaa87b151e21 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Map/Spitess/ground_1533.asset
+  importAddress: Guid(a2f5db0e3539ad44a900d60a81846f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1533.asset using Guid(a2f5db0e3539ad44a900d60a81846f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cad6dfaa395b99fe2b8e406432666e23') in 0.017125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dee2e0d74ebed59e4f914a3223dbd2ea DependenciesID=b66f3ecd9008afc37a9ba4d3b9e1ab23 StaticDependenciesID=efb445c7f8da8d9cb9978442e8916132 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Spitess/ground_691.asset
+  importAddress: Guid(520bee0eb0350ad4180be3eb90a7a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_691.asset using Guid(520bee0eb0350ad4180be3eb90a7a80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '52208c317d8a3d4d3696de2aff18ff5a') in 0.0176695 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8b3c112012d3bd9152481056314e89e DependenciesID=6654341f63970a4f051b3147ec2e4088 StaticDependenciesID=889b0a69f693146b0b91fe3c1ac280d5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_625.asset
+  importAddress: Guid(87d2410b76b062e4d87033f318626115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_625.asset using Guid(87d2410b76b062e4d87033f318626115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '89febf020fe4d983e4a54c7a7097e02b') in 0.0111905 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2868e6b6809911db5d627a8dd3655fa4 DependenciesID=8cd6d06b2e2dc365702d838f7bf535ff StaticDependenciesID=1ef84bc97a6dfcb0a06a2e1731391ead 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_567.asset
+  importAddress: Guid(7ae2e7fe65d4b1c43a33b65b7ffe8cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_567.asset using Guid(7ae2e7fe65d4b1c43a33b65b7ffe8cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1503796dfb3f49012c22b9942eeff6a1') in 0.0121666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a2ff2bc35197eca8d19021ca6dcd347d DependenciesID=44748637378a76cfe36351e0005dddd1 StaticDependenciesID=55a998ae5baec52216c575cebc359bbb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_634.asset
+  importAddress: Guid(6133b09cf71839d45be70f58863dbf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_634.asset using Guid(6133b09cf71839d45be70f58863dbf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '080e7da4ea7729b64aee30cea5780694') in 0.0125414 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9890ab27288354a52003b807c0df93ee DependenciesID=13ae68a0c18d574e22fb5b210d2b968c StaticDependenciesID=657e6c1eb2355fab6a81db4abb171c24 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Map/Spitess/ground_551.asset
+  importAddress: Guid(c11b646a736727b40b1ff5269917c8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_551.asset using Guid(c11b646a736727b40b1ff5269917c8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '01ba13f515d19bd32e38612633ce9050') in 0.0154284 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f0831ba4eb6b3df4005a9936b79a7ec DependenciesID=72731814189a90bafbbf2e4d01865f45 StaticDependenciesID=5de51d4a3b8f41503157a2a84b976cff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Map/Spitess/ground_590.asset
+  importAddress: Guid(6f51f86252dfb3240bdaf608bef024b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_590.asset using Guid(6f51f86252dfb3240bdaf608bef024b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7bb72ea15e1ddfc01bf1986d3deeceff') in 0.0138332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03c9b398dcba95d0ff7a614e7d543f8e DependenciesID=659b455476c95f007d9cf0c0dffcc568 StaticDependenciesID=e9c87db8d0ea22ac3be5cdf2f877afa8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Spitess/ground_547.asset
+  importAddress: Guid(65422807533c78041a0851742649cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_547.asset using Guid(65422807533c78041a0851742649cd13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bfe08ceeee0593d0b100717c1abeea36') in 0.0127169 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84eca015a0652eea641607dcda451634 DependenciesID=7ec4ec9c39f3f35a82c87ed08ae631ed StaticDependenciesID=ea8cded66f6b24654fc64c3208170dad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Spitess/ground_550.asset
+  importAddress: Guid(74b9b902ec2a8c043a18a2a4b1150efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_550.asset using Guid(74b9b902ec2a8c043a18a2a4b1150efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06bcf24d9f479553013f090189ff6439') in 0.0116919 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a1b606ce5df1c39c12521ca60f2aeba DependenciesID=a4a1f24cdbf7dc829c1354d541125a74 StaticDependenciesID=b70158e3c2ae1c8d78f8a13ed5263dc0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_587.asset
+  importAddress: Guid(d323851604f797b45bd40288f4953901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_587.asset using Guid(d323851604f797b45bd40288f4953901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f6e44ed0851ec5edd436761c400b537e') in 0.0128865 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bbbe4b61fbf506af96809fb170b2e73b DependenciesID=7b5d3c58fe4d82d8262f27aa4fd70912 StaticDependenciesID=1c380632f5bdabc42cd8815fb238ef48 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Map/Spitess/ground_581.asset
+  importAddress: Guid(22ad8c6ae60e1a842b3aa1642e1d63be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_581.asset using Guid(22ad8c6ae60e1a842b3aa1642e1d63be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '091906f5c01eba497a82b95f130d220d') in 0.0121904 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6460d8e1713b7dfc24d9f850c2ff0ee DependenciesID=9bad77eb184a2fa1fd7291ed02ef9aa0 StaticDependenciesID=82230e24ce63fe2754b138f19ba20835 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Spitess/ground_459.asset
+  importAddress: Guid(f335bbe9b7d89c94a9aec91209d7667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_459.asset using Guid(f335bbe9b7d89c94a9aec91209d7667e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5eade6c953c4b03de4c45ca2a63881b5') in 0.0119454 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=894752fad2cbb21e76847e8bcda2adb0 DependenciesID=17d2b654e4b372b01556f4124844f458 StaticDependenciesID=3faf7154c7ea8abbdac7b56558e7c574 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_445.asset
+  importAddress: Guid(f6753ca86bff9764592339b98e370021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_445.asset using Guid(f6753ca86bff9764592339b98e370021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '479c18f02ce7c0d2d27bfc3e774920d8') in 0.012058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b34ee28488678ada5bd3e5192e63be6 DependenciesID=4cdb92c4c31c037d60ab336407bc8448 StaticDependenciesID=ed4f49cf4c59b1da41e137522a005f6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Spitess/ground_425.asset
+  importAddress: Guid(f0ff2b11e7a566440b74c68ed0622657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_425.asset using Guid(f0ff2b11e7a566440b74c68ed0622657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '68aaab5ac47984527f54ca284d1e5ecb') in 0.012451 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=030f33d4e1a4745e90d0ee36640dc869 DependenciesID=84c20ba74f60dfcddc4e3d359ecb9b09 StaticDependenciesID=b68aa61b3c8d2b8bac07cccfe535dcbc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_424.asset
+  importAddress: Guid(4ecf4c4b22707c84fb6d8b1cc365848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_424.asset using Guid(4ecf4c4b22707c84fb6d8b1cc365848c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '22c3cb3789a254fe0a8349cc8c05e073') in 0.0141615 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7640d3c5b566d953a09de772dd2ac04 DependenciesID=a521c3bf092f9e9c03b4c30d798d3802 StaticDependenciesID=2595de59e3cec6b0c49e42a90367b0f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_395.asset
+  importAddress: Guid(fa81df58d08a75d4aa0a9fdca1e5c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_395.asset using Guid(fa81df58d08a75d4aa0a9fdca1e5c232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1bcddcf4383b2d49bc84609974e79814') in 0.0113352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=782dd1baeb906813f5556199676cf07d DependenciesID=638f879de6b23496bfdb7e5e737e5de8 StaticDependenciesID=d64630c7c3f75f24dd8a985e9f2627ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Spitess/ground_369.asset
+  importAddress: Guid(93969df5871e39b4bb49156976e54303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_369.asset using Guid(93969df5871e39b4bb49156976e54303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a7116fb7d2ea76c1032010e7744c3733') in 0.0116293 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e2c91842415779c9b2d4521c6d672c7 DependenciesID=7c9dbfc5f5f31d42528995b7cace91fd StaticDependenciesID=252664c33a58918ba4d53f3ef77ee636 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Map/Spitess/ground_385.asset
+  importAddress: Guid(f1be3114f7b539a46940d6a5eb83d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_385.asset using Guid(f1be3114f7b539a46940d6a5eb83d67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '34aa3be8fe266ee08988a06cc79b680c') in 0.0115696 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=567adaa900dfc6b1d57c9a6ad0dd992a DependenciesID=fe2bad85a99f9340d0e2a8c875d13bf9 StaticDependenciesID=0500a79a1853041f6ef6eb8f87b1ff01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_416.asset
+  importAddress: Guid(565901b9112a24e4782112f64bbe025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_416.asset using Guid(565901b9112a24e4782112f64bbe025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6c12be08178fe9587f1b13a173793e82') in 0.0120548 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74bdfefdd8bb6830199eb04bf63af16c DependenciesID=4f1e9b760aef51a9c6c8e0d175c5904b StaticDependenciesID=b9fdff7032a27a1935f6c5f4b2dc75b5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_589.asset
+  importAddress: Guid(26b8a2c4f79643b4db2335383a81296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_589.asset using Guid(26b8a2c4f79643b4db2335383a81296f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd0d898266d57b40b9745574f38606d38') in 0.0134484 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c2c924cc1edae9a7801e3c9254461020 DependenciesID=51ed6fd5597a76472c22a0a176e537b7 StaticDependenciesID=6d1494827b68912d8c8085876773b8fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Map/Spitess/ground_452.asset
+  importAddress: Guid(321bb6fadea4ad84a867b4ccc285b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_452.asset using Guid(321bb6fadea4ad84a867b4ccc285b03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ef84bafdc4158840ea121609e8cbe856') in 0.0109958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01673ec2bc79dc000a539ad5ad0e21b8 DependenciesID=6b04eeec7ae95df6737e812852e5bba2 StaticDependenciesID=3a01a0c26275b9481d7c3568208f54d1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_433.asset
+  importAddress: Guid(5e1453fa9fab40349a4d370ecc7bf449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_433.asset using Guid(5e1453fa9fab40349a4d370ecc7bf449) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd72b28636f62577a1f92c84c5f8006f4') in 0.0112043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f6b752b57b108c8ee649ac420c86ea2 DependenciesID=0e9228fe2400155cf5db5c7827e513db StaticDependenciesID=98456eda1f07768391a9fa1373e356d7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_565.asset
+  importAddress: Guid(e93bb507ee755e847a2437b5ecdd1616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_565.asset using Guid(e93bb507ee755e847a2437b5ecdd1616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c9952a3a827ef2cfbe49f081df2d5b7f') in 0.0125125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17f8d8d29595fa54ad909f12491d510c DependenciesID=e4cbdd56b1224d460688579a3d42a124 StaticDependenciesID=818fc1d680b5758aacadb78875d2e73f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_426.asset
+  importAddress: Guid(a11b20ec8b712f848b63c700ac071904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_426.asset using Guid(a11b20ec8b712f848b63c700ac071904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1b7efccf9eef65413d8db19d09b7a1cb') in 0.0166398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3252e863985cfe5fd1e659c517f6ae21 DependenciesID=18058038ff074ddae22c126e208a1c4f StaticDependenciesID=8ad08713f67aa3cfd086d2640b13a093 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_414.asset
+  importAddress: Guid(9858ef695dd3d964397cecd58dc7800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_414.asset using Guid(9858ef695dd3d964397cecd58dc7800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c9d096620c71975bfebfa21568d314eb') in 0.0135751 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=645be3e463b6c5012de4a5fac59e655a DependenciesID=355a8aface7110c7caa3a1bdb0455117 StaticDependenciesID=5d6e7b8a0e0c8bbb2c9c77b8377953ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Map/Spitess/ground_548.asset
+  importAddress: Guid(340a0b6842b363544be516acfd754244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_548.asset using Guid(340a0b6842b363544be516acfd754244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'db528cb41f03866e8c78d41e0bff2fd8') in 0.0141346 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=911d12b6252104c61e6b48e0ebb27239 DependenciesID=3c6addf2aa15fd4c78638e683574cf46 StaticDependenciesID=9d918e1d3361a39a6504f2e5074f5847 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_546.asset
+  importAddress: Guid(62a49dfa257d01343bc090479e597dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_546.asset using Guid(62a49dfa257d01343bc090479e597dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c735c9b26cee7777059c4a9f96541fe3') in 0.0138776 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ff77c906a2370aaff9610a951e899b7 DependenciesID=50f51911f4eff3e19e33cead11d45e24 StaticDependenciesID=3320f73683522ced9653f8b27cb3afd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_582.asset
+  importAddress: Guid(c2fd5a52b09dc4942b1682c91b9dce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_582.asset using Guid(c2fd5a52b09dc4942b1682c91b9dce14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '372ca07aeb3f211866c6c47047aeb215') in 0.0150704 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7660a367c7289dab988098188ca8056 DependenciesID=2861e1613863168de24d5a36c8425373 StaticDependenciesID=fa78ab2d0f6a2decd7caf05f905f537f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_423.asset
+  importAddress: Guid(d35abe9f44dd5ee4d8210a482d266326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_423.asset using Guid(d35abe9f44dd5ee4d8210a482d266326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cffa408b48260c7691d2dd641504cb17') in 0.014553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd4d0c2dbe7b02d06eeb78bd23818a2c DependenciesID=36a121f95fa732c66843557bb20f55b4 StaticDependenciesID=eb1d29db815fd04762ab04874c12f3e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Map/Spitess/ground_394.asset
+  importAddress: Guid(a594a249b7f5d354e8715124dda6a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_394.asset using Guid(a594a249b7f5d354e8715124dda6a2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8812a8c9d477c727549cec47b8329f1c') in 0.0141018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=444d04d0193d5db9c4f6aee467c23c45 DependenciesID=2d3f97f4a8582b4cad1d98c16112e757 StaticDependenciesID=d58a663e46b4a25af509dffaa28cd31d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Map/Spitess/ground_555.asset
+  importAddress: Guid(690c654e18741fa4597cce75461d61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_555.asset using Guid(690c654e18741fa4597cce75461d61c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '80ad9a936caca7aa508294b8607e3c26') in 0.0116756 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfdeecc17159402e22b55f62d36307b2 DependenciesID=8050a1ab9384af74df45591fa498fa10 StaticDependenciesID=f46b186b76f76c411beffd94dff401b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_575.asset
+  importAddress: Guid(6c47bfd11c0c84242b81193195b572b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_575.asset using Guid(6c47bfd11c0c84242b81193195b572b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7034b7770848a6b1c40868f116f0abf6') in 0.0155672 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fefdd12e94a2a5a87609d6b934482403 DependenciesID=b11f4aeaa917322e797cd4d4eb30313f StaticDependenciesID=6e4554a3c551c55de5194e9609413478 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_541.asset
+  importAddress: Guid(39e5192316018be4f8f97882fb6fcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_541.asset using Guid(39e5192316018be4f8f97882fb6fcdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c142f0913b333dbed1e22c3eb0927294') in 0.0156464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=013872097ccdcaa5eca850d642486b5e DependenciesID=931d59d7db2e9e4293f61df8c70f49da StaticDependenciesID=8344d4feb78f4574560f54d4b09a0adb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Map/Spitess/ground_439.asset
+  importAddress: Guid(2dab2e5c4a9bd1e46a62df0324b4d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_439.asset using Guid(2dab2e5c4a9bd1e46a62df0324b4d58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '502fce122aca85f2a9dc6832e8330c2e') in 0.012728 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73612efda4bc3fabc61d6ea7dd57d8f6 DependenciesID=22c06e9329be58d4ae484a3f88dc36d4 StaticDependenciesID=a0b941ebcabd47c27c311829d1d5f8f5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Map/Spitess/ground_412.asset
+  importAddress: Guid(c97677ef19496174cb476edacd146e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_412.asset using Guid(c97677ef19496174cb476edacd146e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2d229bb327bc135e06cdce317ea6543d') in 0.0142546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52c902e4466cf093985b69d29c34dbcb DependenciesID=ac183fedaabac2b70050490dbb106fe4 StaticDependenciesID=ef8b79bef30366855a77aeee29d8c112 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Map/Spitess/ground_536.asset
+  importAddress: Guid(c50631d7b4fb10c4bb414af8a9dd2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_536.asset using Guid(c50631d7b4fb10c4bb414af8a9dd2166) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1b7f84b877a9f62b92fc67d08f924bc3') in 0.0145165 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7f3b49bf53ce200194d3a9cca140203 DependenciesID=42b373f3f36413ae2c4ca0aa47896cdb StaticDependenciesID=fba1262631e4cd20eb074c20333cc442 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Map/Spitess/ground_579.asset
+  importAddress: Guid(b6fab63236d1ba948b1686e425c268ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_579.asset using Guid(b6fab63236d1ba948b1686e425c268ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6b57d90820662652e3e81dad4f798207') in 0.0138918 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1abdb3e3e217d7cf56321054cf8a74f7 DependenciesID=f7ffe81c0d45100ea5ff5bad288f0e21 StaticDependenciesID=0395e02a70c8b2645a6f34284639cd59 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Map/Spitess/ground_377.asset
+  importAddress: Guid(4ecfa3e07d833b24fb7e1387aafa818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_377.asset using Guid(4ecfa3e07d833b24fb7e1387aafa818e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '96dd2a7b9a21416943524ccb6cae6ea7') in 0.0166503 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6cd67c23a39152debc711f87763597b DependenciesID=c0db5aec0131bfc03287c2661ca58d27 StaticDependenciesID=4980c1a6314c1a50dbd849aa9fddf02e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Map/Spitess/ground_486.asset
+  importAddress: Guid(51c4438e125f8f143940b5f839102abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_486.asset using Guid(51c4438e125f8f143940b5f839102abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '09f335260e2d21807a5882b1525395c0') in 0.0144823 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f8326ce31a92b4d4f9afa7e077b2b8d DependenciesID=5977afc978dad4fef94cb6f2614c0697 StaticDependenciesID=1cb7c549bedfb8c0a6f7b902b999d0cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_520.asset
+  importAddress: Guid(60024166383fb5a4ba0d081f6d46d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_520.asset using Guid(60024166383fb5a4ba0d081f6d46d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ac54ee9f6b728b29a36ec1ddaf824014') in 0.0305221 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bd18c24e7ba18883e493767507135a2 DependenciesID=d78ea7ef595725590db6963551074f9e StaticDependenciesID=0f8601d33b2f8fc463d9a7888ec9955c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_295.asset
+  importAddress: Guid(37832becd798084499088be5663a25a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_295.asset using Guid(37832becd798084499088be5663a25a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '43cc4112374964c91405853abb6dd602') in 0.0137146 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=852cc11c4cf0d869f3e96f440b17774e DependenciesID=15e2950677db7a11a84042915875e1fa StaticDependenciesID=18909269685acc2218b700bedf54cd6f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_508.asset
+  importAddress: Guid(08e323c6c0283ee4cbfeade2ed134d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_508.asset using Guid(08e323c6c0283ee4cbfeade2ed134d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'bf5eb945876964222f19afb23a1e19e4') in 0.0150491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=361ebef34b9ead88301ab5d4b0105b3e DependenciesID=d61a44f5f8fb6eb81a2a79166d0b96a7 StaticDependenciesID=a1d5f637da56a3f8fe4c2d17b628c909 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Spitess/ground_489.asset
+  importAddress: Guid(8b17bc3e2e48d834da172a7516c53922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_489.asset using Guid(8b17bc3e2e48d834da172a7516c53922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fb644f8559a92662b8e02ea2434c2460') in 0.0274388 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68366ed7c36740870bce3e58ad6b318f DependenciesID=063b6be6a3857405557cd894ea7a900e StaticDependenciesID=f7a3d8326254103a1ba7ce99ea40bcf0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Map/Spitess/ground_392.asset
+  importAddress: Guid(3519d1b751bb6f643858627318167334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_392.asset using Guid(3519d1b751bb6f643858627318167334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a03b4015c7a0bfc86b7fe2341f005e6a') in 0.0160975 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3269d0fc951114d75be34735d4c196f DependenciesID=74f39026dc0c2a1db66655bad958c3ad StaticDependenciesID=45efffe61f57eafec60b7dfd8b1024cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Spitess/ground_212.asset
+  importAddress: Guid(c808e93f2a3db96408689773e6f855de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_212.asset using Guid(c808e93f2a3db96408689773e6f855de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2bb50edaabe20c359ee20ed1dad6be72') in 0.0115956 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe0ecef8ae9868abd1344ccb30dad62d DependenciesID=7a53029a664025db0fc8bda4d5b524b6 StaticDependenciesID=5499bcfcb1e2d63a52006e638a92f224 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_383.asset
+  importAddress: Guid(4cd3d987916fcf4439a1d05d9c59aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_383.asset using Guid(4cd3d987916fcf4439a1d05d9c59aedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ae5e1e6be6bc1e364789ee125c11e5a4') in 0.0134431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75ab312362bed9a582626a3bc20e5655 DependenciesID=2c3d4dbf6862124132f2a7895245396d StaticDependenciesID=5ad1ade9d8f056993cc11df3555025d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Map/Spitess/ground_488.asset
+  importAddress: Guid(7a160566325fcc541a9ff7e273fa25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_488.asset using Guid(7a160566325fcc541a9ff7e273fa25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c7c7f47ddbe37b40b6b0fd48c5bbb92f') in 0.0130262 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02863d6879e2de6c1cc70a75ccf3f1ee DependenciesID=877cf923ce60ca4bf9b151146fb124e4 StaticDependenciesID=ae13de2a7c7a96dc9b3228aa04025fc6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Map/Spitess/ground_222.asset
+  importAddress: Guid(4006291de6c12dd439d5c8b1454c722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_222.asset using Guid(4006291de6c12dd439d5c8b1454c722b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cc8f7158f1cd600ea95a7a7d1215f4e5') in 0.0257307 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=211011e36f24d3a9fe7204ca3227d6f7 DependenciesID=abd78612867e5530095e40a8d3dd69a7 StaticDependenciesID=6f8e84053ab99f871df63c26108703f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Map/Spitess/ground_419.asset
+  importAddress: Guid(f22a8d9523730994593f794a025f089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_419.asset using Guid(f22a8d9523730994593f794a025f089a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '6645df4f98680238799f1d502a98f23e') in 0.0131716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12770bd2c4ca063d13c232f1c46e1469 DependenciesID=5a1f37e91d2a1362cb28d192ba82884e StaticDependenciesID=ee7f107af9deb44aeae6416253fddbd3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Map/Spitess/ground_641.asset
+  importAddress: Guid(4333fde6c5824024095d820be87e7a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_641.asset using Guid(4333fde6c5824024095d820be87e7a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '68f50c2635d7dc05e20aff79ca847a9f') in 0.0125196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58088660b3aad5b74e66361c7ccd53f6 DependenciesID=6d26ecdb746c82569ae186ff3c6f199c StaticDependenciesID=75a1bce1411dfcd96e3ba0ce1b222207 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_540.asset
+  importAddress: Guid(5e969ac6483d7ef43a211ee9eeefdd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_540.asset using Guid(5e969ac6483d7ef43a211ee9eeefdd0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fbbaf94c9a5826bc31f872399f75ee6a') in 0.014031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81620fd4fc87f379de8ebaa0f674f965 DependenciesID=2fde5fe41909a10d7d77b071521342f4 StaticDependenciesID=d1711963fc091336ea7d3def8c88dada 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_420.asset
+  importAddress: Guid(d1b79d3765ec7014290fe3d51868ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_420.asset using Guid(d1b79d3765ec7014290fe3d51868ce46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4bb8d27846e43c4673298bbaadf09c84') in 0.0258945 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8808af4c3927d589df251a674c212188 DependenciesID=ab580aa73252c8a1cb3f6687750d0afd StaticDependenciesID=e3c4216497de8a2bc07fc757006363cf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Map/Spitess/ground_444.asset
+  importAddress: Guid(377285f20b54f91428f1b988e3b442dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_444.asset using Guid(377285f20b54f91428f1b988e3b442dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2a015a287c80d571e92f96717bdfaf2a') in 0.014313 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c1e693d75d696d9938f8d94b8f56e2b DependenciesID=344e6db17394ee20bafd0866c41f4a1c StaticDependenciesID=d5964908dd578acddd87d42921b48af8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Map/Spitess/ground_635.asset
+  importAddress: Guid(95425c44aff328844a24f0de2a45043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_635.asset using Guid(95425c44aff328844a24f0de2a45043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'eaf4adb78f860cb52d4d1ef48be42a46') in 0.014899 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a9ca7c15cc2e6d70ff44cfdb861df78d DependenciesID=ff9fb40b028b447d133349885217d6e4 StaticDependenciesID=984ce50ef25fc6c68f1fee2f2a2f4218 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Spitess/ground_573.asset
+  importAddress: Guid(d99e0607c48dda642a87b445a04dc83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_573.asset using Guid(d99e0607c48dda642a87b445a04dc83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c1bc767ffde9e054e5897f84d041df12') in 0.0135099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b0c2298ce4d7de526846973c02c5a13 DependenciesID=6a4f5e84b1602bbefe319943eac3c458 StaticDependenciesID=a1d3c859a9ad1401da6b1c150dc93e2e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_381.asset
+  importAddress: Guid(179ae70f13cc44f4a9bc397808e7cae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_381.asset using Guid(179ae70f13cc44f4a9bc397808e7cae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd9ac840541935eea2583a2c7fe4a4028') in 0.0167713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2d52121f9fb4e16be9cf2f0418e1cf8 DependenciesID=26d3ecd2477e458b2c45612d007a354d StaticDependenciesID=aeaa05aed2e26d6fc15a99d26c29f632 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Map/Spitess/ground_447.asset
+  importAddress: Guid(95c5528fb82e7b84fb05d3b48711c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_447.asset using Guid(95c5528fb82e7b84fb05d3b48711c549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd66eae3419461360f8c8b3f62b809c88') in 0.013739 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d61f6abb5b9c210ad5854cb55aa1ce02 DependenciesID=5345c14e6207a59c032b960ee1583620 StaticDependenciesID=9890f52feea1fddb9bd6d874cda380b7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Map/Spitess/ground_220.asset
+  importAddress: Guid(3a7f4bd0bbc70d94eb3f757e7a95b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_220.asset using Guid(3a7f4bd0bbc70d94eb3f757e7a95b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '14c20816487035a091f68381f56e3001') in 0.0123778 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57af180190267c1c82ea629cf51fc774 DependenciesID=3f33a40a178000750edcc099452e2602 StaticDependenciesID=ce7ddb2bbb6419d300aa700cb9236244 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Map/Spitess/ground_542.asset
+  importAddress: Guid(540fc024f17ecd249a516345fc6cbbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_542.asset using Guid(540fc024f17ecd249a516345fc6cbbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a7761fcb86b52becb015cc581ed26dce') in 0.0132117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5690ee27bc06d05040f606744c2357d DependenciesID=4148e6baff31941c4284c37df705c7e8 StaticDependenciesID=adf8b882c4ec8716321b36d269078480 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_465.asset
+  importAddress: Guid(1575515f8c6edc84385e11a33da6cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_465.asset using Guid(1575515f8c6edc84385e11a33da6cf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '19e8b7e1393776930b90ddb893cba425') in 0.0139585 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c79c1a2a692a3d4e1d179ce3264d88b DependenciesID=84f37ddbeec322ca4cd52391582e2b62 StaticDependenciesID=e26e038a24e455dfea085aa7657b0353 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Spitess/ground_430.asset
+  importAddress: Guid(83c0bb32d6179314ba161725981271dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_430.asset using Guid(83c0bb32d6179314ba161725981271dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4801969e21958c8fc9acbc5663cf2af5') in 0.0145126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fbd3f9a1a448780384c8fa8db6701a4 DependenciesID=2624805d5d0e6b4b87be1c4d463ed28c StaticDependenciesID=9d5269e31c49cad90739d90cb65c56ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Map/Spitess/ground_463.asset
+  importAddress: Guid(96e27af7fe7166844bb5e494f31ded0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_463.asset using Guid(96e27af7fe7166844bb5e494f31ded0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd3d91e33f1243f026211d03c1e6fb640') in 0.0114767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ca076c39549fb96cb700ac3f10009a6 DependenciesID=df249ceeef59f6b143e03d9cc5109612 StaticDependenciesID=598810df85468d0d3595e00bbaa2cb65 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_378.asset
+  importAddress: Guid(265425e3312037d45abb95e20dc20068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_378.asset using Guid(265425e3312037d45abb95e20dc20068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a38419bd40c242f79616832e7454a468') in 0.0124551 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=80754b76af2f184cb8e5b575557a2bdf DependenciesID=03bcd76b8579bba4c9a171e554ba5c74 StaticDependenciesID=e13efb86dc4515f2a19a2c3fee7bcb95 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Map/Spitess/ground_435.asset
+  importAddress: Guid(489b0a9d0b1eec0479d833d573f619e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_435.asset using Guid(489b0a9d0b1eec0479d833d573f619e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b3891bbfefadd869745a8a5e414b0090') in 0.0155368 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d6106313ef4ce33ac6f2d4a7b1a6765 DependenciesID=a6f8200fb602b1ae33e0395c37278f81 StaticDependenciesID=cc7ad46aae8c77a2c555b5c7d6fea52d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_475.asset
+  importAddress: Guid(d1a098fbb184678449aa0376401a8299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_475.asset using Guid(d1a098fbb184678449aa0376401a8299) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '41e8c4d951c6e45b5e0d0dc3a9cb9fdd') in 0.0155546 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=998cbd75203a24cec0b03bd5d0b19ee3 DependenciesID=7fe917b8ec41888e36e0bf1b96d93746 StaticDependenciesID=ca2b1484b050ee55137d8132b4af3b66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Map/Spitess/ground_356.asset
+  importAddress: Guid(6ae17947a4a84c344b645056433f2827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_356.asset using Guid(6ae17947a4a84c344b645056433f2827) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b04d956372e5521d2e268076781443dc') in 0.0158823 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=949b3073319f66728ac03eed6559d014 DependenciesID=c8f7f1473bd4f2483cc52514838bb65e StaticDependenciesID=82634223c7dfa02203624eb6133b440d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_410.asset
+  importAddress: Guid(6faa70fd48988c34cbd8941fd9e94bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_410.asset using Guid(6faa70fd48988c34cbd8941fd9e94bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '61b429c26ab94688500859ce3e66e45d') in 0.016008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2f1cbe782ae1631b2717fd1996390dc DependenciesID=6258d7936b528ed174a615b341ac75c9 StaticDependenciesID=4d9759e5619dbece21a22b5ad52a9e19 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Map/Spitess/ground_485.asset
+  importAddress: Guid(15b4aadf549dd1543af0cbc99e505fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_485.asset using Guid(15b4aadf549dd1543af0cbc99e505fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '745010874ea4e391e799b861be6b9a6b') in 0.0142348 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=803421a20f66183c2d2824fca7f33782 DependenciesID=88deec188f57db7f36fb5b38ef10da9a StaticDependenciesID=26a9a24e6dcf34053d7014ef35d5284d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Map/Spitess/ground_422.asset
+  importAddress: Guid(5b1fab35856352440a7809df3d5b6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_422.asset using Guid(5b1fab35856352440a7809df3d5b6519) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '18584a69561a092ac525998757f4d4e5') in 0.013767 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dce8b4c547987563786814452dc399c0 DependenciesID=915ebb54eead19d74d408478978ba917 StaticDependenciesID=9f55609e4538fec25cca648f3b7e1cc8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Map/Spitess/ground_631.asset
+  importAddress: Guid(828f19e013aa8cb49970c7377e9a5d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_631.asset using Guid(828f19e013aa8cb49970c7377e9a5d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'f9ea9a0ef1bc48652c94184429fd7110') in 0.0129312 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd8c3de764c6a37f4302618957d29d29 DependenciesID=f4f7cc498b491d2739c6814bd1b012f2 StaticDependenciesID=08b887e93500a141b9fef8402c869269 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_469.asset
+  importAddress: Guid(92634e9f723fa444b8abe830438a60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_469.asset using Guid(92634e9f723fa444b8abe830438a60bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c936c8a3374a092159f9d403311bfbc3') in 0.0127148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5166f5ff10d8d5f98619134e16ac3a6 DependenciesID=1f4b4e3e423ce45f65723a6f7bebc8d6 StaticDependenciesID=b5f35dc793f0d9b77abcd68cd808f1fe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_476.asset
+  importAddress: Guid(e5bba412378602c4d9f18d9e1fcf4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_476.asset using Guid(e5bba412378602c4d9f18d9e1fcf4c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '609267a41fc3c6480bc9e37c08ce3315') in 0.0148614 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bc106845201920e1c6916aaa28fc041 DependenciesID=80cccb315d5e73bb20b2759716cc09b2 StaticDependenciesID=16a5af39b47824447d4ca921a81d1f10 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Map/Spitess/ground_453.asset
+  importAddress: Guid(f86b7a1a55a6fad4087a49f8f54367ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_453.asset using Guid(f86b7a1a55a6fad4087a49f8f54367ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9f5ab0d144eac1fced246ee80acb2fa3') in 0.013122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60c2b15e65f697bfab9424daf1bd6f43 DependenciesID=0a4e4ce7b52dc9dca7301a72d01c8645 StaticDependenciesID=6df37f9910fecc8d1c0bb0c9a74507b2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Spitess/ground_602.asset
+  importAddress: Guid(63071ad5680dcd7449c4fdc32387f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_602.asset using Guid(63071ad5680dcd7449c4fdc32387f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b42d623e3f8c043c3b29f50020ab1a9f') in 0.0136559 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a48f109596d048a5b10fd5f5f1ec8c08 DependenciesID=eebfaa76b4d0bf8bf41c3e6c73fddb5a StaticDependenciesID=e3f98a3b2a773c4abf5e4a60725ed708 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Map/Spitess/ground_495.asset
+  importAddress: Guid(dd3b41315ee49d84aa61b4f39cc3eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_495.asset using Guid(dd3b41315ee49d84aa61b4f39cc3eabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5d0afd680d36b6f03c35e9004c8ea65f') in 0.0140176 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b14dde57284790982d60ab063c2250d DependenciesID=f46e2eeda212eb9dfa55b469c351792c StaticDependenciesID=ef5e6cddc0f7de211b988907f4563445 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_1553.asset
+  importAddress: Guid(bb79d1f7146f70b44b54f17fccdf5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1553.asset using Guid(bb79d1f7146f70b44b54f17fccdf5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b200de0a31c7021abf4393cbbb30af40') in 0.0109202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5c43b26af929ce2fe372907b30e005f DependenciesID=252d17796daf043806e08ca2ed5f004f StaticDependenciesID=d1784ed4b2e157dc52df690861b11f74 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Map/Spitess/ground_934.asset
+  importAddress: Guid(d529d55ff9dda36409742c257a5f388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_934.asset using Guid(d529d55ff9dda36409742c257a5f388c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2067468bc1849c8e9a4a1a1b43802b52') in 0.0242358 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fed552194544333d1a5a391be2d4683 DependenciesID=f22ad81d450979a5068487e38ec3df95 StaticDependenciesID=89ee192b80e1ce546ced23d9151de945 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Map/Spitess/ground_1307.asset
+  importAddress: Guid(2bfc89b16f0cba64b9238300e77b808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1307.asset using Guid(2bfc89b16f0cba64b9238300e77b808b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'cbb22e573735f859ed88e80ba2ab812d') in 0.0102093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76c1b5ac5ea556dc7529a2ea7212801a DependenciesID=5261dc1d9215354708ef0f9ffccbb018 StaticDependenciesID=dc07ca444ab813a0fb3293dfa2947ab7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Map/Spitess/ground_753.asset
+  importAddress: Guid(773704f787b9e7b4b83c28aa0c269006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_753.asset using Guid(773704f787b9e7b4b83c28aa0c269006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7ce93d9b56003758afcc975bc5ffce74') in 0.0257727 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=089ac0b14b6ace4835700f185cb1d773 DependenciesID=2a50592eefe89db07c03caccf1d4c00d StaticDependenciesID=1fa2bdfb56d1bdb3b9a922976411d510 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Map/Spitess/ground_1357.asset
+  importAddress: Guid(8848fccc4a95b5a4e9a0f9dcb6543d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1357.asset using Guid(8848fccc4a95b5a4e9a0f9dcb6543d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '798fee1bece3c4c446468b2c5678fb5b') in 0.0140516 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=395b136233565e48c73f14c69caf9e8a DependenciesID=ef08e81a55d18f426726bee5f81dc122 StaticDependenciesID=10115c70c1a5ad118976e7c212415cc3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Map/Spitess/ground_1376.asset
+  importAddress: Guid(647d53ca3d6478d4db6abd19ef966cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1376.asset using Guid(647d53ca3d6478d4db6abd19ef966cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4dbc53da0964b8cd1acb7955b67385cc') in 0.0146481 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50a36c244e084b3b69aec51de3a028b4 DependenciesID=beee6e0712cc11d55a7d00579f10306a StaticDependenciesID=8295b5a46d157fb171134d3eb8460047 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Map/Spitess/ground_1326.asset
+  importAddress: Guid(0d9c48189333423419bb20d275fb681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1326.asset using Guid(0d9c48189333423419bb20d275fb681e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '0f177b788fc2e370b947de51171e8072') in 0.0139779 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c615d408f4fbfb857b1726a34710549f DependenciesID=75ee6d539e1383b545f55eca9e1d0834 StaticDependenciesID=bf93d9058019a95dfeacf69ebccc4207 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Map/Spitess/ground_510.asset
+  importAddress: Guid(9bf88860cdd58094a8c8504b14837b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_510.asset using Guid(9bf88860cdd58094a8c8504b14837b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '36654f4ec84e8cf7cd5b33b95e7de4db') in 0.0125344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=28dc53e24bab06b58f5388733fa906a3 DependenciesID=cd71d9b1bddaa574838bce02bec3e243 StaticDependenciesID=006543070b6a01195f6c313bde9345c7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Map/Spitess/ground_1005.asset
+  importAddress: Guid(a087a3a01c8327e44a552ec20a52d26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1005.asset using Guid(a087a3a01c8327e44a552ec20a52d26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '32fb7a0909869365330a52a3cd834981') in 0.0114526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b8178fca96787cfc4a09bb21c5c3859 DependenciesID=63835e5081fcb9544463498a44698845 StaticDependenciesID=4326acc2e5b1c4c91d683de2afd2e332 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Map/Spitess/ground_1071.asset
+  importAddress: Guid(6db04451fa8616b42a093e83de9c55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1071.asset using Guid(6db04451fa8616b42a093e83de9c55fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '468cb37d51585ca09b52a1aac2befa72') in 0.0127104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9645794053e97ec531ada5059ce36e05 DependenciesID=103828570607d60d6ba454fd195146eb StaticDependenciesID=6df65ad783456ff640bbf8144bd669a9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Map/Spitess/ground_803.asset
+  importAddress: Guid(8cee09dde2d33be46afebd6f67c6a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_803.asset using Guid(8cee09dde2d33be46afebd6f67c6a0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '63519951ce72b8f7bf10d9a9f742f1e2') in 0.0134084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=019317e80df470817f233019bcc994ac DependenciesID=81bf03df277534622fa35b9b996a8449 StaticDependenciesID=25d701e1452b1a3adc6bb401963cff25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Map/Spitess/ground_896.asset
+  importAddress: Guid(0615ee101d3e218448142f6f6e8500de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_896.asset using Guid(0615ee101d3e218448142f6f6e8500de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'ec57203273bd2ef8a5c90220797d13c0') in 0.0143072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef2591b21640af70b308bc30a4609457 DependenciesID=517cf9a4cef257ad4749cc3db201aba6 StaticDependenciesID=1e3f2e6606d6940b3e7a7b4c78bdbad6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Map/Spitess/ground_1319.asset
+  importAddress: Guid(c5f542ba1b9976e4983deef0f925da69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Spitess/ground_1319.asset using Guid(c5f542ba1b9976e4983deef0f925da69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '817407f65fc1d9cfd0a3f894db22e2fb') in 0.0112553 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7e1783dee693fba8ac60771c89e0b9e DependenciesID=df8c1355bfc0754d527a833ba690999d StaticDependenciesID=975e7976d8572d38ead8ebc97a10eaa1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.75 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.470 seconds
+Domain Reload Profiling: 2999ms
+	BeginReloadAssembly (455ms)
+		DisableScriptedObjects (59ms)
+		CreateAndSetChildDomain (146ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (918ms)
+		LoadAssemblies (675ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (14ms)
+			BuildScriptInfoCaches (324ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1471ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (209ms)
+			ProcessInitializeOnLoadAttributes (826ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 7 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7480 unused Assets / (6.8 MB). Loaded Objects now: 8314.
+Memory consumption went from 172.3 MB to 165.5 MB.
+Total: 13.964700 ms (FindLiveObjects: 0.830800 ms CreateObjectMapping: 0.828400 ms MarkObjects: 8.047500 ms  DeleteObjects: 4.255700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4083.052714 seconds.
+  path: Assets/Map/Linhtinh/nhachinh_0.asset
+  importAddress: Guid(2759933b67a695e4680d9da9e08057e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Map/Linhtinh/nhachinh_0.asset using Guid(2759933b67a695e4680d9da9e08057e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c5283980004d1bab8f4d57a9b06ba204') in 0.0980843 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf39850014e19c2c9abd5ddc837d3173 DependenciesID=d9d52fb747047fcb8fc6db1bba978e04 StaticDependenciesID=e5037a0c4dbb204c90c655a7c9ff5ab0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.55 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.353 seconds
+Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (242ms)
+		DisableScriptedObjects (25ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (700ms)
+		LoadAssemblies (464ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (287ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1354ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 7 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7480 unused Assets / (6.4 MB). Loaded Objects now: 8320.
+Memory consumption went from 172.4 MB to 166.0 MB.
+Total: 13.779200 ms (FindLiveObjects: 0.805100 ms CreateObjectMapping: 0.800600 ms MarkObjects: 7.715000 ms  DeleteObjects: 4.455900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.22 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.281 seconds
+Domain Reload Profiling: 2330ms
+	BeginReloadAssembly (228ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (678ms)
+		LoadAssemblies (421ms)
+		AnalyzeDomain (328ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (296ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1282ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (231ms)
+			ProcessInitializeOnLoadAttributes (647ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.52 ms, found 7 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7480 unused Assets / (5.7 MB). Loaded Objects now: 8323.
+Memory consumption went from 175.1 MB to 169.3 MB.
+Total: 13.123800 ms (FindLiveObjects: 0.854300 ms CreateObjectMapping: 0.827200 ms MarkObjects: 7.879000 ms  DeleteObjects: 3.560700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Symbol file LoadedFromMemory is not a mono symbol file
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.57 ms, found 7 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.300 seconds
+Domain Reload Profiling: 2353ms
+	BeginReloadAssembly (234ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (446ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (285ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1301ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (202ms)
+			ProcessInitializeOnLoadAttributes (690ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 4.98 ms, found 7 plugins.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7480 unused Assets / (6.7 MB). Loaded Objects now: 8326.
+Memory consumption went from 177.7 MB to 171.1 MB.
+Total: 13.271500 ms (FindLiveObjects: 0.824600 ms CreateObjectMapping: 0.859800 ms MarkObjects: 7.114500 ms  DeleteObjects: 4.470200 ms)
+
+Prepare: number of updated asset objects reloaded= 0

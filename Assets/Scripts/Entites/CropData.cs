@@ -1,59 +1,59 @@
 using UnityEngine;
 
-// CropState: Enum định nghĩa 6 trạng thái của một ô đất trong game nông trại.
-// State Machine (Máy trạng thái) giúp kiểm soát rõ ràng ô đất đang ở giai đoạn nào.
+// CropState: Máy trạng thái của 1 ô đất trong game nông trại.
 //
-// Luồng chuyển trạng thái bình thường:
-//   Empty → Tilled → Planted → Harvestable → (thu hoạch) → Tilled
+// Luồng bình thường:
+//   Empty → Tilled → Planted → (tưới mỗi ngày, tăng stage) → Harvestable → Tilled
 //
-// Luồng khi bị khô hạn:
-//   Planted → (không tưới 2 ngày) → Wilted → (nhổ bỏ) → Tilled
+// Luồng khô hạn:
+//   Planted → (không tưới 2 ngày) → Wilted → (nhổ bỏ [M]) → Tilled
 public enum CropState
 {
-    Empty,       // Ô đất trống — chưa làm gì (mặc định ban đầu)
-    Tilled,      // Đã cuốc đất — đất tơi xốp, sẵn sàng nhận hạt giống
-    Watered,     // Đất đã tưới nhưng chưa gieo hạt (trạng thái dự phòng)
-    Planted,     // Đã gieo hạt — đang chờ lớn (cần tưới mỗi ngày)
-    Harvestable, // Cây đã trưởng thành — sẵn sàng thu hoạch
-    Wilted       // Cây bị héo vì thiếu nước — không thu hoạch được, cần nhổ bỏ
+    Empty,       // Ô đất trống — chưa làm gì
+    Tilled,      // Đã cuốc đất — sẵn sàng nhận hạt giống
+    Watered,     // Dự phòng (đất tưới chưa gieo)
+    Planted,     // Đã gieo hạt — đang lớn lên theo stage
+    Harvestable, // Đã trưởng thành — sẵn sàng thu hoạch
+    Wilted       // Héo vì thiếu nước — cần nhổ bỏ
 }
 
-// CropData: Class lưu trữ toàn bộ thông tin của MỘT ô đất.
-// Không kế thừa MonoBehaviour → là Data Class thuần túy, không gắn lên GameObject.
-// CropManager quản lý một Dictionary<Vector3Int, CropData> để tra cứu theo tọa độ.
-[System.Serializable] // Cho phép Unity hiển thị trong Inspector và hỗ trợ JSON serialization
+// CropData: Dữ liệu của MỘT ô đất.
+// Không kế thừa MonoBehaviour — là Data Class thuần túy.
+// CropManager dùng Dictionary<Vector3Int, CropData> để tra cứu theo tọa độ O(1).
+[System.Serializable]
 public class CropData
 {
-    // Tọa độ ô trên Tilemap — dùng làm khóa (key) trong Dictionary
-    // Vector3Int: x = cột, y = hàng, z = thường = 0 với map 2D
-    public Vector3Int cellPosition;
+    // ─── VỊ TRÍ ──────────────────────────────────────────────────────────────
+    public Vector3Int cellPosition; // Tọa độ ô trên Tilemap
 
-    // Trạng thái hiện tại của ô đất — xem enum CropState ở trên
-    public CropState state;
-    
-    // Cờ đánh dấu ô đất có đang được tưới nước không
-    // true → cây sẽ lớn lên trong chu kỳ tiếp theo
-    // false → cây sẽ bắt đầu đếm ngày khô hạn
-    public bool isWatered = false;
+    // ─── TRẠNG THÁI ──────────────────────────────────────────────────────────
+    public CropState state;         // Trạng thái hiện tại của ô đất
+    public bool isWatered = false;  // Có được tưới trong chu kỳ hiện tại không
 
-    // Bộ đếm phút ingame kể từ khi gieo hạt
-    // Cộng 1 mỗi phút ingame (= 1 giây thực) khi cây được tưới nước
-    // Khi đạt timeToHarvestMinutes → chuyển sang Harvestable
-    public int plantedTimeInMinutes = 0; 
+    // ─── TĂNG TRƯỞNG THEO STAGE ──────────────────────────────────────────────
+    // Growth Stage System: cây phát triển qua nhiều stage trực quan.
+    // Stage 0 = mầm mới mọc, Stage (totalStages-1) = sẵn sàng thu hoạch.
+    //
+    // Ví dụ với growthStageTiles.Length = 4 và timeToHarvest = 120 phút:
+    //   minutesPerStage = 120 / (4-1) = 40 phút/stage
+    //   Stage 0 [0-39 phút]:   tile mầm nhỏ
+    //   Stage 1 [40-79 phút]:  tile cây con
+    //   Stage 2 [80-119 phút]: tile cây lớn
+    //   Stage 3 [120 phút]:    → chuyển Harvestable
+    public int currentStage       = 0;   // Stage hiện tại (0 = mới gieo)
+    public int totalStages        = 3;   // Tổng số stage (gán bởi CropManager)
+    public int minutesPerStage    = 40;  // Phút ingame để qua 1 stage
 
-    // Ngưỡng thời gian để thu hoạch (tính bằng phút ingame)
-    // Mặc định 120 phút ingame = 120 giây thực ≈ 2 phút chơi
-    public int timeToHarvestMinutes = 120;
-    
-    // Đếm số ngày (mỗi chu kỳ ngày = N phút ingame) mà não thiếu nước
-    // Khi daysWithoutWater >= 2 → cây chuyển sang Wilted
-    public int daysWithoutWater = 0; 
+    // ─── ĐẾM THỜI GIAN ───────────────────────────────────────────────────────
+    public int plantedTimeInMinutes  = 0;   // Phút ingame tích lũy kể từ khi gieo hạt
+    public int timeToHarvestMinutes  = 120; // Ngưỡng thu hoạch (phút ingame)
+    public int daysWithoutWater      = 0;   // Đếm ngày không được tưới → héo
 
-    // Constructor: tạo 1 ô đất mới tại tọa độ pos, trạng thái mặc định là Empty
+    // Constructor
     public CropData(Vector3Int pos)
     {
         cellPosition = pos;
-        state = CropState.Empty;
-        isWatered = false;
+        state        = CropState.Empty;
+        isWatered    = false;
     }
 }

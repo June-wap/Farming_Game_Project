@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -196,12 +196,12 @@ TextureImporter:
       name: pose_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1822
-        width: 44
-        height: 69
+        x: 26
+        y: 417
+        width: 65
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,11 +219,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 100
-        y: 1822
-        width: 44
-        height: 69
+        y: 417
+        width: 50
+        height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 164
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
       customData: 
       outline: []
       physicsShape: []
@@ -263,11 +263,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 228
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -281,103 +281,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pose_4
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 1822
-        width: 43
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17d000ce247714400800000000000000
-      internalID: 306657378948877681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pose_5
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1822
-        width: 43
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab7030bb8f6fe8780800000000000000
-      internalID: -8678727883746506822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pose_6
-      rect:
-        serializedVersion: 2
-        x: 441
-        y: 1822
-        width: 43
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28a384effc72e8790800000000000000
-      internalID: -7526034153011660158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pose_7
-      rect:
-        serializedVersion: 2
-        x: 502
-        y: 1822
-        width: 43
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08b4382faba02a250800000000000000
-      internalID: 5954333455386102656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: pose_8
       rect:
         serializedVersion: 2
         x: 575
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,11 +307,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 636
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,11 +329,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 694
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,11 +351,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 759
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -461,11 +373,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 833
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -483,11 +395,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 898
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -505,11 +417,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 956
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -527,11 +439,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1020
-        y: 1822
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -549,11 +461,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 39
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -571,11 +483,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 103
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -593,11 +505,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 167
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -615,11 +527,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 227
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -637,11 +549,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 313
-        y: 1723
+        y: 525
         width: 43
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -659,11 +571,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 379
-        y: 1723
+        y: 525
         width: 43
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -681,11 +593,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 442
-        y: 1723
+        y: 525
         width: 43
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -703,11 +615,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 501
-        y: 1723
+        y: 525
         width: 43
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -725,11 +637,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 583
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -747,11 +659,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 644
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -769,11 +681,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 702
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -791,11 +703,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 760
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -813,11 +725,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 843
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -835,11 +747,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 901
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -857,11 +769,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 959
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -879,11 +791,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1020
-        y: 1723
+        y: 525
         width: 44
-        height: 69
+        height: 1
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -896,11 +808,627 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: pose_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 417
+        width: 54
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40139fe4454474e49963bb17c8e5f06b
+      internalID: -1005167063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 417
+        width: 59
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad8a153afa0e2b428baec23b93de669
+      internalID: -1450642422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_34
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 415
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de89b912aea1944e895e21230e97e07
+      internalID: 529025050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_35
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 419
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aa47da5f0f0af44abd61d5fa5a3d68
+      internalID: 516531935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_36
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 415
+        width: 51
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff45b4d5ab96be49b42ccb96f4680d5
+      internalID: -1998911569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_37
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 419
+        width: 53
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bd969739aef7041b2bf2b0252ae9c1
+      internalID: -252749714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_38
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 418
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2d24d394eaae940be1251ebe3b9743
+      internalID: -505399923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_39
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 418
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89759075722c793439039fee33f1f589
+      internalID: -1315218125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_40
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 417
+        width: 49
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8b0b9f8d6d1a74ab5f52adc3bd47d6
+      internalID: 1308032452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_41
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 416
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e2b503830413143af08e3cd4bd23da
+      internalID: -1097826424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_42
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 415
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f27082bf2966394bb3abf42b47b7164
+      internalID: -34457554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_43
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 417
+        width: 63
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0d086fb5de8e64d8529e4179511b8d
+      internalID: -146802861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_44
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 413
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93becba1471b4bd4d83388ca84db5db2
+      internalID: 83315928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_45
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 418
+        width: 50
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11a28d86ab88624eb6ccacbb43e5280
+      internalID: -502086823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_46
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 332
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7821eaea37ce847927409dca388df2
+      internalID: -862302061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_47
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 329
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba20d9de7b61514d95171851eec47fa
+      internalID: -617058378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_48
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 332
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc2be5809de3a14f8a08e6a89cc0a4c
+      internalID: -307357513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_49
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 323
+        width: 70
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b148425157b433942810398ba1b2b96f
+      internalID: 701411002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_50
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 330
+        width: 76
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b587b40f0e924cf479c6214410b17c31
+      internalID: 1251879829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_51
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 328
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3241eef6da0464a8b496f2b8555b6d
+      internalID: -2027055494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_52
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 329
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782419417aefabd419745b81ea3a6ea8
+      internalID: 1450525591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_53
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 330
+        width: 58
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0585c7aaea555cc4a909393729fa8a49
+      internalID: -554374242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_54
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 321
+        width: 82
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bb0f28e40529e4f8c7b33a4ec7806a
+      internalID: -369790141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_55
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 328
+        width: 51
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ffbd9ab737ae6409d00d87d0d092f9
+      internalID: -1506929137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_56
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 319
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f72b34c15593054b92b7ae82bc2f275
+      internalID: -598332829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_57
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 326
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69846367993162941ab9de01e2538fde
+      internalID: -927569380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_58
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 330
+        width: 46
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605b1e673a0823b4ca10ccb8be0cb2c4
+      internalID: 2145180042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pose_59
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 320
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2593042ed33ead44bbc35e6da7b3a1a5
+      internalID: -131872342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 69f2ac6d12641d1469e9d645118866c4
     internalID: 0
     vertices: []
     indices: 
@@ -936,8 +1464,36 @@ TextureImporter:
       pose_3: -6763496918988440362
       pose_30: -8206218215997135125
       pose_31: 7251227122576369482
+      pose_32: -1005167063
+      pose_33: -1450642422
+      pose_34: 529025050
+      pose_35: 516531935
+      pose_36: -1998911569
+      pose_37: -252749714
+      pose_38: -505399923
+      pose_39: -1315218125
       pose_4: 306657378948877681
+      pose_40: 1308032452
+      pose_41: -1097826424
+      pose_42: -34457554
+      pose_43: -146802861
+      pose_44: 83315928
+      pose_45: -502086823
+      pose_46: -862302061
+      pose_47: -617058378
+      pose_48: -307357513
+      pose_49: 701411002
       pose_5: -8678727883746506822
+      pose_50: 1251879829
+      pose_51: -2027055494
+      pose_52: 1450525591
+      pose_53: -554374242
+      pose_54: -369790141
+      pose_55: -1506929137
+      pose_56: -598332829
+      pose_57: -927569380
+      pose_58: 2145180042
+      pose_59: -131872342
       pose_6: -7526034153011660158
       pose_7: 5954333455386102656
       pose_8: -4136501978346724833

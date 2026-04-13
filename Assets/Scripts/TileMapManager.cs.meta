@@ -1,2 +1,16 @@
 fileFormatVersion: 2
 guid: 169fdd0cbacd50945a3965d8f21e36f6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tilemap_Ground: {instanceID: 0}
+  - tb_Ground: {fileID: 11400000, guid: 89d8e4c97c5f469408a7952ab528ef60, type: 2}
+  - tb_Field: {fileID: 11400000, guid: f87f514e93a1a724bacd417f074f178c, type: 2}
+  - tb_Ruong: {fileID: 11400000, guid: b3f21c76f70046e479ff46ef4b76c299, type: 2}
+  - dbManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
