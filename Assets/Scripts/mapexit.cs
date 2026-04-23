@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 // ở rìa bản đồ. Khi Player bước vào vùng đó, game sẽ tự động lưu map và chuyển scene.
 public class SceneChanger : MonoBehaviour
 {
-    [Header("Tên Map đích (vd: Graveyard)")]
-    [Tooltip("Phải trùng khớp tên Scene trong File > Build Settings")]
+    [Header("BẢN ĐỒ MUỐN TỚI")]
+    [Tooltip("Phải trùng khớp tên Scene trong File > Build Settings (vd: MapTrongNha)")]
     public string sceneToLoad;
+
+    [Header("ĐIỂM ĐÁP XUỐNG (SPAWN POINT)")]
+    [Tooltip("Tên của Cục Hồi sinh bạn muốn đáp xuống ở Map mới (vd: CuaChinh, CuaSau)")]
+    public string targetSpawnID;
+
+    // Biến tĩnh ngầm giữ thông tin vé xe chuyển sang cho map mới
+    public static string NextSpawnID;
 
     // OnTriggerEnter2D được Unity gọi khi Player chạm vào vùng trigger này
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,6 +36,9 @@ public class SceneChanger : MonoBehaviour
         {
             Debug.LogWarning("[SceneChanger] Không tìm thấy TileMapManager trong scene. Bỏ qua auto-save.");
         }
+
+        // Lưu ID vé xe điểm đến trước khi đi thẳng qua Map mới
+        NextSpawnID = targetSpawnID;
 
         // ─── CHUYỂN SCENE ────────────────────────────────────────────────────
         if (SceneController.Instance != null)

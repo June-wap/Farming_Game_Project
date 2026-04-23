@@ -23,8 +23,9 @@ public enum CropState
 [System.Serializable]
 public class CropData
 {
-    // ─── VỊ TRÍ ──────────────────────────────────────────────────────────────
+    // ─── VỊ TRÍ & LOẠI CÂY ──────────────────────────────────────────────────────────────
     public Vector3Int cellPosition; // Tọa độ ô trên Tilemap
+    public string cropName;         // Tên nông sản sẽ thu hoạch được (vd: Lua, Ngo, CaChua)
 
     // ─── TRẠNG THÁI ──────────────────────────────────────────────────────────
     public CropState state;         // Trạng thái hiện tại của ô đất
@@ -55,5 +56,6 @@ public class CropData
         cellPosition = pos;
         state        = CropState.Empty;
         isWatered    = false;
+        cropName     = "";
     }
 }

@@ -187,4 +187,20 @@ public class UserDataManager : MonoBehaviour
         SaveUserProfile();
         Debug.Log($"[UserDataManager] 📅 Đồng bộ ngày {day} lên Firebase.");
     }
+
+    // --- PHẦN DEBUG: DÙNG ĐỂ HACK TIỀN ---
+    private void Update()
+    {
+        // Nhấn phím P để hack 9999999 tiền và vàng
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (_profile != null)
+            {
+                _profile.money = 9999999;
+                _profile.gold = 9999999;
+                SaveUserProfile();
+                Debug.Log("<color=yellow>[Hack]</color> Đã hack 9999999 Tiền và Vàng!");
+            }
+        }
+    }
 }

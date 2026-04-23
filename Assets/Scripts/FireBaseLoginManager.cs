@@ -47,12 +47,25 @@ public class FireBaseLoginManager : MonoBehaviour
 
     private void Start()
     {
-        _auth = FirebaseAuth.DefaultInstance;
+        // Khởi tạo Firebase an toàn để tránh lỗi crash Start() làm đứt dây Button
+        Firebase.FirebaseApp.CheckAndFixDependenciesAsync().ContinueWithOnMainThread(task =>
+        {
+            if (task.Result == Firebase.DependencyStatus.Available)
+            {
+                _auth = FirebaseAuth.DefaultInstance;
+                Debug.Log("[Login] Firebase Auth đã sẵn sàng.");
+            }
+            else
+            {
+                Debug.LogError("[Login] Lỗi khởi tạo Firebase: " + task.Result);
+            }
+        });
 
-        buttonRegister.onClick.AddListener(RegisterAccountWithFireBase);
-        buttonLogin.onClick.AddListener(LoginAccountWithFireBase);
-        buttonMoveToRegister.onClick.AddListener(SwitchForm);
-        buttonMoveToLogin.onClick.AddListener(SwitchForm);
+        // Gắn sự kiện cho nút bấm ngay lập tức (không chờ Firebase)
+        if (buttonRegister != null) buttonRegister.onClick.AddListener(RegisterAccountWithFireBase);
+        if (buttonLogin != null) buttonLogin.onClick.AddListener(LoginAccountWithFireBase);
+        if (buttonMoveToRegister != null) buttonMoveToRegister.onClick.AddListener(SwitchForm);
+        if (buttonMoveToLogin != null) buttonMoveToLogin.onClick.AddListener(SwitchForm);
     }
 
     // ─── ĐĂNG KÝ ─────────────────────────────────────────────────────────────
@@ -170,9 +183,16 @@ public class FireBaseLoginManager : MonoBehaviour
 
     public void SwitchForm()
     {
-        bool loginActive = LoginForm.activeSelf;
-        LoginForm.SetActive(!loginActive);
-        RegisterForm.SetActive(loginActive);
+        Debug.Log($"[Login] 🔘 Đã bấm nút chuyển Form! \n" +
+                  $"- LoginForm gán trong Inspector là: {(LoginForm != null ? LoginForm.name : "NULL")} \n" +
+                  $"- RegisterForm gán trong Inspector là: {(RegisterForm != null ? RegisterForm.name : "NULL")}");
+
+        if (LoginForm != null && RegisterForm != null)
+        {
+            bool loginActive = LoginForm.activeSelf;
+            LoginForm.SetActive(!loginActive);
+            RegisterForm.SetActive(loginActive);
+        }
     }
 
     // ─── HELPERS ─────────────────────────────────────────────────────────────

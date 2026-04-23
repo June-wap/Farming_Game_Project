@@ -1,5 +1,24 @@
 using System;
 using UnityEngine;
+using System.Collections.Generic;
+
+// ─── CÁC CẤU TRÚC PHỤ TRỢ ──────────────────────────────────────────
+
+[Serializable]
+public class InventoryItemData
+{
+    public string itemID; // Mã định danh của ItemDataSO
+    public int amount;
+}
+
+[Serializable]
+public class AnimalSaveData
+{
+    public string animalType;  // "Chicken", "Cow", v.v.
+    public float posX;
+    public float posY;
+    public int hungerDays;     // Tích luỹ ngày đói
+}
 
 // UserProfile: Dữ liệu người chơi được lưu lên Firebase.
 // QUAN TRỌNG: Dùng public FIELD (không phải property { get; set; })
@@ -11,6 +30,18 @@ public class UserProfile
     public int gold;          // Vàng (dùng để mua công cụ, hạt giống cao cấp)
     public int money;         // Tiền thông thường
     public int currentDay;    // Ngày hiện tại trong game (đồng bộ với TimeManager)
+
+    // Dữ liệu mở rộng
+    public float playerPosX;  // Vị trí X của người chơi
+    public float playerPosY;  // Vị trí Y của người chơi
+    public int currentHour;   // Giờ trong game
+    public int currentMinute; // Phút trong game
+
+    // Túi đồ (Inventory)
+    public List<InventoryItemData> inventoryItems = new List<InventoryItemData>();
+
+    // Động vật (Animals)
+    public List<AnimalSaveData> animals = new List<AnimalSaveData>();
 
     // Constructor mặc định cho người chơi mới
     public UserProfile()

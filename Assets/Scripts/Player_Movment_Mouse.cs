@@ -11,11 +11,14 @@ public class Player_Movment_Mouse : MonoBehaviour
     public Animator animator;
     private Vector2 targetPosition; // Tọa độ đích (nơi người chơi click chuột)
     private Vector2 moveInput;      // Hướng đang di chuyển mỗi frame
+    private Vector2 lastMoveInput = new Vector2(0, -1); // Hướng nhìn cuối cùng
     private bool hasTarget;         // Cờ: đang có đích để đến không?
+    private PlayerFarmControler farmController;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        farmController = GetComponent<PlayerFarmControler>();
     }
 
     private void Update()
@@ -51,11 +54,24 @@ public class Player_Movment_Mouse : MonoBehaviour
             moveInput = Vector2.zero; // Không có đích → đứng im
         }
 
-        // Cập nhật Animator để chuyển hoạt ảnh Idle ↔ Walk
+        // Nếu đang cuốc đất thì khoá di chuyển
+        if (farmController != null && farmController.IsBusy)
+        {
+            moveInput = Vector2.zero;
+            hasTarget = false;
+        }
+
+        // Cập nhật Animator
         if (animator != null)
         {
-            animator.SetFloat("Horizontal", moveInput.x);
-            animator.SetFloat("Vertical", moveInput.y);
+            // Nhớ hướng nhìn
+            if (moveInput.sqrMagnitude > 0.01f)
+            {
+                lastMoveInput = moveInput;
+            }
+
+            animator.SetFloat("Horizontal", lastMoveInput.x);
+            animator.SetFloat("Vertical", lastMoveInput.y);
             animator.SetFloat("Speed", moveInput.sqrMagnitude);
         }
     }

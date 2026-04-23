@@ -128,7 +128,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 39555270}
-  - component: {fileID: 39555269}
   - component: {fileID: 39555268}
   - component: {fileID: 39555267}
   - component: {fileID: 39555266}
@@ -151,13 +150,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df3edd406c3310d46b092def58aac5fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CropManager
-  tilledTile: {fileID: 0}
-  wiltedTile: {fileID: 0}
+  tilledTile: {fileID: 11400000, guid: 6fb35d6533a602d4a92556e262292d21, type: 2}
   growthStageTiles:
-  - {fileID: 0}
-  defaultCropName: Flower
-  defaultCropDescription: "Hoa thu ho\u1EA1ch t\u1EEB ru\u1ED9ng."
-  minutesToHarvest: 120
+  - {fileID: 11400000, guid: 2c437d18d4f290f4fb4a922f75aeea06, type: 2}
+  - {fileID: 11400000, guid: 65c83db29a979b34c909335b751e7fd6, type: 2}
+  - {fileID: 11400000, guid: b9aa37f42d2a97f42a7d40248acd86c1, type: 2}
+  - {fileID: 11400000, guid: d25597f3e908f7f49bb50f554d83ab93, type: 2}
+  - {fileID: 11400000, guid: 1e22141619a21a9408233bf5a0e99892, type: 2}
+  defaultCropName: seed_rice
+  minutesToHarvest: 12
 --- !u!114 &39555267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,30 +185,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d2003cc09333e74089046e2176393ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UserDataManager
---- !u!114 &39555269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 39555265}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b16703aead9ea6d4d9d0d799fa470b20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FireBaseLoginManager
-  ipRegisterEmail: {fileID: 1976714805}
-  ipRegisterPassword: {fileID: 1284444619}
-  ipRegisterName: {fileID: 0}
-  buttonRegister: {fileID: 95151310}
-  ipLoginEmail: {fileID: 1280103223}
-  ipLoginPassword: {fileID: 1311242199}
-  buttonLogin: {fileID: 1557749089}
-  buttonMoveToLogin: {fileID: 930473631}
-  buttonMoveToRegister: {fileID: 728122713}
-  LoginForm: {fileID: 547615097}
-  RegisterForm: {fileID: 1180236438}
-  txtStatus: {fileID: 0}
 --- !u!4 &39555270
 Transform:
   m_ObjectHideFlags: 0
@@ -257,6 +234,10 @@ PrefabInstance:
     - target: {fileID: 7885219800426229554, guid: 959cf3f46cfa71f41a64a75d02becd35, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193988652835525177, guid: 959cf3f46cfa71f41a64a75d02becd35, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8321138585172943954, guid: 959cf3f46cfa71f41a64a75d02becd35, type: 3}
       propertyPath: m_Pivot.x
@@ -388,8 +369,8 @@ MonoBehaviour:
   ipLoginEmail: {fileID: 1280103223}
   ipLoginPassword: {fileID: 1311242199}
   buttonLogin: {fileID: 1557749089}
-  buttonMoveToLogin: {fileID: 728122713}
-  buttonMoveToRegister: {fileID: 930473631}
+  buttonMoveToLogin: {fileID: 930473631}
+  buttonMoveToRegister: {fileID: 728122713}
   LoginForm: {fileID: 547615097}
   RegisterForm: {fileID: 1180236438}
   txtStatus: {fileID: 0}
@@ -580,6 +561,7 @@ GameObject:
   - component: {fileID: 2135300292}
   - component: {fileID: 2135300291}
   - component: {fileID: 2135300290}
+  - component: {fileID: 2135300293}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -661,6 +643,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135300293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135300289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

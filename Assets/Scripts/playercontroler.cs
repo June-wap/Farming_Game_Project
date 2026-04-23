@@ -9,12 +9,15 @@ public class playercontroler : MonoBehaviour
     [SerializeField] private float speed = 5f; // Tốc độ di chuyển — chỉnh trong Inspector
     private Rigidbody2D rb;                    // Component vật lý 2D của nhân vật
     private Vector2 moveInput;                 // Hướng di chuyển hiện tại (x, y) từ -1 đến 1
+    private Vector2 lastMoveInput = new Vector2(0, -1); // Hướng nhìn cuối cùng (mặc định nhìn xuống)
     public Animator animator;                  // Animator điều khiển hoạt ảnh nhân vật
+    private PlayerFarmControler farmController;
 
     private void Awake()
     {
         // Lấy Rigidbody2D trên cùng GameObject — phải có component này
         rb = GetComponent<Rigidbody2D>();
+        farmController = GetComponent<PlayerFarmControler>();
 
         // Giữ nhân vật tồn tại khi chuyển Scene
         DontDestroyOnLoad(gameObject);
@@ -31,17 +34,30 @@ public class playercontroler : MonoBehaviour
     // Update chạy mỗi frame (thường 60fps)
     private void Update()
     {
-        // 1. Đọc phím bấm để tính hướng đi
-        HandleInput();
+        // Nếu đang cuốc đất/trồng cây thì khoá phím di chuyển
+        if (farmController != null && farmController.IsBusy)
+        {
+            moveInput = Vector2.zero;
+        }
+        else
+        {
+            // 1. Đọc phím bấm để tính hướng đi
+            HandleInput();
+        }
 
         // 2. Cập nhật Animator DUY NHẤT 1 lần/frame tại đây
-        // Horizontal, Vertical → quyết định hướng nhân vật nhìn (trái/phải/lên/xuống)
-        // Speed → quyết định chuyển từ trạng thái Idle sang Walk
         if (animator != null)
         {
-            animator.SetFloat("Horizontal", moveInput.x);
-            animator.SetFloat("Vertical", moveInput.y);
-            animator.SetFloat("Speed", moveInput.sqrMagnitude); // sqrMagnitude nhanh hơn magnitude vì không cần căn bậc 2
+            // Nhớ hướng nhìn cuối cùng khi dừng lại
+            if (moveInput.sqrMagnitude > 0.01f)
+            {
+                lastMoveInput = moveInput;
+            }
+
+            // Gửi toạ độ nhớ được cho Animator, lúc dừng lại nó vẫn biết đang quay mặt hướng nào!
+            animator.SetFloat("Horizontal", lastMoveInput.x);
+            animator.SetFloat("Vertical", lastMoveInput.y);
+            animator.SetFloat("Speed", moveInput.sqrMagnitude); 
         }
     }
 

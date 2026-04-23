@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - FarmZone
   layers:
   - Default
   - TransparentFX
@@ -11,11 +12,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Player
+  - Animal
+  - 'NPC '
+  - Interactable
   - 
   - 
   - 
@@ -41,35 +42,50 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Ground
+  - name: 'Ground     '
     uniqueID: 2012693689
-    locked: 0
-  - name: Grass
-    uniqueID: 1962853287
-    locked: 0
-  - name: Road
-    uniqueID: 3978019159
-    locked: 0
-  - name: Water
-    uniqueID: 1094132237
-    locked: 0
-  - name: Map_exit
-    uniqueID: 2229800959
     locked: 0
   - name: Fences
     uniqueID: 1344367079
     locked: 0
-  - name: Tree
-    uniqueID: 1397548327
+  - name: Grass
+    uniqueID: 4020245723
+    locked: 0
+  - name: Water
+    uniqueID: 1094132237
+    locked: 0
+  - name: Road
+    uniqueID: 3978019159
+    locked: 0
+  - name: Field
+    uniqueID: 3912337507
+    locked: 0
+  - name: Rock
+    uniqueID: 2102331057
+    locked: 0
+  - name: Animal
+    uniqueID: 3602749021
     locked: 0
   - name: Cau
     uniqueID: 4072810301
+    locked: 0
+  - name: Flower
+    uniqueID: 3199857
+    locked: 0
+  - name: NhaKho
+    uniqueID: 408013635
+    locked: 0
+  - name: Tree
+    uniqueID: 1397548327
     locked: 0
   - name: home
     uniqueID: 3499141679
     locked: 0
   - name: Player
     uniqueID: 3627966441
+    locked: 0
+  - name: Map_exit
+    uniqueID: 2229800959
     locked: 0
   m_RenderingLayers:
   - Default

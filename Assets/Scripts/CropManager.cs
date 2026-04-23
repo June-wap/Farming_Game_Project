@@ -16,8 +16,7 @@ using System.Collections.Generic;
 //   Stage 2 (80-119 phút): 🌾 Cây lớn
 //   Stage 3 (120 phút):    🌻 Sẵn sàng → Harvestable
 //
-// Vòng đời: Empty → Tilled → Planted(stage 0→N) → Harvestable → Tilled
-//           Planted → (không tưới 2 ngày) → Wilted
+// Vòng đời Tối giản: Till (C) → Plant (V) → Tự lớn → Harvestable
 public class CropManager : MonoBehaviour
 {
     // ─── SINGLETON ────────────────────────────────────────────────────────────
@@ -25,11 +24,8 @@ public class CropManager : MonoBehaviour
 
     // ─── TILE VISUALS ─────────────────────────────────────────────────────────
     [Header("Tile Visuals")]
-    [Tooltip("Tile đất đã cuốc — hiển thị sau TillCell() và sau thu hoạch.")]
+    [Tooltip("Tile đất đã cuốc — hiển thị sau TillCell().")]
     public TileBase tilledTile;
-
-    [Tooltip("Tile khi cây bị héo (không tưới nước 2 ngày).")]
-    public TileBase wiltedTile;
 
     [Header("Growth Stage Tiles — kéo tile theo thứ tự phát triển")]
     [Tooltip("Mảng tile hình ảnh cây từ lúc mới gieo đến lúc thu hoạch.\n" +
@@ -41,9 +37,6 @@ public class CropManager : MonoBehaviour
     [Header("Crop Settings")]
     [Tooltip("Tên cây trồng mặc định (hiện ra khi thu hoạch vào inventory).")]
     public string defaultCropName = "Flower";
-
-    [Tooltip("Mô tả cây trồng mặc định.")]
-    public string defaultCropDescription = "Hoa thu hoạch từ ruộng.";
 
     [Tooltip("Số phút ingame để cây đến ngưỡng thu hoạch (1 phút ingame = 1 giây thực).\n" +
              "Ví dụ: 12 = 12 giây thực ~ rất nhanh để dev/test.")]
@@ -89,14 +82,14 @@ public class CropManager : MonoBehaviour
             _crops[cell] = data;
         }
         data.state     = CropState.Tilled;
-        data.isWatered = false;
-        SetTile(cell, tilledTile);
-        Debug.Log($"[CropManager] Ô {cell} → Tilled");
+        // Đã bỏ tính năng tưới nước
+        // SetTile trên tm_Field do PlayerFarmControler tự lo
+        Debug.Log($"[CropManager] Ô {cell} sẵn sàng gieo hạt.");
     }
 
     // PlantSeed: Gieo hạt vào ô Tilled → khởi tạo Growth Stage
     // Trả về false nếu ô chưa cuốc
-    public bool PlantSeed(Vector3Int cell)
+    public bool PlantSeed(Vector3Int cell, string plantedCropName)
     {
         if (!_crops.TryGetValue(cell, out CropData data) || data.state != CropState.Tilled)
         {
@@ -106,9 +99,9 @@ public class CropManager : MonoBehaviour
 
         // Khởi tạo dữ liệu tăng trưởng
         data.state                = CropState.Planted;
+        data.cropName             = plantedCropName; // Gán tên nông sản sẽ thu hoạch
         data.plantedTimeInMinutes = 0;
         data.timeToHarvestMinutes = minutesToHarvest;
-        data.daysWithoutWater     = 0;
         data.currentStage         = 0;
 
         // Tính số stage và thời gian mỗi stage dựa trên mảng tile
@@ -128,18 +121,7 @@ public class CropManager : MonoBehaviour
         return true;
     }
 
-    // WaterCell: Tưới nước cho ô Planted
-    public bool WaterCell(Vector3Int cell)
-    {
-        if (_crops.TryGetValue(cell, out CropData data) && data.state == CropState.Planted)
-        {
-            data.isWatered        = true;
-            data.daysWithoutWater = 0;
-            Debug.Log($"[CropManager] Ô {cell} → Watered 💧");
-            return true;
-        }
-        return false;
-    }
+    // Đã xóa WaterCell vì game không còn tính năng tưới nước
 
     // IsHarvestable: Cây đã đủ tuổi thu hoạch chưa
     public bool IsHarvestable(Vector3Int cell)
@@ -152,12 +134,12 @@ public class CropManager : MonoBehaviour
     {
         if (_crops.TryGetValue(cell, out CropData data))
         {
-            data.state                = CropState.Tilled;
-            data.isWatered            = false;
+            data.timeToHarvestMinutes = 0;
             data.plantedTimeInMinutes = 0;
             data.currentStage         = 0;
-            SetTile(cell, tilledTile);
-            Debug.Log($"[CropManager] Ô {cell} → Harvested ✅ → Tilled");
+            SetTile(cell, null); // Nhổ bỏ cây trên tầng tm_Seed
+            _crops.Remove(cell); // Reset hoàn toàn vùng đất để hệ thống Grass đè lên
+            Debug.Log($"[CropManager] Ô {cell} → Harvested ");
         }
     }
 
@@ -169,9 +151,13 @@ public class CropManager : MonoBehaviour
         Debug.Log($"[CropManager] Ô {cell} → Cleared");
     }
 
-    // GetCropName / GetCropDescription: Hỗ trợ mở rộng nhiều loại cây sau này
-    public string GetCropName(Vector3Int cell)        => defaultCropName;
-    public string GetCropDescription(Vector3Int cell) => defaultCropDescription;
+    // GetCropName / GetCropDescription: Lấy tên cây trồng thực tế của ô đó
+    public string GetCropName(Vector3Int cell)
+    {
+        if (_crops.TryGetValue(cell, out CropData data) && !string.IsNullOrEmpty(data.cropName))
+            return data.cropName;
+        return defaultCropName;
+    }
 
     // GetProgress: Trả về tiến độ tăng trưởng 0.0→1.0 (dùng cho UI Progress Bar)
     public float GetGrowthProgress(Vector3Int cell)
@@ -194,7 +180,7 @@ public class CropManager : MonoBehaviour
             Vector3Int cell = pair.Key;
 
             if (data.state != CropState.Planted) continue;
-            if (!data.isWatered) continue; // Không được tưới → không lớn phút này
+            // Bỏ điều kiện tưới nước, cây tự động lớn mỗi phút
 
             // Tăng tuổi cây 1 phút
             data.plantedTimeInMinutes++;
@@ -226,39 +212,7 @@ public class CropManager : MonoBehaviour
         }
     }
 
-    // ─── DAY TICK (mỗi ngày game = 24 phút ingame = 24 giây thực) ────────────
-
-    // Gọi từ TimeManager.OnNewDayStarted — kiểm tra cây nào chưa được tưới trong ngày
-    public void OnNewDayStarted()
-    {
-        foreach (var pair in _crops)
-        {
-            CropData   data = pair.Value;
-            Vector3Int cell = pair.Key;
-
-            if (data.state != CropState.Planted) continue;
-
-            if (!data.isWatered)
-            {
-                data.daysWithoutWater++;
-                Debug.Log($"[CropManager] Ô {cell} → Khô ngày thứ {data.daysWithoutWater} 🌵");
-
-                if (data.daysWithoutWater >= 2)
-                {
-                    data.state = CropState.Wilted;
-                    SetTile(cell, wiltedTile);
-                    Debug.LogWarning($"[CropManager] Ô {cell} → WILTED! 💀 ({data.daysWithoutWater} ngày)");
-                }
-            }
-            else
-            {
-                // Đã được tưới → reset bộ đếm khô hạn
-                data.daysWithoutWater = 0;
-            }
-        }
-
-        Debug.Log($"[CropManager] Ngày mới: kiểm tra {_crops.Count} ô đất.");
-    }
+    // Đã xóa hệ thống Héo Cây (OnNewDayStarted) do bỏ tính năng tưới nước
 
     // ─── HELPERS ─────────────────────────────────────────────────────────────
 
@@ -274,7 +228,68 @@ public class CropManager : MonoBehaviour
     // Đặt tile lên Tilemap — an toàn, kiểm tra null trước
     private void SetTile(Vector3Int cell, TileBase tile)
     {
-        if (_activeTilemap != null)
-            _activeTilemap.SetTile(cell, tile);
+        // Tự động tìm lại Tilemap Seed nếu bị mất kết nối (do chuyển map hoặc load sai thứ tự)
+        if (_activeTilemap == null)
+        {
+            GameObject seedObj = GameObject.Find("Seed");
+            if (seedObj != null)
+            {
+                _activeTilemap = seedObj.GetComponent<UnityEngine.Tilemaps.Tilemap>();
+            }
+            
+            if (_activeTilemap == null)
+            {
+                Debug.LogError($"[CropManager-LỖI HỆ THỐNG] NÓNG! Không tìm thấy Tilemap tên 'Seed' trong Scene để vẽ cây!");
+                return;
+            }
+        }
+
+        _activeTilemap.SetTile(cell, tile);
+    }
+
+    // ─── ĐỒNG BỘ TỪ FIREBASE ─────────────────────────────────────────────────
+    // Gọi từ TileMapManager khi load map để phục hồi RAM cho CropManager
+
+    public void SyncTilledState(Vector3Int cell)
+    {
+        if (!_crops.TryGetValue(cell, out CropData data))
+        {
+            data = new CropData(cell);
+            _crops[cell] = data;
+        }
+        // Nếu nó đã là Planted hoặc Harvestable thì không đè lên
+        if (data.state == CropState.Empty) 
+        {
+            data.state = CropState.Tilled;
+        }
+    }
+
+    public void SyncSeedState(Vector3Int cell, int stageIndex)
+    {
+        if (!_crops.TryGetValue(cell, out CropData data))
+        {
+            data = new CropData(cell);
+            _crops[cell] = data;
+        }
+        
+        data.cropName = defaultCropName; // Fallback
+        
+        data.totalStages = (growthStageTiles != null && growthStageTiles.Length > 0) ? growthStageTiles.Length : 1;
+        data.minutesPerStage = data.totalStages > 1 ? minutesToHarvest / (data.totalStages - 1) : minutesToHarvest;
+        data.currentStage = stageIndex;
+        
+        // Tính toán lại thời gian đã trôi qua dựa vào stage
+        data.plantedTimeInMinutes = stageIndex * data.minutesPerStage;
+        data.timeToHarvestMinutes = minutesToHarvest;
+
+        // Nếu load đúng stage cuối cùng thì đánh dấu là Harvestable
+        if (stageIndex >= data.totalStages - 1)
+        {
+            data.state = CropState.Harvestable;
+        }
+        else
+        {
+            data.state = CropState.Planted;
+        }
     }
 }
